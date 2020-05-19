@@ -1,4 +1,4 @@
-% +증뎀//Anirml's Loot filter //Updated for Patch 18 Flint. Last updated 29-01-2020 OBS still missing new relic code!
+//Anirml's Loot filter //Updated for Patch 18 Flint. Last updated 29-01-2020 OBS still missing new relic code!
 //OBS autoupdate will remove any changes made to filter!
 //Find item codes at: https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
 //Modified by Debu for Korean language compatibility 19-05-2020
@@ -321,6 +321,1728 @@ ItemDisplay[MAG rin ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 //Magic Jewels
 ItemDisplay[MAG !ID jew]: %BLUE% ¤ %NAME% ¤ %BLUE%
 ItemDisplay[MAG jew]: %BLUE%%NAME%%WHITE% [L%ILVL%]
+
+////UNIQUE ITEMS////
+//
+//Unique Helms (inc Circlets)
+//
+//Biggin's Bonnet
+ItemDisplay[UNI !ID cap !ETH]: %TAN%비긴즈 보넷
+//Biggin's Bonnet ETH
+ItemDisplay[UNI !ID cap ETH]: %TAN%ETH 비긴즈 보넷
+//Tarnhelm
+ItemDisplay[UNI !ID skp !ETH]: %RED%탄헬름
+//Tarnhelm ETH
+ItemDisplay[UNI !ID skp ETH]: %TAN%ETH 탄헬름
+//Coif of Glory
+ItemDisplay[UNI !ID hlm !ETH]: %TAN%커이프 오브 글로리
+//Coif of Glory ETH
+ItemDisplay[UNI !ID hlm ETH]: %TAN%ETH 커이프 오브 글로리
+//Duskdeep
+ItemDisplay[UNI !ID fhl !ETH]: %TAN%더스크디프
+//Duskdeep ETH
+ItemDisplay[UNI !ID fhl ETH]: %TAN%ETH 더스크디프
+//Howltusk
+ItemDisplay[UNI !ID ghm !ETH]: %TAN%하울터스크
+//Howltusk ETH
+ItemDisplay[UNI !ID ghm ETH]: %TAN%ETH 하울터스크
+//The Face of Horror
+ItemDisplay[UNI !ID msk !ETH]: %TAN%더 페이스 오브 호러
+//The Face of Horror ETH
+ItemDisplay[UNI !ID msk ETH]: %TAN%ETH 더 페이스 오브 호러
+//Undead Crown
+ItemDisplay[UNI !ID crn !ETH]: %TAN%언데드 크라운
+//Undead Crown ETH
+ItemDisplay[UNI !ID crn ETH]: %TAN%ETH 언데드 크라운
+//Wormskull
+ItemDisplay[UNI !ID bhm !ETH]: %TAN%웜스컬
+//Wormskull ETH
+ItemDisplay[UNI !ID bhm ETH]: %TAN%ETH 웜스컬
+//Peasant Crown
+ItemDisplay[UNI !ID xap !ETH]: %RED%페전트 크라운
+//Peasant Crown ETH
+ItemDisplay[UNI !ID xap ETH]: %TAN%ETH 페전트 크라운
+//Rockstopper
+ItemDisplay[UNI !ID xkp !ETH]: %RED%록스토퍼
+//Rockstopper ETH
+ItemDisplay[UNI !ID xkp ETH]: %RED%ETH 록스토퍼
+//Stealskull
+ItemDisplay[UNI !ID xlm !ETH]: %RED%스틸트컬
+//Stealskull ETH
+ItemDisplay[UNI !ID xlm ETH]: %RED%ETH 스틸스컬
+//Darksight Helm
+ItemDisplay[UNI !ID xhl !ETH]: %TAN%다크사이트 헬름
+//Darksight Helm ETH
+ItemDisplay[UNI !ID xhl ETH]: %TAN%ETH 다크사이트 헬름
+//Valkyrie Wing
+ItemDisplay[UNI !ID xhm !ETH]: %RED%발키리 윙
+//Valkyrie Wing ETH
+ItemDisplay[UNI !ID xhm ETH]: %TAN%ETH 발키리 윙
+//Blackhorn's Face
+ItemDisplay[UNI !ID xsk !ETH]: %TAN%블랙혼의 페이스
+//Blackhorn's Face ETH
+ItemDisplay[UNI !ID xsk ETH]: %TAN%ETH 블랙혼의 페이스
+//Crown of Thieves
+ItemDisplay[UNI !ID xrn !ETH]: %RED%크라운 오브 디브스
+//Crown of Thieves ETH
+ItemDisplay[UNI !ID xrn ETH]: %RED%ETH 크라운 오브 디브스
+//Vampire Gaze
+ItemDisplay[UNI !ID xh9 !ETH]: %RED%O %PURPLE%뱀파이어 게이즈 %RED%O
+//Vampire Gaze ETH
+ItemDisplay[UNI !ID xh9 ETH]: %RED%O %PURPLE%ETH 뱀파이어 게이즈 %RED%O
+//Shako
+ItemDisplay[UNI !ID uap !ETH]: %RED%O %PURPLE%샤코 %RED%O
+//Shako ETH
+ItemDisplay[UNI !ID uap ETH]: %RED%O ETH 샤코 %RED%O
+//Steel Shade
+ItemDisplay[UNI !ID ulm !ETH]: %RED%O %PURPLE%스틸 셰이드 %RED%O
+//Steel Shade ETH
+ItemDisplay[UNI !ID ulm ETH]: %RED%O %PURPLE%ETH 스틸 셰이드 %RED%O
+//Veil of Steel or Nightwing's Veil
+ItemDisplay[UNI !ID uhm !ETH]: %RED%O 베일 오브 스틸 or 나이트윙의 베일 %RED%O
+//ETH Veil of Steel or ETH Nightwing's Veil
+ItemDisplay[UNI !ID uhm ETH]: %RED%ETH 베일 오브 스틸 or ETH 나이트윙의 베일
+//Andariel's Visage
+ItemDisplay[UNI !ID usk !ETH]: %RED%O %PURPLE%안다리엘의 비지스 %RED%O
+//Andariel's Visage ETH
+ItemDisplay[UNI !ID usk ETH]: %RED%O ETH 안다리엘의 비지스 %RED%O
+//Crown of Ages
+ItemDisplay[UNI !ID urn !ETH]: %RED%O 크라운 오브 에이지스 %RED%O
+//Crown of Ages ETH
+ItemDisplay[UNI !ID urn ETH]: %RED%O %PURPLE%ETH 크라운 오브 에이지스 %RED%O
+//Giant Skull
+ItemDisplay[UNI !ID uh9 !ETH]: %RED%자이언트 스컬
+//Giant Skull ETH
+ItemDisplay[UNI !ID uh9 ETH]: %TAN%ETH 자이언트 스컬
+//Griffon's Eye
+ItemDisplay[UNI !ID ci3 !ETH]: %RED%O %PURPLE%그리폰의 아이 %RED%O
+//Griffon's Eye ETH
+ItemDisplay[UNI !ID ci3 ETH]: %RED%O ETH 그리폰의 아이 O
+//Kira's Guardian
+ItemDisplay[UNI !ID ci2 !ETH]: %RED%기라의 가디안
+//Kira's Guardian ETH
+ItemDisplay[UNI !ID ci2 ETH]: %RED%ETH 기라의 가디안
+
+////Unique Armor
+//
+//Greyform
+ItemDisplay[UNI !ID qui !ETH]: %TAN%글레이폼
+//Greyform
+ItemDisplay[UNI !ID qui ETH]: %TAN%ETH 글레이폼
+//Blinkbat's Form
+ItemDisplay[UNI !ID lea !ETH]: %TAN%블링크뱃스 폼
+//Blinkbat's Form
+ItemDisplay[UNI !ID lea ETH]: %TAN%ETH 블링크뱃스 폼
+//The Centurion
+ItemDisplay[UNI !ID hla !ETH]: %TAN%더 센츄리언
+//The Centurion
+ItemDisplay[UNI !ID hla ETH]: %TAN%ETH 더 센츄리언
+//Twitchthroe
+ItemDisplay[UNI !ID stu !ETH]: %TAN%트윗치쓰로
+//Twitchthroe
+ItemDisplay[UNI !ID stu ETH]: %TAN%ETH 트윗치쓰로
+//Darkglow
+ItemDisplay[UNI !ID rng !ETH]: %TAN%다크글로우
+//Darkglow
+ItemDisplay[UNI !ID rng ETH]: %TAN%ETH 다크글로우
+//Hawkmail
+ItemDisplay[UNI !ID scl !ETH]: %TAN%호크메일
+//Hawkmail
+ItemDisplay[UNI !ID scl ETH]: %TAN%ETH 호크메일
+//Venom Ward
+ItemDisplay[UNI !ID brs !ETH]: %TAN%베넘 워드
+//Venom Ward
+ItemDisplay[UNI !ID brs ETH]: %TAN%ETH 베넘 워드
+//Sparking Mail
+ItemDisplay[UNI !ID chn !ETH]: %TAN%스파킹 메일
+//Sparking Mail
+ItemDisplay[UNI !ID chn ETH]: %TAN%ETH 스파킹 메일
+//Iceblink
+ItemDisplay[UNI !ID spl !ETH]: %TAN%아이스블링크
+//Iceblink
+ItemDisplay[UNI !ID spl ETH]: %TAN%ETH 아이스블링크
+//Heavenly Garb
+ItemDisplay[UNI !ID ltp !ETH]: %TAN%헤븐리 가브
+//Heavenly Garb
+ItemDisplay[UNI !ID ltp ETH]: %TAN%ETH 헤븐리 가브
+//Rockfleece
+ItemDisplay[UNI !ID fld !ETH]: %TAN%락플리스
+//Rockfleece
+ItemDisplay[UNI !ID fld ETH]: %TAN%ETH 락플리스
+//Boneflesh
+ItemDisplay[UNI !ID plt !ETH]: %TAN%본플레쉬
+//Boneflesh
+ItemDisplay[UNI !ID plt ETH]: %TAN%ETH 본플레쉬
+//Rattlecage
+ItemDisplay[UNI !ID gth !ETH]: %TAN%래틀케이지
+//Rattlecage
+ItemDisplay[UNI !ID gth ETH]: %TAN%ETH 래틀케이지
+//Goldskin
+ItemDisplay[UNI !ID ful !ETH]: %TAN%골드스킨
+//Goldskin
+ItemDisplay[UNI !ID ful ETH]: %TAN%ETH 골드스킨
+//Silks of the Victor
+ItemDisplay[UNI !ID aar !ETH]: %TAN%실크 오브 빅터
+//Silks of the Victor
+ItemDisplay[UNI !ID aar ETH]: %TAN%ETH 실크 오브 빅터
+//The Spirit Shroud
+ItemDisplay[UNI !ID xui !ETH]: %RED%스피리트 슈라우드
+//The Spirit Shroud
+ItemDisplay[UNI !ID xui ETH]: %TAN%ETH 스피리트 슈라우드
+//Skin of the Vipermagi
+ItemDisplay[UNI !ID xea !ETH]: %RED%O %PURPLE%스킨 오브 바이퍼마이자이 %RED%O
+//Skin of the Vipermagi
+ItemDisplay[UNI !ID xea ETH]: %RED%ETH 스킨 오브 바이퍼마이자이
+//Skin of the Flayed One
+ItemDisplay[UNI !ID xla !ETH]: %TAN%스킨 오브 플라이어드 원
+//Skin of the Flayed One
+ItemDisplay[UNI !ID xla ETH]: %RED%ETH 스킨 오브 플라이어드 원
+//Iron Pelt
+ItemDisplay[UNI !ID xtu !ETH]: %TAN%아이언 펠트
+//Iron Pelt
+ItemDisplay[UNI !ID xtu ETH]: %TAN%ETH 아이언 펠트
+//Crow Caw
+ItemDisplay[UNI !ID xcl !ETH]: %TAN%크로우 코우
+//Crow Caw
+ItemDisplay[UNI !ID xcl ETH]: %TAN%ETH 크로우 코우
+//Spirit Forge
+ItemDisplay[UNI !ID xng !ETH]: %TAN%스피리트 포지
+//Spirit Forge
+ItemDisplay[UNI !ID xng ETH]: %TAN%ETH 스피리트 포지
+//Duriel's Shell
+ItemDisplay[UNI !ID xrs !ETH]: %RED%O 듀리엘의 쉘 %RED%O
+//Duriel's Shell
+ItemDisplay[UNI !ID xrs ETH]: %RED%O ETH 듀리엘의 쉘 %RED%O
+//Shaftstop
+ItemDisplay[UNI !ID xhn !ETH]: %RED%O %PURPLE%샤프트스톱 %RED%O
+//Shaftstop
+ItemDisplay[UNI !ID xhn ETH]: %RED%O ETH 샤프트스톱 %RED%O
+//Skullder's Ire
+ItemDisplay[UNI !ID xpl !ETH]: %RED%O %PURPLE%스컬더의 아이어 %RED%O
+//Skullder's Ire
+ItemDisplay[UNI !ID xpl ETH]: %RED%O %PURPLE%ETH 스컬더의 아이어 %RED%O
+//Que-Hegan's Wisdom
+ItemDisplay[UNI !ID xtp !ETH]: %RED%퀘-히간의 위즈덤
+//Que-Hegan's Wisdom
+ItemDisplay[UNI !ID xtp ETH]: %TAN%ETH 퀘-히간의 위즈덤
+//Toothrow
+ItemDisplay[UNI !ID xld !ETH]: %TAN%투쓰로
+//Toothrow
+ItemDisplay[UNI !ID xld ETH]: %TAN%ETH 투쓰로
+//Guardian Angel
+ItemDisplay[UNI !ID xlt !ETH]: %RED%O %PURPLE%가디안 엔젤 %RED%O
+//Guardian Angel
+ItemDisplay[UNI !ID xlt ETH]: %RED%O ETH 가디안 엔젤 %RED%O
+//Atma's Wail
+ItemDisplay[UNI !ID xth !ETH]: %TAN%아트마의 와일
+//Atma's Wail
+ItemDisplay[UNI !ID xth ETH]: %TAN%ETH 아트마의 와일
+//Black Hades
+ItemDisplay[UNI !ID xul !ETH]: %TAN%블랙 하이드스
+//Black Hades
+ItemDisplay[UNI !ID xul ETH]: %TAN%ETH 블랙 하이드스
+//Corpsemourn
+ItemDisplay[UNI !ID xar !ETH]: %TAN%커프스모온
+//Corpsemourn
+ItemDisplay[UNI !ID xar ETH]: %TAN%ETH 커프스모온
+//Ormus' Robes
+ItemDisplay[UNI !ID uui !ETH]: %RED%O %PURPLE%오르무스 로브 %RED%O
+//Ormus' Robes
+ItemDisplay[UNI !ID uui ETH]: %RED%ETH 오르무스 로브
+//The Gladiator's Bane
+ItemDisplay[UNI !ID utu !ETH]: %RED%글래디에이터의 베인
+//The Gladiator's Bane
+ItemDisplay[UNI !ID utu ETH]: %RED%ETH 글래디에이터의 베인
+//Arkaine's Valor
+ItemDisplay[UNI !ID upl !ETH]: %RED%O %PURPLE%아케인의 발러 %RED%O
+//Arkaine's Valor
+ItemDisplay[UNI !ID upl ETH]: %RED%ETH 아케인의 발러
+//Leviathan
+ItemDisplay[UNI !ID uld !ETH]: %RED%O 레비아탄 %RED%O
+//Leviathan
+ItemDisplay[UNI !ID uld ETH]: %RED%O ETH 레비아탄 %RED%O
+//Steel Carapace
+ItemDisplay[UNI !ID uul !ETH]: %TAN%스틸 캐러패이스
+//Steel Carapace
+ItemDisplay[UNI !ID uul ETH]: %RED%ETH 스틸 캐러패이스
+//Templar's Might
+ItemDisplay[UNI !ID uar !ETH]: %RED%O 템플러의 마이트 %RED%O
+//Templar's Might
+ItemDisplay[UNI !ID uar ETH]: %RED%ETH 템플러의 마이트
+//Tyrael's Might
+ItemDisplay[UNI !ID uar !ETH]: %RED%O %PURPLE%티리얼의 마이트 %RED%O
+//Tyrael's Might
+ItemDisplay[UNI !ID uar ETH]: %RED%O %PURPLE%ETH 티리얼의 마이트 %RED%O
+
+////Unique Shields
+//
+//Pelta Lunata
+ItemDisplay[UNI !ID buc !ETH]: %TAN%펠타 루나타
+//Pelta Lunata
+ItemDisplay[UNI !ID buc ETH]: %TAN%ETH 펠타 루나타
+//Umbral Disk
+ItemDisplay[UNI !ID sml !ETH]: %TAN%엄브럴 디스크
+//Umbral Disk
+ItemDisplay[UNI !ID sml ETH]: %TAN%ETH 엄브럴 디스크
+//Stormguild
+ItemDisplay[UNI !ID lrg !ETH]: %TAN%스톰길드
+//Stormguild
+ItemDisplay[UNI !ID lrg ETH]: %TAN%ETH 스톰길드
+//Steelclash
+ItemDisplay[UNI !ID kit !ETH]: %TAN%스틸클래쉬
+//Steelclash
+ItemDisplay[UNI !ID kit ETH]: %TAN%ETH 스틸클래쉬
+//Swordback Hold
+ItemDisplay[UNI !ID spk !ETH]: %TAN%소드백 홀드
+//Swordback Hold
+ItemDisplay[UNI !ID spk ETH]: %TAN%ETH 소드백 홀드
+//Bverrit Keep
+ItemDisplay[UNI !ID tow !ETH]: %TAN%브베리트 킵
+//Bverrit Keep
+ItemDisplay[UNI !ID tow ETH]: %TAN%ETH 브베리트 킵
+//Wall of the Eyeless
+ItemDisplay[UNI !ID bsh !ETH]: %TAN%월 오브 디 아이리스
+//Wall of the Eyeless
+ItemDisplay[UNI !ID bsh ETH]: %TAN%ETH 월 오브 디 아이리스
+//The Ward
+ItemDisplay[UNI !ID gts !ETH]: %TAN%더 워드
+//The Ward
+ItemDisplay[UNI !ID gts ETH]: %TAN%ETH 더 워드
+//Visceratuant
+ItemDisplay[UNI !ID xuc !ETH]: %TAN%비서러턴트
+//Visceratuant
+ItemDisplay[UNI !ID xuc ETH]: %TAN%ETH 비서러턴트
+//Moser's Blessed Circle
+ItemDisplay[UNI !ID xml !ETH]: %RED%모세의 블레스드 서클
+//Moser's Blessed Circle
+ItemDisplay[UNI !ID xml ETH]: %TAN%ETH 모세의 블레스드 서클
+//Stormchaser
+ItemDisplay[UNI !ID xrg !ETH]: %TAN%스톰체이서
+//Stormchaser
+ItemDisplay[UNI !ID xrg ETH]: %TAN%ETH 스톰체이서
+//Tiamat's Rebuke
+ItemDisplay[UNI !ID xit !ETH]: %RED%티아마트의 리뷰크
+//Tiamat's Rebuke
+ItemDisplay[UNI !ID xit ETH]: %TAN%ETH 티아마트의 리뷰크
+//Lance Guard
+ItemDisplay[UNI !ID xpk !ETH]: %TAN%랜스 가드
+//Lance Guard
+ItemDisplay[UNI !ID xpk ETH]: %TAN%ETH 랜스 가드
+//Gerke's Sanctuary
+ItemDisplay[UNI !ID xow !ETH]: %RED%게르크의 생츄어리
+//Gerke's Sanctuary
+ItemDisplay[UNI !ID xow ETH]: %TAN%ETH 게르크의 생츄어리
+//Lidless Wall
+ItemDisplay[UNI !ID xsh !ETH]: %RED%O 리드리스 월 %RED%O
+//Lidless Wall
+ItemDisplay[UNI !ID xsh ETH]: %TAN%ETH 리드리스 월
+//Radament's Sphere
+ItemDisplay[UNI !ID xts !ETH]: %RED%O 라다만트의 스피어 %RED%O
+//Radament's Sphere
+ItemDisplay[UNI !ID xts ETH]: %TAN%ETH 라다만트의 스피어
+//Blackoak Shield
+ItemDisplay[UNI !ID uml !ETH]: %TAN%블랙오크 쉴드
+//Blackoak Shield
+ItemDisplay[UNI !ID uml ETH]: %RED%ETH 블랙오크 쉴드
+//Stormshield
+ItemDisplay[UNI !ID uit !ETH]: %RED%O %PURPLE%스톰쉴드 %RED%O
+//Stormshield
+ItemDisplay[UNI !ID uit ETH]: %RED%O %PURPLE%ETH 스톰쉴드 %RED%O
+//Spike Thorn
+ItemDisplay[UNI !ID upk !ETH]: %TAN%스파이크 쏜
+//Spike Thorn
+ItemDisplay[UNI !ID upk ETH]: %TAN%ETH 스파이크 쏜
+//Medusa's Gaze
+ItemDisplay[UNI !ID uow !ETH]: %RED%O %PURPLE%메두사의 게이즈 %RED%O
+//Medusa's Gaze
+ItemDisplay[UNI !ID uow ETH]: %RED%ETH 메두사의 게이즈
+//Head Hunter's Glory
+ItemDisplay[UNI !ID ush !ETH]: %RED%헤드 헌터의 글로리
+//Head Hunter's Glory
+ItemDisplay[UNI !ID ush ETH]: %TAN%ETH 헤드 헌터의 글로리
+//Spirit Ward
+ItemDisplay[UNI !ID uts !ETH]: %RED%스피리트 워드
+//Spirit Ward
+ItemDisplay[UNI !ID uts ETH]: %RED%ETH 스피리트 워드
+
+////Unique Gloves
+//
+//The Hand of Broc
+ItemDisplay[UNI !ID lgl !ETH]: %TAN%더 헨드 오브 브록
+//The Hand of Broc
+ItemDisplay[UNI !ID lgl ETH]: %TAN%ETH 더 헨드 오브 브록
+//Bloodfist
+ItemDisplay[UNI !ID vgl !ETH]: %RED%블러드피스트
+//Bloodfist
+ItemDisplay[UNI !ID vgl ETH]: %TAN%ETH 블러드피스트
+//Chance Guards
+ItemDisplay[UNI !ID mgl !ETH]: %RED%O 챈스 가드 %RED%O
+//Chance Guards
+ItemDisplay[UNI !ID mgl ETH]: %TAN%ETH 챈스 가드
+//Magefist
+ItemDisplay[UNI !ID tgl !ETH]: %RED%O 메이지피스트 %RED%O
+//Magefist
+ItemDisplay[UNI !ID tgl ETH]: %TAN%ETH 메이지피스트
+//Frostburn
+ItemDisplay[UNI !ID hgl !ETH]: %RED%프로스트번
+//Frostburn
+ItemDisplay[UNI !ID hgl ETH]: %TAN%ETH 프로스트번
+//Venom Grip
+ItemDisplay[UNI !ID xlg !ETH]: %TAN%베넘 그립
+//Venom Grip
+ItemDisplay[UNI !ID xlg ETH]: %TAN%ETH 베넘 그립
+//Gravepalm
+ItemDisplay[UNI !ID xvg !ETH]: %TAN%그레이브팜
+//Gravepalm
+ItemDisplay[UNI !ID xvg ETH]: %TAN%ETH 그레이브팜
+//Ghoulhide
+ItemDisplay[UNI !ID xmg !ETH]: %TAN%구울하이드
+//Ghoulhide
+ItemDisplay[UNI !ID xmg ETH]: %TAN%ETH 구울하이드
+//Lava Gout
+ItemDisplay[UNI !ID xtg !ETH]: %TAN%라바 가우트
+//Lava Gout
+ItemDisplay[UNI !ID xtg ETH]: %TAN%ETH 라바 가우트
+//Hellmouth
+ItemDisplay[UNI !ID xhg !ETH]: %TAN%헬마우쓰
+//Hellmouth
+ItemDisplay[UNI !ID xhg ETH]: %TAN%ETH 헬마우쓰
+//Dracul's Grasp
+ItemDisplay[UNI !ID uvg !ETH]: %RED%O %PURPLE%드라큘의 그래스프 %RED%O
+//Dracul's Grasp
+ItemDisplay[UNI !ID uvg ETH]: %TAN%ETH 드라큘의 그래스프
+//Soul Drainer
+ItemDisplay[UNI !ID umg !ETH]: %RED%O 소울 드레이너 %RED%O
+//Soul Drainer
+ItemDisplay[UNI !ID umg ETH]: %TAN%ETH 소울 드레이너
+//Steelrend
+ItemDisplay[UNI !ID uhg !ETH]: %RED%스틸렌드
+//Steelrend
+ItemDisplay[UNI !ID uhg ETH]: %TAN%ETH 스틸렌드
+
+////Unique Boots
+//
+//Hotspur
+ItemDisplay[UNI !ID lbt !ETH]: %RED%핫스퍼
+//Hotspur
+ItemDisplay[UNI !ID lbt ETH]: %TAN%ETH 핫스퍼
+//Gorefoot
+ItemDisplay[UNI !ID vbt !ETH]: %TAN%고어풋
+//Gorefoot
+ItemDisplay[UNI !ID vbt ETH]: %TAN%ETH 고어풋
+//Treads of Cthon
+ItemDisplay[UNI !ID mbt !ETH]: %TAN%트레츠 오브 크던
+//Treads of Cthon
+ItemDisplay[UNI !ID mbt ETH]: %TAN%ETH 트레츠 오브 크던
+//Goblin Toe
+ItemDisplay[UNI !ID tbt !ETH]: %RED%고블린 토우
+//Goblin Toe
+ItemDisplay[UNI !ID tbt ETH]: %TAN%ETH 고블린 토우
+//Tearhaunch
+ItemDisplay[UNI !ID hbt !ETH]: %TAN%티어헌치
+//Tearhaunch
+ItemDisplay[UNI !ID hbt ETH]: %TAN%ETH 티어헌치
+//Infernostride
+ItemDisplay[UNI !ID xlb !ETH]: %RED%인페르노스트라이드
+//Infernostride
+ItemDisplay[UNI !ID xlb ETH]: %TAN%ETH 인페르노스트라이드
+//Waterwalk
+ItemDisplay[UNI !ID xvb !ETH]: %RED%O 워터워크 %RED%O
+//Waterwalk
+ItemDisplay[UNI !ID xvb ETH]: %TAN%ETH 워터워크
+//Silkweave
+ItemDisplay[UNI !ID xmb !ETH]: %RED%O 실크위버 %RED%O
+//Silkweave
+ItemDisplay[UNI !ID xmb ETH]: %TAN%ETH 실크위버
+//War Traveler
+ItemDisplay[UNI !ID xtb !ETH]: %RED%O %PURPLE%워 트래블러 %RED%O
+//War Traveler
+ItemDisplay[UNI !ID xtb ETH]: %RED%ETH 워 트래블러
+//Gore Rider
+ItemDisplay[UNI !ID xhb !ETH]: %RED%O %PURPLE%고어 라이더 %RED%O
+//Gore Rider
+ItemDisplay[UNI !ID xhb ETH]: %TAN%ETH 고어 라이더
+//Sandstorm Trek
+ItemDisplay[UNI !ID uvb !ETH]: %RED%샌드스톰 트랙
+//Sandstorm Trek
+ItemDisplay[UNI !ID uvb ETH]: %RED%ETH 샌드스톰 트랙
+//Marrowwalk
+ItemDisplay[UNI !ID umb !ETH]: %RED%메로우워커
+//Marrowwalk
+ItemDisplay[UNI !ID umb ETH]: %TAN%ETH 메로우워커
+//Shadow Dancer
+ItemDisplay[UNI !ID uhb !ETH]: %RED%O 쉐도우 댄서 %RED%O
+//Shadow Dancer
+ItemDisplay[UNI !ID uhb ETH]: %TAN%ETH 쉐도우 댄서
+
+////Unique Belts
+//
+//Lenymo
+ItemDisplay[UNI !ID lbl !ETH]: %TAN%레니모
+//Lenymo
+ItemDisplay[UNI !ID lbl ETH]: %TAN%ETH 레니모
+//Snakecord
+ItemDisplay[UNI !ID vbl !ETH]: %TAN%스네이크코드
+//Snakecord
+ItemDisplay[UNI !ID vbl ETH]: %TAN%ETH 스네이크코드
+//Nightsmoke
+ItemDisplay[UNI !ID mbl !ETH]: %TAN%나이트스모크
+//Nightsmoke
+ItemDisplay[UNI !ID mbl ETH]: %TAN%ETH 나이트스모크
+//Goldwrap
+ItemDisplay[UNI !ID tbl !ETH]: %RED%골드랩
+//Goldwrap
+ItemDisplay[UNI !ID tbl ETH]: %TAN%ETH 골드랩
+//Bladebuckle
+ItemDisplay[UNI !ID hbl !ETH]: %TAN%브레이드버클
+//Bladebuckle
+ItemDisplay[UNI !ID hbl ETH]: %TAN%ETH 브레이드버클
+//String of Ears
+ItemDisplay[UNI !ID zlb !ETH]: %RED%O 스트링 오브 이어스 %RED%O
+//String of Ears
+ItemDisplay[UNI !ID zlb ETH]: %RED%ETH 스트링 오브 이어스
+//Razortail
+ItemDisplay[UNI !ID zvb !ETH]: %RED%O 레이저테일 %RED%O
+//Razortail
+ItemDisplay[UNI !ID zvb ETH]: %RED%ETH 레이저테일
+//Gloom's Trap
+ItemDisplay[UNI !ID zmb !ETH]: %RED%글룸스 트랩
+//Gloom's Trap
+ItemDisplay[UNI !ID zmb ETH]: %TAN%ETH 글룸스 트랩
+//Snowclash
+ItemDisplay[UNI !ID ztb !ETH]: %RED%O 스노우클래쉬 %RED%O
+//Snowclash
+ItemDisplay[UNI !ID ztb ETH]: %RED%ETH 스노우클래쉬
+//Thundergod's Vigor
+ItemDisplay[UNI !ID zhb !ETH]: %RED%O %PURPLE%선더갓의 비거 %RED%O
+//Thundergod's Vigor
+ItemDisplay[UNI !ID zhb ETH]: %RED%ETH 선더갓의 비거
+//Arachnid Mesh
+ItemDisplay[UNI !ID ulc !ETH]: %RED%O %PURPLE%아라크니드 메쉬 %RED%O
+//Arachnid Mesh
+ItemDisplay[UNI !ID ulc ETH]: %RED%ETH 아라크니드 메쉬
+//Nosferatu's Coil
+ItemDisplay[UNI !ID uvc !ETH]: %RED%O 노스페라투의 코일 %RED%O
+//Nosferatu's Coil
+ItemDisplay[UNI !ID uvc ETH]: %TAN%ETH 노스페라투의 코일
+//Verdungo's Hearty Cord
+ItemDisplay[UNI !ID umc !ETH]: %RED%O %PURPLE%베르던고의 하티 코드 %RED%O
+//Verdungo's Hearty Cord
+ItemDisplay[UNI !ID umc ETH]: %RED%ETH 베르던고의 하티 코드
+
+////Unique Weapons
+//
+////Unique Axes
+//
+//The Gnasher
+ItemDisplay[UNI !ID hax !ETH]: %TAN%더 내셔
+//The Gnasher
+ItemDisplay[UNI !ID hax ETH]: %TAN%ETH 더 내셔
+//Deathspade
+ItemDisplay[UNI !ID axe !ETH]: %TAN%데쓰스페이드
+//Deathspade
+ItemDisplay[UNI !ID axe ETH]: %TAN%ETH 데쓰스페이드
+//Bladebone
+ItemDisplay[UNI !ID 2ax !ETH]: %TAN%블레이드본
+//Bladebone
+ItemDisplay[UNI !ID 2ax ETH]: %TAN%ETH 블레이드본
+//Skull Splitter
+ItemDisplay[UNI !ID mpi !ETH]: %TAN%스컬 스플리터
+//Skull Splitter
+ItemDisplay[UNI !ID mpi ETH]: %TAN%ETH 스컬 스플리터
+//Rakescar
+ItemDisplay[UNI !ID wax !ETH]: %TAN%레이크스카
+//Rakescar
+ItemDisplay[UNI !ID wax ETH]: %TAN%ETH 레이크스카
+//Axe of Feckmar
+ItemDisplay[UNI !ID lax !ETH]: %TAN%액스 오브 페크마
+//Axe of Feckmar
+ItemDisplay[UNI !ID lax ETH]: %TAN%ETH 액스 오브 페크마
+//Goreshovel
+ItemDisplay[UNI !ID bax !ETH]: %TAN%고어셔벌
+//Goreshovel
+ItemDisplay[UNI !ID bax ETH]: %TAN%ETH 고어셔벌
+//The Chieftain
+ItemDisplay[UNI !ID btx !ETH]: %TAN%더 치프턴
+//The Chieftain
+ItemDisplay[UNI !ID btx ETH]: %TAN%ETH 더 치프턴
+//Brainhew
+ItemDisplay[UNI !ID gax !ETH]: %TAN%브레인휴
+//Brainhew
+ItemDisplay[UNI !ID gax ETH]: %TAN%ETH 브레인휴
+//Humongous
+ItemDisplay[UNI !ID gix !ETH]: %TAN%휴멍거스
+//Humongous
+ItemDisplay[UNI !ID gix ETH]: %TAN%ETH 휴멍거스
+//Coldkill
+ItemDisplay[UNI !ID 9ha !ETH]: %TAN%콜드킬
+//Coldkill
+ItemDisplay[UNI !ID 9ha ETH]: %TAN%ETH 콜드킬
+//Butcher's Pupil
+ItemDisplay[UNI !ID 9ax !ETH]: %TAN%부쳐의 퓨필
+//ETH Butcher's Pupil
+ItemDisplay[UNI !ID 9ax ETH]: %RED%ETH 부쳐의 퓨필
+//Islestrike
+ItemDisplay[UNI !ID 92a !ETH]: %TAN%아일스트라이크
+//Islestrike
+ItemDisplay[UNI !ID 92a ETH]: %TAN%ETH 아일스트라이크
+//Pompeii's Wrath
+ItemDisplay[UNI !ID 9mp !ETH]: %RED%폼페이의 래쓰
+//Pompeii's Wrath
+ItemDisplay[UNI !ID 9mp ETH]: %TAN%ETH 폼페이의 래쓰
+//Guardian Naga
+ItemDisplay[UNI !ID 9wa !ETH]: %TAN%가디안 나가
+//Guardian Naga
+ItemDisplay[UNI !ID 9wa ETH]: %TAN%ETH 가디안 나가
+//Warlord's Trust
+ItemDisplay[UNI !ID 9la !ETH]: %TAN%워로드의 트러스트
+//ETH Warlord's Trust
+ItemDisplay[UNI !ID 9la ETH]: %TAN%ETH 워로드의 트러스트
+//Spellsteel
+ItemDisplay[UNI !ID 9ba !ETH]: %TAN%스펠스틸
+//Spellsteel
+ItemDisplay[UNI !ID 9ba ETH]: %TAN%ETH 스펠스틸
+//Stormrider
+ItemDisplay[UNI !ID 9bt !ETH]: %TAN%스톰라이더
+//Stormrider
+ItemDisplay[UNI !ID 9bt ETH]: %TAN%ETH 스톰라이더
+//Boneslayer Blade
+ItemDisplay[UNI !ID 9ga !ETH]: %TAN%본슬레이어 블레이드
+//Boneslayer Blade
+ItemDisplay[UNI !ID 9ga ETH]: %TAN%ETH 본슬레이어 블레이드
+//The Minotaur
+ItemDisplay[UNI !ID 9gi !ETH]: %RED%미노타우로스
+//The Minotaur
+ItemDisplay[UNI !ID 9gi ETH]: %TAN%ETH 미노타우로스
+//Razor's Edge
+ItemDisplay[UNI !ID 7ha !ETH]: %TAN%레이저스 엣지
+//Razor's Edge
+ItemDisplay[UNI !ID 7ha ETH]: %TAN%ETH 레이저스 엣지
+//Rune Master
+ItemDisplay[UNI !ID 72a !ETH]: %RED%룬 마스터
+//Rune Master
+ItemDisplay[UNI !ID 72a ETH]: %TAN%ETH 룬 마스터
+//Cranebeak
+ItemDisplay[UNI !ID 7mp !ETH]: %TAN%크레인비크
+//Cranebeak
+ItemDisplay[UNI !ID 7mp ETH]: %TAN%ETH 크레인비크
+//Death Cleaver
+ItemDisplay[UNI !ID 7wa !ETH]: %RED%O 데쓰 클리버 %RED%O
+//Death Cleaver
+ItemDisplay[UNI !ID 7wa ETH]: %RED%ETH 데쓰 클리버
+//Ethereal Edge (always Eth)
+ItemDisplay[UNI !ID 7ba ETH]: %TAN%ETH 에테리얼 엣지
+//Hellslayer
+ItemDisplay[UNI !ID 7bt !ETH]: %TAN%헬슬레이어
+//Hellslayer
+ItemDisplay[UNI !ID 7bt ETH]: %TAN%ETH 헬슬레이어
+//Messerschmidt's Reaver
+ItemDisplay[UNI !ID 7ga !ETH]: %TAN%메서슈미트의 리버
+//Messerschmidt's Reaver
+ItemDisplay[UNI !ID 7ga ETH]: %TAN%ETH 메서슈미트의 리버
+//Executioner's Justice
+ItemDisplay[UNI !ID 7gi !ETH]: %RED%엑시큐셔너의 저스티스
+//Executioner's Justice
+ItemDisplay[UNI !ID 7gi ETH]: %RED%ETH 엑시큐셔너의 저스티스
+
+////Unique Bows
+//
+//Pluckeye
+ItemDisplay[UNI !ID sbw]: %TAN%플럭아이
+//Witherstring
+ItemDisplay[UNI !ID hbw]: %TAN%위더스트링
+//Raven Claw
+ItemDisplay[UNI !ID lbw]: %TAN%레이븐 클러
+//Rogue's Bow
+ItemDisplay[UNI !ID cbw]: %TAN%로그스 보우
+//Stormstrike
+ItemDisplay[UNI !ID sbb]: %TAN%스톰스트라이크
+//Wizendraw
+ItemDisplay[UNI !ID lbb]: %TAN%위즌드로우
+//Hellclap
+ItemDisplay[UNI !ID swb]: %TAN%헬클랩
+//Blastbark
+ItemDisplay[UNI !ID lwb]: %TAN%블래스트바크
+//Skystrike
+ItemDisplay[UNI !ID 8sb]: %TAN%스카이스트라이크
+//Riphook
+ItemDisplay[UNI !ID 8hb]: %TAN%립후크
+//Kuko Shakaku
+ItemDisplay[UNI !ID 8lb]: %RED%쿠코 샤카쿠
+//Endlesshail
+ItemDisplay[UNI !ID 8cb]: %TAN%앤드리스해일
+//Witchwild String
+ItemDisplay[UNI !ID 8s8]: %RED%윗치와일드 스트링
+//Cliffkiller
+ItemDisplay[UNI !ID 8l8]: %TAN%클리프킬러
+//Magewrath
+ItemDisplay[UNI !ID 8sw]: %RED%메이지래쓰
+//Goldstrike Arch
+ItemDisplay[UNI !ID 8lw]: %RED%O 골드스트라이크 아치 %RED%O
+//Eaglehorn
+ItemDisplay[UNI !ID 6l7]: %RED%이글혼
+//Widowmaker
+ItemDisplay[UNI !ID 6sw]: %RED%위도우메이커
+//Windforce
+ItemDisplay[UNI !ID 6lw]: %RED%O %PURPLE%윈드포스 %RED%O
+
+////Unique Crossbows
+//
+//Leadcrow
+ItemDisplay[UNI !ID lxb]: %TAN%리드크로우
+//Ichorsting
+ItemDisplay[UNI !ID mxb]: %TAN%아이커스팅
+//Hellcast
+ItemDisplay[UNI !ID hxb]: %TAN%헬캐스트
+//Doomslinger
+ItemDisplay[UNI !ID rxb]: %RED%O 둠슬링어 %RED%O
+//Langer Briser
+ItemDisplay[UNI !ID 8lx]: %TAN%랭거 브리저
+//Pus Spitter
+ItemDisplay[UNI !ID 8mx]: %TAN%퍼스 스피터
+//Buriza-Do Kyanon
+ItemDisplay[UNI !ID 8hx]: %RED%부리자-도 캬논
+//Demon Machine
+ItemDisplay[UNI !ID 8rx]: %TAN%데몬 머신
+//Hellrack
+ItemDisplay[UNI !ID 6hx]: %TAN%헬랙
+//Gut Siphon
+ItemDisplay[UNI !ID 6rx]: %TAN%구트 쉬폰
+
+////Unique Daggers
+//
+//Gull
+ItemDisplay[UNI !ID dgr !ETH]: %RED%O 걸 %RED%O
+//Gull
+ItemDisplay[UNI !ID dgr ETH]: %RED%ETH 걸
+//The Diggler
+ItemDisplay[UNI !ID dir !ETH]: %TAN%더 디글러
+//The Diggler
+ItemDisplay[UNI !ID dir ETH]: %TAN%ETH 더 디글러
+//The Jade Tan Do
+ItemDisplay[UNI !ID kri !ETH]: %TAN%아사달의 단도
+//The Jade Tan Do
+ItemDisplay[UNI !ID kri ETH]: %TAN%ETH 아사달의 단도
+//Spectral Shard
+ItemDisplay[UNI !ID bld !ETH]: %TAN%스펙트럴 샤드
+//Spectral Shard
+ItemDisplay[UNI !ID bld ETH]: %TAN%ETH 스펙트럴 샤드
+//Spineripper
+ItemDisplay[UNI !ID 9dg !ETH]: %TAN%스파인리퍼
+//Spineripper
+ItemDisplay[UNI !ID 9dg ETH]: %TAN%ETH 스파인리퍼
+//Heart Carver
+ItemDisplay[UNI !ID 9di !ETH]: %TAN%하트 카버
+//Heart Carver
+ItemDisplay[UNI !ID 9di ETH]: %TAN%ETH 하트 카버
+//Blackbog's Sharp
+ItemDisplay[UNI !ID 9kr !ETH]: %TAN%블랙보그의 샤프
+//Blackbog's Sharp
+ItemDisplay[UNI !ID 9kr ETH]: %TAN%ETH 블랙보그의 샤프
+//Stormspike
+ItemDisplay[UNI !ID 9bl !ETH]: %TAN%스톰스파이크
+//Stormspike
+ItemDisplay[UNI !ID 9bl ETH]: %TAN%ETH 스톰스파이크
+//Wizardspike
+ItemDisplay[UNI !ID 7dg !ETH]: %RED%O 위저드스파이크 %RED%O
+//Wizardspike
+ItemDisplay[UNI !ID 7dg ETH]: %RED%O ETH 위저드스파이크 %RED%O
+//Fleshripper
+ItemDisplay[UNI !ID 7kr !ETH]: %RED%O 플레쉬리퍼 %RED%O
+//Fleshripper
+ItemDisplay[UNI !ID 7kr ETH]: %RED%ETH 플레쉬리퍼
+//ETH Ghostflame (always eth)
+ItemDisplay[UNI !ID 7bl ETH]: %RED%ETH 고스트플레임
+
+////Unique Maces
+//
+//Felloak
+ItemDisplay[UNI !ID clb !ETH]: %TAN%펠오크
+//Felloak
+ItemDisplay[UNI !ID clb ETH]: %TAN%ETH 펠오크
+//Stoutnail
+ItemDisplay[UNI !ID spc !ETH]: %TAN%스타우트네일
+//Stoutnail
+ItemDisplay[UNI !ID spc ETH]: %TAN%ETH 스타우트네일
+//Crushflange
+ItemDisplay[UNI !ID mac !ETH]: %TAN%크러쉬플랜지
+//Crushflange
+ItemDisplay[UNI !ID mac ETH]: %TAN%ETH 크러쉬플랜지
+//Bloodrise
+ItemDisplay[UNI !ID mst !ETH]: %TAN%블러드라이즈
+//Bloodrise
+ItemDisplay[UNI !ID mst ETH]: %TAN%ETH 블러드라이즈
+//The General's Tan Do Li Ga
+ItemDisplay[UNI !ID fla !ETH]: %TAN%치우천왕의 철퇴
+//The General's Tan Do Li Ga
+ItemDisplay[UNI !ID fla ETH]: %TAN%ETH 치우천왕의 철퇴
+//Ironstone
+ItemDisplay[UNI !ID whm !ETH]: %TAN%아이언스톤
+//Ironstone
+ItemDisplay[UNI !ID whm ETH]: %TAN%ETH 아이언스톤
+//Bonesnap
+ItemDisplay[UNI !ID mau !ETH]: %RED%본스냅
+//Bonesnap
+ItemDisplay[UNI !ID mau ETH]: %TAN%ETH 본스냅
+//Steeldriver
+ItemDisplay[UNI !ID gma !ETH]: %TAN%스틸드라이버
+//Steeldriver
+ItemDisplay[UNI !ID gma ETH]: %TAN%ETH 스틸드라이버
+//Dark Clan Crusher
+ItemDisplay[UNI !ID 9cl !ETH]: %TAN%다크 클랜 크러셔
+//Dark Clan Crusher
+ItemDisplay[UNI !ID 9cl ETH]: %TAN%ETH 다크 클랜 크러셔
+//Fleshrender
+ItemDisplay[UNI !ID 9sp !ETH]: %RED%플레쉬렌더
+//Fleshrender
+ItemDisplay[UNI !ID 9sp ETH]: %RED%ETH 플레쉬렌더
+//Sureshrill Frost
+ItemDisplay[UNI !ID 9ma !ETH]: %TAN%수어쉬릴 프로스트
+//Sureshrill Frost
+ItemDisplay[UNI !ID 9ma ETH]: %TAN%ETH 수어쉬릴 프로스트
+//Moonfall
+ItemDisplay[UNI !ID 9mt !ETH]: %TAN%문폴
+//Moonfall
+ItemDisplay[UNI !ID 9mt ETH]: %TAN%ETH 문폴
+//Baezil's Vortex
+ItemDisplay[UNI !ID 9fl !ETH]: %TAN%배질의 보어텍스
+//Baezil's Vortex
+ItemDisplay[UNI !ID 9fl ETH]: %TAN%ETH 배질의 보어텍스
+//Earthshaker
+ItemDisplay[UNI !ID 9wh !ETH]: %TAN%어스쉐이커
+//Earthshaker
+ItemDisplay[UNI !ID 9wh ETH]: %TAN%ETH 어스쉐이커
+//Bloodtree Stump
+ItemDisplay[UNI !ID 9m9 !ETH]: %TAN%블러드트리 스텀프
+//Bloodtree Stump
+ItemDisplay[UNI !ID 9m9 ETH]: %TAN%ETH 블러드트리 스텀프
+//The Gavel of Pain
+ItemDisplay[UNI !ID 9gm !ETH]: %TAN%게벌 오브 페인
+//ETH The Gavel of Pain
+ItemDisplay[UNI !ID 9gm ETH]: %RED%ETH 게벌 오브 페인
+//Nord's Tenderizer
+ItemDisplay[UNI !ID 7cl !ETH]: %TAN%노드의 텐더라이저
+//Nord's Tenderizer
+ItemDisplay[UNI !ID 7cl ETH]: %TAN%ETH 노드의 텐더라이저
+//Demon Limb
+ItemDisplay[UNI !ID 7sp !ETH]: %RED%데몬 림
+//ETH Demon Limb
+ItemDisplay[UNI !ID 7sp ETH]: %RED%ETH 데몬 림
+//Baranar's Star
+ItemDisplay[UNI !ID 7mt !ETH]: %TAN%바라나의 별
+//Baranar's Star
+ItemDisplay[UNI !ID 7mt ETH]: %TAN%ETH 바라나의 별
+//Horizon's Tornado or Stormlash
+ItemDisplay[UNI !ID 7fl !ETH]: %RED%O 호라즌의 토네이도 or 스톰래쉬 %RED%O
+//Horizon's Tornado or Stormlash
+ItemDisplay[UNI !ID 7fl ETH]: %RED%ETH 호라즌의 토네이도 or ETH 스톰래쉬
+//Stone Crusher or Schaefer's Hammer
+ItemDisplay[UNI !ID 7wh !ETH]: %RED%O 스톤 크러셔 or 쉐퍼의 해머 %RED%O
+//Stone Crusher or Schaefer's Hammer
+ItemDisplay[UNI !ID 7wh ETH]: %RED%ETH 스톤 크러셔 or ETH 쉐퍼의 해머
+//Windhammer
+ItemDisplay[UNI !ID 7m7 !ETH]: %TAN%윈드해머
+//Windhammer
+ItemDisplay[UNI !ID 7m7 ETH]: %TAN%ETH 윈드해머
+//Earth Shifter or The Cranium Basher
+ItemDisplay[UNI !ID 7gm !ETH]: %RED%O 어스 쉬프터 or 크레이니엄 배셔 %RED%O
+//Earth Shifter or The Cranium Basher
+ItemDisplay[UNI !ID 7gm ETH]: %RED%O ETH 어스 쉬프터 or ETH 크레이니엄 배셔%RED%O
+
+////Unique Polearms
+//
+//Dimoak's Hew
+ItemDisplay[UNI !ID bar !ETH]: %TAN%디모악스 휴
+//Dimoak's Hew
+ItemDisplay[UNI !ID bar ETH]: %TAN%ETH 디모악스 휴
+//Steelgoad
+ItemDisplay[UNI !ID vou !ETH]: %TAN%스틸고드
+//Steelgoad
+ItemDisplay[UNI !ID vou ETH]: %TAN%ETH 스틸고드
+//Soul Harvest
+ItemDisplay[UNI !ID scy !ETH]: %TAN%소울 하베스트
+//Soul Harvest
+ItemDisplay[UNI !ID scy ETH]: %TAN%ETH 소울 하베스트
+//The Battlebranch
+ItemDisplay[UNI !ID pax !ETH]: %TAN%더 배틀브랜치
+//The Battlebranch
+ItemDisplay[UNI !ID pax ETH]: %TAN%ETH 더 배틀브랜치
+//Woestave
+ItemDisplay[UNI !ID hal !ETH]: %TAN%워스테이브
+//Woestave
+ItemDisplay[UNI !ID hal ETH]: %TAN%ETH 워스테이브
+//The Grim Reaper
+ItemDisplay[UNI !ID wsc !ETH]: %TAN%더 그림 리퍼
+//The Grim Reaper
+ItemDisplay[UNI !ID wsc ETH]: %TAN%ETH 더 그림 리퍼
+//The Meat Scraper
+ItemDisplay[UNI !ID 9b7 !ETH]: %TAN%미트 스크레이퍼
+//The Meat Scraper
+ItemDisplay[UNI !ID 9b7 ETH]: %TAN%ETH 미트 스크레이퍼
+//Blackleach Blade
+ItemDisplay[UNI !ID 9vo !ETH]: %TAN%블랙리취 블레이드
+//Blackleach Blade
+ItemDisplay[UNI !ID 9vo ETH]: %TAN%ETH 블랙리취 블레이드
+//Athena's Wrath
+ItemDisplay[UNI !ID 9s8 !ETH]: %TAN%아테네의 래쓰
+//Athena's Wrath
+ItemDisplay[UNI !ID 9s8 ETH]: %TAN%ETH 아테네의 래쓰
+//Pierre Tombale Couant
+ItemDisplay[UNI !ID 9pa !ETH]: %TAN%피에르 톰 콘
+//Pierre Tombale Couant
+ItemDisplay[UNI !ID 9pa ETH]: %TAN%ETH 피에르 톰 콘
+//Husoldal Evo
+ItemDisplay[UNI !ID 9h9 !ETH]: %TAN%휴솔달 에보
+//Husoldal Evo
+ItemDisplay[UNI !ID 9h9 ETH]: %TAN%ETH 휴솔달 에보
+//Grim's Burning Dead
+ItemDisplay[UNI !ID 9wc !ETH]: %TAN%그림의 버닝 데드
+//Grim's Burning Dead
+ItemDisplay[UNI !ID 9wc ETH]: %TAN%ETH 그림의 버닝 데드
+//Bonehew
+ItemDisplay[UNI !ID 7o7 !ETH]: %RED%본휴
+//Bonehew
+ItemDisplay[UNI !ID 7o7 ETH]: %RED%O ETH 본휴 %RED%O
+//Reaper's Toll
+ItemDisplay[UNI !ID 7s8 !ETH]: %RED%O 리퍼스 톨 %RED%O
+//ETH Reaper's Toll
+ItemDisplay[UNI !ID 7s8 ETH]: %RED%O %PURPLE%ETH 리퍼스 톨 %RED%O
+//Tomb Reaver
+ItemDisplay[UNI !ID 7pa !ETH]: %RED%O 툼 리버  %RED%O
+//Tomb Reaver
+ItemDisplay[UNI !ID 7pa ETH]: %RED%O ETH 툼 리버 %RED%O
+//Stormspire
+ItemDisplay[UNI !ID 7wc !ETH]: %RED%스톰스파이어
+//ETH Stormspire
+ItemDisplay[UNI !ID 7wc ETH]: %RED%ETH 스톰스파이어
+
+////Unique Scepters
+//
+//Knell Striker
+ItemDisplay[UNI !ID scp !ETH]: %TAN%넬 스트라이커
+//Knell Striker
+ItemDisplay[UNI !ID scp ETH]: %TAN%ETH 넬 스트라이커
+//Rusthandle
+ItemDisplay[UNI !ID gsc !ETH]: %TAN%러스트 핸들
+//Rusthandle
+ItemDisplay[UNI !ID gsc ETH]: %TAN%ETH 러스트 핸들
+//Stormeye
+ItemDisplay[UNI !ID wsp !ETH]: %TAN%스톰아이
+//Stormeye
+ItemDisplay[UNI !ID wsp ETH]: %TAN%ETH 스톰아이
+//Zakarum's Hand
+ItemDisplay[UNI !ID 9sc !ETH]: %TAN%자카럼의 핸드
+//Zakarum's Hand
+ItemDisplay[UNI !ID 9sc ETH]: %TAN%ETH 자카럼의 핸드
+//The Fetid Sprinkler
+ItemDisplay[UNI !ID 9qs !ETH]: %TAN%페티드 스프링클러
+//The Fetid Sprinkler
+ItemDisplay[UNI !ID 9qs ETH]: %TAN%ETH 페티드 스프링클러
+//Hand of Blessed Light (Holy bolt/FoH scepter)
+ItemDisplay[UNI !ID 9ws !ETH]: %RED%핸드 오브 블레스드 라이트
+//Hand of Blessed Light (Holy bolt/FoH scepter)
+ItemDisplay[UNI !ID 9ws ETH]: %TAN%ETH 핸드 오브 블레스드 라이트
+//Heaven's Light or the Redeemer
+ItemDisplay[UNI !ID 7sc !ETH]: %RED%O 헤븐의 라이트 or 리디머르 %RED%O
+//Heaven's Light or the Redeemer
+ItemDisplay[UNI !ID 7sc ETH]: %RED%ETH 헤븐의 라이트 or ETH 리디머르
+//Astreon's Iron Ward
+ItemDisplay[UNI !ID 7ws !ETH]: %RED%O 아스트레온의 아이언 워드 %RED%O
+//Astreon's Iron Ward
+ItemDisplay[UNI !ID 7ws ETH]: %RED%ETH 아스트레온의 아이언 워드
+
+////Unique Spears
+//
+//The Dragon Chang
+ItemDisplay[UNI !ID spr !ETH]: %TAN%운사의 용봉창
+//The Dragon Chang
+ItemDisplay[UNI !ID spr ETH]: %TAN%ETH 운사의 용봉창
+//Razortine
+ItemDisplay[UNI !ID tri !ETH]: %TAN%레이저타인
+//Razortine
+ItemDisplay[UNI !ID tri ETH]: %TAN%ETH 레이저타인
+//Bloodthief
+ItemDisplay[UNI !ID brn !ETH]: %TAN%블러드씨프
+//Bloodthief
+ItemDisplay[UNI !ID brn ETH]: %TAN%ETH 블러드씨프
+//Lance of Yaggai
+ItemDisplay[UNI !ID spt !ETH]: %TAN%랜스 오브 야가이
+//Lance of Yaggai
+ItemDisplay[UNI !ID spt ETH]: %TAN%ETH 랜스 오브 야가이
+//The Tannr Gorerod
+ItemDisplay[UNI !ID pik !ETH]: %TAN%더 탄르 고어라드
+//The Tannr Gorerod
+ItemDisplay[UNI !ID pik ETH]: %TAN%ETH 더 탄르 고어라드
+//The Impaler
+ItemDisplay[UNI !ID 9sr !ETH]: %TAN%더 임페일러
+//The Impaler
+ItemDisplay[UNI !ID 9sr ETH]: %TAN%ETH 더 임페일러
+//Kelpie Snare
+ItemDisplay[UNI !ID 9tr !ETH]: %RED%켈피 스네어
+//Kelpie Snare
+ItemDisplay[UNI !ID 9tr ETH]: %RED%O ETH 켈피 스네어 %RED%O
+//Soulfeast Time
+ItemDisplay[UNI !ID 9br !ETH]: %TAN%소울피스트 타인
+//Soulfeast Time
+ItemDisplay[UNI !ID 9br ETH]: %TAN%ETH 소울피스트 타인
+//Hone Sundan
+ItemDisplay[UNI !ID 9st !ETH]: %RED%O 혼 선단 %RED%O
+//ETH Hone Sundan
+ItemDisplay[UNI !ID 9st ETH]: %RED%O %PURPLE%ETH 혼 선단 %RED%O
+//Spire of Honor
+ItemDisplay[UNI !ID 9p9 !ETH]: %TAN%스파이어 오브 아너
+//Spire of Honor
+ItemDisplay[UNI !ID 9p9 ETH]: %TAN%ETH 스파이어 오브 아너
+//Arioc's Needle
+ItemDisplay[UNI !ID 7sr !ETH]: %RED%아리어의 니들
+//Arioc's Needle
+ItemDisplay[UNI !ID 7sr ETH]: %TAN%ETH 아리어의 니들
+//Viperfork
+ItemDisplay[UNI !ID 7br !ETH]: %RED%O 바이퍼포크 %RED%O
+//Viperfork
+ItemDisplay[UNI !ID 7br ETH]: %RED%O ETH 바이퍼포크 %RED%O
+//Steel Pillar
+ItemDisplay[UNI !ID 7p7 !ETH]: %RED%O 스틸 필라 %RED%O
+//Steel Pillar
+ItemDisplay[UNI !ID 7p7 ETH]: %RED%O ETH 스틸 필라 %RED%O
+
+////Unique Staves
+//
+//Bane Ash
+ItemDisplay[UNI !ID sst !ETH]: %TAN%베인 애쉬
+//Bane Ash
+ItemDisplay[UNI !ID sst ETH]: %TAN%ETH 베인 애쉬
+//Serpent Lord
+ItemDisplay[UNI !ID lst !ETH]: %TAN%서펀트 로드
+//Serpent Lord
+ItemDisplay[UNI !ID lst ETH]: %TAN%ETH 서펀트 로드
+//Spire of Lazarus
+ItemDisplay[UNI !ID cst !ETH]: %TAN%스파이어 오브 라자루스
+//Spire of Lazarus
+ItemDisplay[UNI !ID cst ETH]: %TAN%ETH 스파이어 오브 라자루스
+//The Salamander
+ItemDisplay[UNI !ID bst !ETH]: %TAN%더 샐러맨더
+//The Salamander
+ItemDisplay[UNI !ID bst ETH]: %TAN%ETH 더 샐러맨더
+//The Iron Jang Bong
+ItemDisplay[UNI !ID wst !ETH]: %TAN%풍사의 철장봉
+//The Iron Jang Bong
+ItemDisplay[UNI !ID wst ETH]: %TAN%ETH 풍사의 철장봉
+//Razorswitch
+ItemDisplay[UNI !ID 8ss !ETH]: %TAN%레이저스위치
+//Razorswitch
+ItemDisplay[UNI !ID 8ss ETH]: %TAN%ETH 레이저스위치
+//Ribcracker
+ItemDisplay[UNI !ID 8ls !ETH]: %RED%립크래커
+//Ribcracker
+ItemDisplay[UNI !ID 8ls ETH]: %RED%O ETH 립크래커 %RED%O
+//Chromatic Ire
+ItemDisplay[UNI !ID 8cs !ETH]: %TAN%크로마틱 아이어
+//Chromatic Ire
+ItemDisplay[UNI !ID 8cs ETH]: %TAN%ETH 크로마틱 아이어
+//Warpspear
+ItemDisplay[UNI !ID 8bs !ETH]: %TAN%워프스피어
+//Warpspear
+ItemDisplay[UNI !ID 8bs ETH]: %TAN%ETH 워프스피어
+//Skull Collector
+ItemDisplay[UNI !ID 8ws !ETH]: %TAN%스컬 콜렉터
+//Skull Collector
+ItemDisplay[UNI !ID 8ws ETH]: %TAN%ETH 스컬 콜렉터
+//Ondal's Wisdom
+ItemDisplay[UNI !ID 6cs !ETH]: %RED%O %PURPLE%온달의 지혜 %RED%O
+//Ondal's Wisdom
+ItemDisplay[UNI !ID 6cs ETH]: %RED%ETH 온달의 지혜
+//Mang Song's Lesson
+ItemDisplay[UNI !ID 6ws !ETH]: %TAN%망 송의 레슨
+//Mang Song's Lesson
+ItemDisplay[UNI !ID 6ws ETH]: %TAN%ETH 망 송의 레슨
+
+////Unique Swords
+//
+//Rixot's Keen
+ItemDisplay[UNI !ID ssd !ETH]: %TAN%릭잣즈 킨
+//Rixot's Keen
+ItemDisplay[UNI !ID ssd ETH]: %TAN%ETH 릭잣즈 킨
+//Blood Crescent
+ItemDisplay[UNI !ID scm !ETH]: %TAN%블러드 크레센트
+//Blood Crescent
+ItemDisplay[UNI !ID scm ETH]: %TAN%ETH 블러드 크레센트
+//Skewer of Krintiz
+ItemDisplay[UNI !ID sbr !ETH]: %TAN%스큐어 오브 크린티즈
+//Skewer of Krintiz
+ItemDisplay[UNI !ID sbr ETH]: %TAN%ETH 스큐어 오브 크린티즈
+//Gleamscythe
+ItemDisplay[UNI !ID flc !ETH]: %TAN%글림싸이드
+//Gleamscythe
+ItemDisplay[UNI !ID flc ETH]: %TAN%ETH 글림싸이드
+//Griswold's Edge
+ItemDisplay[UNI !ID bsd !ETH]: %TAN%그리스월즈엣지
+//Griswold's Edge
+ItemDisplay[UNI !ID bsd ETH]: %TAN%ETH 그리스월즈엣지
+//Hellplague
+ItemDisplay[UNI !ID lsd !ETH]: %TAN%헬플레이그
+//Hellplague
+ItemDisplay[UNI !ID lsd ETH]: %TAN%ETH 헬플레이그
+//Culwen's Point
+ItemDisplay[UNI !ID wsd !ETH]: %TAN%컬웬즈 포인트
+//Culwen's Point
+ItemDisplay[UNI !ID wsd ETH]: %TAN%ETH 컬웬즈 포인트
+//Shadowfang
+ItemDisplay[UNI !ID 2hs !ETH]: %TAN%쉐도우팽
+//Shadowfang
+ItemDisplay[UNI !ID 2hs ETH]: %TAN%ETH 쉐도우팽
+//Soulflay
+ItemDisplay[UNI !ID clm !ETH]: %TAN%소울플레이
+//Soulflay
+ItemDisplay[UNI !ID clm ETH]: %TAN%ETH 소울플레이
+//Kinemil's Awl (great paladin holy fire lvling sword)
+ItemDisplay[UNI !ID gis !ETH]: %TAN%키네밀즈 얼
+//Kinemil's Awl
+ItemDisplay[UNI !ID gis ETH]: %TAN%ETH 키네밀즈 얼
+//Blacktongue
+ItemDisplay[UNI !ID bsw !ETH]: %TAN%블랙텅
+//Blacktongue
+ItemDisplay[UNI !ID bsw ETH]: %TAN%ETH 블랙텅
+//Ripsaw
+ItemDisplay[UNI !ID flb !ETH]: %TAN%립서어
+//Ripsaw
+ItemDisplay[UNI !ID flb ETH]: %TAN%ETH 립서어
+//The Patriarch (dual these with 6 sox curr filled with lem runes for max gold find on barb)
+ItemDisplay[UNI !ID gsd !ETH]: %TAN%더 페이트리악
+//The Patriarch
+ItemDisplay[UNI !ID gsd ETH]: %TAN%ETH 더 페이트리악
+//Bloodletter
+ItemDisplay[UNI !ID 9ss !ETH]: %TAN%블러드레터
+//Bloodletter
+ItemDisplay[UNI !ID 9ss ETH]: %TAN%ETH 블러드레터
+//Coldsteel Eye
+ItemDisplay[UNI !ID 9sm !ETH]: %TAN%콜드스틸 아이
+//Coldsteel Eye
+ItemDisplay[UNI !ID 9sm ETH]: %TAN%ETH 콜드스틸 아이
+//Hexfire (+3 to fire skills)(+1 Hydra)
+ItemDisplay[UNI !ID 9sb !ETH]: %RED%헥스파이어
+//Hexfire (+3 to fire skills)(+1 Hydra)
+ItemDisplay[UNI !ID 9sb ETH]: %TAN%ETH 헥스파이어
+//Blade of Ali Baba (the MF sword)
+ItemDisplay[UNI !ID 9fc !ETH]: %RED%O 블레이드 오브 알리바바 %RED%O
+//Blade of Ali Baba (the MF sword)
+ItemDisplay[UNI !ID 9fc ETH]: %RED%ETH 블레이드 오브 알리바바
+//Ginther's Rift
+ItemDisplay[UNI !ID 9cr !ETH]: %TAN%긴터스 리프트
+//ETH Ginther's Rift
+ItemDisplay[UNI !ID 9cr ETH]: %RED%ETH 긴터스 리프트
+//Headstriker (100% deadly strike sword)
+ItemDisplay[UNI !ID 9bs !ETH]: %RED%헤드스트라이커
+//Headstriker (100% deadly strike sword)
+ItemDisplay[UNI !ID 9bs ETH]: %RED%ETH 헤드스트라이커
+//Plague Bearer (Rabies sword)
+ItemDisplay[UNI !ID 9ls !ETH]: %RED%플레이그 베어러
+//Plague Bearer (Rabies sword)
+ItemDisplay[UNI !ID 9ls ETH]: %TAN%ETH 플레이그 베어러
+//The Atlantean
+ItemDisplay[UNI !ID 9wd !ETH]: %TAN%애틀랜티언
+//The Atlantean
+ItemDisplay[UNI !ID 9wd ETH]: %TAN%ETH 애틀랜티언
+//Crainte Vomir
+ItemDisplay[UNI !ID 92h !ETH]: %TAN%크래인트 보미르
+//Crainte Vomir
+ItemDisplay[UNI !ID 92h ETH]: %TAN%ETH 크래인트 보미르
+//Bing Sz Wang
+ItemDisplay[UNI !ID 9cm !ETH]: %TAN%빙 쯔 왕
+//Bing Sz Wang
+ItemDisplay[UNI !ID 9cm ETH]: %TAN%ETH 빙 쯔 왕
+//The Vile Husk (Amp damage and up to 700%+ damage to undeads)
+ItemDisplay[UNI !ID 9gs !ETH]: %TAN%바일 하스크
+//The Vile Husk (Amp damage and up to 700%+ damage to undeads)
+ItemDisplay[UNI !ID 9gs ETH]: %TAN%ETH 바일 하스크
+//Cloudcrack
+ItemDisplay[UNI !ID 9b9 !ETH]: %TAN%클라우드크랙
+//Cloudcrack
+ItemDisplay[UNI !ID 9b9 ETH]: %TAN%ETH 클라우드크랙
+//Todesfaelle Flamme (The RF Sword)
+ItemDisplay[UNI !ID 9fb !ETH]: %RED%O 토즈팰러 플렘 %RED%O
+//Todesfaelle Flamme (The RF Sword)
+ItemDisplay[UNI !ID 9fb ETH]: %RED%ETH 토즈팰러 플렘
+//Swordguard
+ItemDisplay[UNI !ID 9gd !ETH]: %TAN%소드가드
+//Swordguard
+ItemDisplay[UNI !ID 9gd ETH]: %TAN%ETH 소드가드
+//Djinn Slayer
+ItemDisplay[UNI !ID 7sm !ETH]: %TAN%진 슬레이어
+//Djinn Slayer
+ItemDisplay[UNI !ID 7sm ETH]: %TAN%ETH 진 슬레이어
+//Bloodmoon (lvl 15 blood golem charges)
+ItemDisplay[UNI !ID 7sb !ETH]: %TAN%블러드문
+//Bloodmoon (lvl 15 blood golem charges)
+ItemDisplay[UNI !ID 7sb ETH]: %TAN%ETH 블러드문
+//Lightsabre or Azurewrath
+ItemDisplay[UNI !ID 7cr]: %RED%O %PURPLE%라이트세이버 or 에이져래쓰 %RED%O
+//Frostwind (arctic blast +14 can do fun builds)
+ItemDisplay[UNI !ID 7ls !ETH]: %RED%프로스트윈드
+//Frostwind (arctic blast +14 can do fun builds)
+ItemDisplay[UNI !ID 7ls ETH]: %TAN%ETH 프로스트윈드
+//Flamebellow (flame dash +18)
+ItemDisplay[UNI !ID 7gs !ETH]: %RED%플레임벨로우
+//Flamebellow (flame dash +18)
+ItemDisplay[UNI !ID 7gs ETH]: %TAN%ETH 플레임벨로우
+//Doombringer
+ItemDisplay[UNI !ID 7b7 !ETH]: %RED%O 둠브링거 %RED%O
+//ETH Doombringer
+ItemDisplay[UNI !ID 7b7 ETH]: %RED%O %PURPLE%ETH 둠브링거 %RED%O
+//The Grandfather
+ItemDisplay[UNI !ID 7gd !ETH]: %RED%O 그랜드파더 %RED%O
+//ETH The Grandfather
+ItemDisplay[UNI !ID 7gd ETH]: %RED%O ETH 그랜드파더 %RED%O
+
+////Unique Wands
+//
+//Torch of Iro
+ItemDisplay[UNI !ID wnd !ETH]: %TAN%토치 오브 이로
+//Torch of Iro
+ItemDisplay[UNI !ID wnd ETH]: %TAN%ETH 토치 오브 이로
+//Maelstrom (Highest FCR 30% for its lvl)
+ItemDisplay[UNI !ID ywn !ETH]: %TAN%메일스트럼
+//Maelstrom (Highest FCR 30% for its lvl)
+ItemDisplay[UNI !ID ywn ETH]: %TAN%ETH 메일스트럼
+//Gravenspine
+ItemDisplay[UNI !ID bwn !ETH]: %TAN%그레이븐스파인
+//Gravenspine
+ItemDisplay[UNI !ID bwn ETH]: %TAN%ETH 그레이븐스파인
+//Ume's Lament
+ItemDisplay[UNI !ID gwn !ETH]: %TAN%우메즈 러먼트
+//Ume's Lament
+ItemDisplay[UNI !ID gwn ETH]: %TAN%ETH 우메즈 러먼트
+//Suicide Branch (great lvling wand for casters)
+ItemDisplay[UNI !ID 9wn !ETH]: %RED%수어사이드 브랜치
+//Suicide Branch (great lvling wand for casters)
+ItemDisplay[UNI !ID 9wn ETH]: %RED%ETH 수어사이드 브랜치
+//Carin Shard
+ItemDisplay[UNI !ID 9yw !ETH]: %TAN%캐언 샤드
+//Carin Shard
+ItemDisplay[UNI !ID 9yw ETH]: %TAN%ETH 캐언 샤드
+//Arm of King Leoric
+ItemDisplay[UNI !ID 9bw !ETH]: %TAN%암 오브 킹 레오릭
+//Arm of King Leoric
+ItemDisplay[UNI !ID 9bw ETH]: %TAN%ETH 암 오브 킹 레오릭
+//Blackhand Key (lvl 13 Grim ward charges (reduces phys resistance on monsters))
+ItemDisplay[UNI !ID 9gw !ETH]: %TAN%블랙핸드 키
+//Blackhand Key (lvl 13 Grim ward charges (reduces phys resistance on monsters))
+ItemDisplay[UNI !ID 9gw ETH]: %TAN%ETH 블랙핸드 키
+//Boneshade (can get +7 Teeth +7 Bone Armor)
+ItemDisplay[UNI !ID 7bw !ETH]: %RED%본쉐이드
+//Boneshade (can get +7 Teeth +7 Bone Armor)
+ItemDisplay[UNI !ID 7bw ETH]: %RED%ETH 본쉐이드
+//Death's Web (-40 to -50 to enemy poison res)
+ItemDisplay[UNI !ID 7gw !ETH]: %RED%O %PURPLE%데쓰 웹 %RED%O
+//Death's Web (-40 to -50 to enemy poison res)
+ItemDisplay[UNI !ID 7gw ETH]: %RED%O ETH 데쓰 웹 %RED%O
+
+////Unique Throwing Weapons
+//
+//Deathbit
+ItemDisplay[UNI !ID 9tk !ETH]: %TAN%데쓰비트
+//ETH Deathbit
+ItemDisplay[UNI !ID 9tk ETH]: %RED%O ETH 데쓰비트 %RED%O
+//The Scalper
+ItemDisplay[UNI !ID 9ta !ETH]: %TAN%스캘퍼
+//ETH The Scalper
+ItemDisplay[UNI !ID 9ta ETH]: %RED%O ETH 스캘퍼 %RED%O
+//Warshrike
+ItemDisplay[UNI !ID 7bk !ETH]: %RED%O 워슈라이크 %RED%O
+//ETH Warshrike
+ItemDisplay[UNI !ID 7bk ETH]: %RED%O %PURPLE%ETH 워슈라이크 %RED%O
+//Gimmershred
+ItemDisplay[UNI !ID 7ta !ETH]: %RED%김머쉬레드
+//ETH Gimmershred
+ItemDisplay[UNI !ID 7ta ETH]: %TAN%ETH 김머쉬레드
+//Lacerator
+ItemDisplay[UNI !ID 7b8 !ETH]: %RED%O 래서레이터 %RED%O
+//ETH Lacerator
+ItemDisplay[UNI !ID 7b8 ETH]: %RED%O %PURPLE%ETH 래서레이터 %RED%O
+
+////Unique Javelins
+//
+//Demon's Arch
+ItemDisplay[UNI !ID 7s7 !ETH]: %TAN%데몬스 아치
+//ETH Demon's Arch
+ItemDisplay[UNI !ID 7s7 ETH]: %RED%O ETH 데몬스 아치 %RED%O
+//ETH Wraith Flight (always ETH)
+ItemDisplay[UNI !ID 7gl ETH]: %RED%ETH 레이쓰 플라이트
+//Gargoyle's Bite
+ItemDisplay[UNI !ID 7ts !ETH]: %TAN%가고일 바이트
+//ETH Gargoyle's Bite
+ItemDisplay[UNI !ID 7ts ETH]: %RED%ETH 가고일 바이트
+
+////Unique Amazon only items
+//
+//Stoneraven
+ItemDisplay[UNI !ID amd !ETH]: %TAN%스톤레이븐
+//Stoneraven
+ItemDisplay[UNI !ID amd ETH]: %TAN%ETH 스톤레이븐
+//Lycander's Flank
+ItemDisplay[UNI !ID am9 !ETH]: %RED%라이캔더의 플랭크
+//Lycander's Flank
+ItemDisplay[UNI !ID am9 ETH]: %RED%ETH 라이캔더의 플랭크
+//Lycander's Aim
+ItemDisplay[UNI !ID am7]: %RED%라이캔더의 에임
+//Titan's Revenge
+ItemDisplay[UNI !ID ama !ETH]: %RED%O 타이탄의 리벤지 %RED%O
+//Titan's Revenge
+ItemDisplay[UNI !ID ama ETH]: %RED%O ETH 타이탄의 리벤지 %RED%O
+//Thunderstroke
+ItemDisplay[UNI !ID amf !ETH]: %RED%O 선더스트로크 %RED%O
+//Thunderstroke
+ItemDisplay[UNI !ID amf ETH]: %TAN%ETH 선더스트로크
+//Blood Raven's Charge (got lvl 5 revive (30charges))
+ItemDisplay[UNI !ID amb]: %TAN%블러드 레이븐의 차지
+
+////Unique Assassin only items
+//
+//ETH Shadow Killer (its always ETH)
+ItemDisplay[UNI !ID 7cs ETH]: %RED%ETH 쉐도우 킬러
+//Bartuc's Cut-Throat
+ItemDisplay[UNI !ID 9tw !ETH]: %RED%O 바르툭의 경동맥칼 %RED%O
+//Bartuc's Cut-Throat
+ItemDisplay[UNI !ID 9tw ETH]: %RED%ETH 바르툭의 경동맥칼
+//Jade Talon
+ItemDisplay[UNI !ID 7wb !ETH]: %RED%제이드 탈런
+//Jade Talon
+ItemDisplay[UNI !ID 7wb ETH]: %RED%ETH 제이드 탈런
+//Firelizard's Talons
+ItemDisplay[UNI !ID 7lw !ETH]: %RED%파이어리저드의 탤런스
+//Firelizard's Talons
+ItemDisplay[UNI !ID 7lw ETH]: %TAN%ETH 파이어리저드의 탤런스
+
+////Unique Necromancer only items
+//
+//Homunculus
+ItemDisplay[UNI !ID nea !ETH]: %RED%O %PURPLE%호우먼컬러스 %RED%O
+//Homunculus
+ItemDisplay[UNI !ID nea ETH]: %RED%ETH 호우먼컬러스
+//Darkforce Spawn
+ItemDisplay[UNI !ID nef !ETH]: %RED%다크포스 스펀
+//Darkforce Spawn
+ItemDisplay[UNI !ID nef ETH]: %TAN%ETH 다크포스 스펀
+//Boneflame
+ItemDisplay[UNI !ID nee !ETH]: %RED%O 본플레임 %RED%O
+//Boneflame
+ItemDisplay[UNI !ID nee ETH]: %TAN%ETH 본플레임
+
+////Unique Barbarian only items
+//
+//Arreat's Face
+ItemDisplay[UNI !ID baa !ETH]: %RED%O %PURPLE%아리앗의 페이스 %RED%O
+//Arreat's Face
+ItemDisplay[UNI !ID baa ETH]: %RED%ETH 아리앗의 페이스
+//Wolfhowl (for bear/werewolf barb)
+ItemDisplay[UNI !ID bac !ETH]: %RED%O 울프하울 %RED%O
+//Wolfhowl (for bear/werewolf barb)
+ItemDisplay[UNI !ID bac ETH]: %RED%ETH 울프하울
+//Demonhorn's Edge
+ItemDisplay[UNI !ID bad !ETH]: %TAN%데몬혼스 엣지
+//Demonhorn's Edge
+ItemDisplay[UNI !ID bad ETH]: %TAN%ETH 데몬혼스 엣지
+//Halaberd's Reign
+ItemDisplay[UNI !ID bae !ETH]: %RED%할라버드의 레인
+//Halaberd's Reign
+ItemDisplay[UNI !ID bae ETH]: %TAN%ETH 할라버드의 레인
+
+////Unique Sorceress only items
+//
+//The Oculus
+ItemDisplay[UNI !ID oba !ETH]: %RED%The 오큘러스
+//The Oculus
+ItemDisplay[UNI !ID oba ETH]: %TAN%ETH The 오큘러스
+//Eschuta's Temper
+ItemDisplay[UNI !ID obc !ETH]: %RED%O 에슈타스 템퍼 %RED%O
+//Eschuta's Temper
+ItemDisplay[UNI !ID obc ETH]: %RED%ETH 에슈타스 템퍼
+//Death's Fathom
+ItemDisplay[UNI !ID obf !ETH]: %RED%O 데쓰 패썸 %RED%O
+//Death's Fathom
+ItemDisplay[UNI !ID obf ETH]: %RED%ETH 데쓰 패썸
+
+////Unique Druid only items
+//
+//Jalal's Mane
+ItemDisplay[UNI !ID dra !ETH]: %RED%O %PURPLE%잘알의 메인 %RED%O
+//Jalal's Mane
+ItemDisplay[UNI !ID dra ETH]: %RED%ETH 잘알의 메인
+//Cerebus' Bite
+ItemDisplay[UNI !ID drb !ETH]: %RED%O 케레버스 바이트 %RED%O
+//Cerebus' Bite
+ItemDisplay[UNI !ID drb ETH]: %TAN%ETH 케레버스 바이트
+//Ravenlore (bis raven/fire ele druid helm)
+ItemDisplay[UNI !ID dre !ETH]: %RED%O 레이븐로어 %RED%O
+//Ravenlore (bis raven/fire ele druid helm)
+ItemDisplay[UNI !ID dre ETH]: %RED%ETH %레이븐로어
+//Spirit Keeper
+ItemDisplay[UNI !ID drd !ETH]: %RED%O 스피리트 키퍼 %RED%O
+//Spirit Keeper
+ItemDisplay[UNI !ID drd ETH]: %TAN%ETH 스피리트 키퍼
+
+////Unique Paladin only items
+//
+//Alma Negra
+ItemDisplay[UNI !ID pac !ETH]: %RED%O 알마 네그라 %RED%O
+//Alma Negra
+ItemDisplay[UNI !ID pac ETH]: %RED%ETH 알마 네그라
+//Herald of Zakarum
+ItemDisplay[UNI !ID pa9 !ETH]: %RED%O %PURPLE%헤럴드 오브 자카럼 %RED%O
+//Herald of Zakarum
+ItemDisplay[UNI !ID pa9 ETH]: %RED%ETH 헤럴드 오브 자카럼
+//Dragonscale (Hydra paladin)
+ItemDisplay[UNI !ID pae !ETH]: %RED%O 드래곤스케일 %RED%O
+//Dragonscale (Hydra paladin)
+ItemDisplay[UNI !ID pae ETH]: %RED%ETH 드래곤스케일
+
+////Unique Quivers
+//
+ItemDisplay[UNI !ID aq2]: %TAN%화살통
+
+////Unique Rings Amulets Jewels Charms
+ItemDisplay[UNI !ID (rin OR amu OR jew)]: %PURPLE%  O %RED%%NAME%%PURPLE% O  %PURPLE%
+
+////Unique Charms
+ItemDisplay[UNI !ID cm1]: %PURPLE%  O %ORANGE%애니힐러스%PURPLE% O  %PURPLE%
+ItemDisplay[UNI !ID cm2]: %PURPLE%  O %ORANGE%지옥의 횃불%PURPLE% O  %PURPLE%
+ItemDisplay[UNI !ID cm3]: %PURPLE%  O %RED%기드의 포츈%PURPLE% O  %PURPLE%
+
+////SET ITEMS (no rings or amys edited)
+//
+//Angelic Raiment
+//
+//Angelic Mantle
+ItemDisplay[SET !ID rng]: %GREEN%%NAME% %DGREEN%엔젤릭
+//Angelic Sickle
+ItemDisplay[SET !ID sbr]: %GREEN%%NAME% %DGREEN%엔젤릭
+
+//Arcanna's Tricks
+//
+//Arcanna's Head
+ItemDisplay[SET !ID skp]: %GREEN%%NAME% %DGREEN%아칸나
+//Arcanna's Flesh
+ItemDisplay[SET !ID ltp]: %GREEN%%NAME% %DGREEN%아칸나
+//Arcanna's Deathwand
+ItemDisplay[SET !ID wst]: %GREEN%%NAME% %DGREEN%아칸나
+
+//Arctic Gear
+//
+//Arctic Furs
+ItemDisplay[SET !ID qui]: %GREEN%%NAME% %DGREEN%아틱
+//Arctic Binding
+ItemDisplay[SET !ID vbl]: %GREEN%%NAME% %DGREEN%아틱
+//Arctic Mitts
+ItemDisplay[SET !ID tgl]: %GREEN%%NAME% %DGREEN%아틱
+//Arctic Horn (+2 to cold arrow projectiles)
+ItemDisplay[SET !ID swb]: %GREEN%%NAME% %DGREEN%아틱
+
+//Berserker'Arsenal
+//
+//Berserker's Headgear
+ItemDisplay[SET !ID hlm]: %GREEN%%NAME% %DGREEN%버서커
+//Berserker's Hauberk
+ItemDisplay[SET !ID spl]: %GREEN%%NAME% %DGREEN%버서커
+//Berserker's Hatchet
+ItemDisplay[SET !ID 2ax]: %GREEN%%NAME% %DGREEN%버서커
+
+//Cathan's Traps
+//
+//Cathan's Visage
+ItemDisplay[SET !ID msk]: %GREEN%%NAME% %DGREEN%캐산
+//Cathan's Mesh
+ItemDisplay[SET !ID chn]: %GREEN%%NAME% %DGREEN%캐산
+//Cathan's Rule
+ItemDisplay[SET !ID bst]: %GREEN%%NAME% %DGREEN%캐산
+
+//Civerb's Vestments
+//
+//Civerb's Cudgel
+ItemDisplay[SET !ID gsc]: %GREEN%%NAME% %DGREEN%시버브
+//Civerb's Ward
+ItemDisplay[SET !ID lrg]: %GREEN%%NAME% %DGREEN%시버브
+
+//Cleglaw's Brace
+//
+//Cleglaw's Tooth
+ItemDisplay[SET !ID lsd]: %GREEN%%NAME% %DGREEN%클레글로우
+//Cleglaw's Pincer's
+ItemDisplay[SET !ID mgl]: %GREEN%%NAME% %DGREEN%클레글로우
+//Cleglaw's Claw
+ItemDisplay[SET !ID sml]: %GREEN%%NAME% %DGREEN%클레글로우
+
+//Death's Disguise
+//
+//Death's Touch
+ItemDisplay[SET !ID wsd]: %GREEN%%NAME% %DGREEN%데쓰
+//Death's Hand
+ItemDisplay[SET !ID lgl]: %GREEN%%NAME% %DGREEN%데쓰
+//Death's Guard
+ItemDisplay[SET !ID lbl]: %GREEN%%NAME% %DGREEN%데쓰
+
+//Hsarus' Defense
+//
+//Hsarus' Iron Fist
+ItemDisplay[SET !ID buc]: %GREEN%%NAME% %DGREEN%사루스
+//Hsarus' Iron Stay
+ItemDisplay[SET !ID mbl]: %GREEN%%NAME% %DGREEN%사루스 or 환인
+//Hsarus' Iron Heel
+ItemDisplay[SET !ID mbt]: %GREEN%%NAME% %DGREEN%사루스
+
+//Infernal Tools
+//
+//Infernal Cranium
+ItemDisplay[SET !ID cap]: %GREEN%%NAME% %DGREEN%인퍼널 크래니엄 or 샌더의 파라곤
+//Infernal Sign
+ItemDisplay[SET !ID tbl]: %GREEN%%NAME% %DGREEN%인퍼널 싸인 or 이라사의 코드
+//Infernal Torch
+ItemDisplay[SET !ID gwn]: %GREEN%%NAME% %DGREEN%인퍼널
+
+//Iratha's Finery
+//
+//Iratha's Coil
+ItemDisplay[SET !ID crn]: %GREEN%%NAME% %DGREEN%이라사의 코일 or 밀라브레가의 다이어뎀
+//Iratha's Cord
+ItemDisplay[SET !ID tbl]: %GREEN%%NAME% %DGREEN%인퍼널 싸인 or 이라사의 코드
+//Iratha's Cuff
+ItemDisplay[SET !ID tgl]: %GREEN%%NAME% %DGREEN%이라사의 커프 or 아틱 미트
+
+//Isenhart's Armory
+//
+//Isenhart's Lightbrand
+ItemDisplay[SET !ID bsd]: %GREEN%%NAME% %DGREEN%아이젠하트
+//Isenhart's Horns
+ItemDisplay[SET !ID fhl]: %GREEN%%NAME% %DGREEN%아이젠하트
+//Isenhart's Case
+ItemDisplay[SET !ID brs]: %GREEN%%NAME% %DGREEN%아이젠하트
+//Isenhart's Parry
+ItemDisplay[SET !ID gts]: %GREEN%%NAME% %DGREEN%아이젠하트
+
+//Milabrega's Regalia
+//
+//Milabrega's Diadem
+ItemDisplay[SET !ID crn]: %GREEN%%NAME% %DGREEN%이라사의 코일 or 밀라브레가의 다이어뎀
+//Milabrega's Robe
+ItemDisplay[SET !ID aar]: %GREEN%%NAME% %DGREEN%밀라브레가
+//Milabrega's Orb
+ItemDisplay[SET !ID kit]: %GREEN%%NAME% %DGREEN%밀라브레가
+//Milabrega's Rod
+ItemDisplay[SET !ID wsp]: %GREEN%%NAME% %DGREEN%밀라브레가
+
+//Sigon's Complete Steel
+//
+//Sigon's Visor
+ItemDisplay[SET !ID ghm]: %GREEN%%NAME% %DGREEN%사이곤
+//Sigon's Shelter
+ItemDisplay[SET !ID gth]: %GREEN%%NAME% %DGREEN%사이곤
+//Sigon's Sabot
+ItemDisplay[SET !ID hbt]: %GREEN%%NAME% %DGREEN%사이곤
+//Sigon's Guard
+ItemDisplay[SET !ID tow]: %GREEN%%NAME% %DGREEN%사이곤
+//Sigon's Wrap
+ItemDisplay[SET !ID hbl]: %GREEN%%NAME% %DGREEN%사이곤
+//Sigon's Gage
+ItemDisplay[SET !ID hgl]: %GREEN%%NAME% %DGREEN%사이곤
+
+//Tancred's Battlegear
+//
+//Tancred's Skull
+ItemDisplay[SET !ID bhm]: %GREEN%%NAME% %DGREEN%탄크레드
+//Tancred's Spine
+ItemDisplay[SET !ID ful]: %GREEN%%NAME% %DGREEN%탄크레드
+//Tancred's Hobnails
+ItemDisplay[SET !ID lbt]: %GREEN%%NAME% %DGREEN%탄크레드
+//Tancred's Crowbill
+ItemDisplay[SET !ID mpi]: %GREEN%%NAME% %DGREEN%탄크레드
+
+//Vidala's Rig
+//
+//Vidala's Barb
+ItemDisplay[SET !ID lbb]: %GREEN%%NAME% %DGREEN%비달라
+//Vidala's Ambush
+ItemDisplay[SET !ID lea]: %GREEN%%NAME% %DGREEN%비달라
+//Vidala's Fetlock
+ItemDisplay[SET !ID tbt]: %GREEN%%NAME% %DGREEN%비달라
+
+//Aldur's Watchtower
+//
+//Aldur's Stony Gaze
+ItemDisplay[SET !ID dr8]: %RED%¤ %GREEN%%NAME% %DGREEN%알더 %RED%¤
+//Aldur's Advance
+ItemDisplay[SET !ID xtb]: %RED%O %GREEN%%NAME% %DGREEN%알더 %RED%O
+//Aldur's Deception
+ItemDisplay[SET !ID uul]: %RED%¤ %GREEN%%NAME% %DGREEN%알더 %RED%¤
+//Aldur's Rhythm
+ItemDisplay[SET !ID 9mt]: %GREEN%%NAME% %DGREEN%알더
+
+//Bul-Kathos' Children
+//
+//Bul-Kathos' Sacred Charge
+ItemDisplay[SET !ID 7gd]: %RED%¤ %GREEN%%NAME% %DGREEN%발카서스 %RED%¤
+//Bul-Kathos' Tribal Guardian
+ItemDisplay[SET !ID 7wd]: %RED%¤ %GREEN%%NAME% %DGREEN%발카서스 %RED%¤
+
+//Cow King's Leathers
+//
+//Cow King's Horns
+ItemDisplay[SET !ID xap]: %RED%¤ %GREEN%%NAME% %DGREEN%카우 킹 %RED%¤
+//Cow King's Hide
+ItemDisplay[SET !ID stu]: %RED%¤ %GREEN%%NAME% %DGREEN%카우 킹 %RED%¤
+//Cow King's Hooves
+ItemDisplay[SET !ID vbt]: %GREEN%%NAME% %DGREEN%샌더 or 카우 킹
+
+//The Disciple
+//
+//Laying of Hands
+ItemDisplay[SET !ID ulg]: %PURPLE%O %GREEN%%NAME% %DGREEN%디싸이플%PURPLE%O
+//Dark Adherent
+ItemDisplay[SET !ID uui]: %GREEN%%NAME% %DGREEN%디싸이플
+//Rite of Passage
+ItemDisplay[SET !ID xlb]: %GREEN%%NAME% %DGREEN%디싸이플
+//Credendum
+ItemDisplay[SET !ID umc]: %GREEN%%NAME% %DGREEN%디싸이플
+
+//Griswold's Legacy
+//
+//Griswold's Heart
+ItemDisplay[SET !ID xar]: %GREEN%%NAME% %DGREEN%그리스월드
+//Griswold's Valor
+ItemDisplay[SET !ID urn]: %GREEN%%NAME% %DGREEN%그리스월드
+//Griswold's Redemption
+ItemDisplay[SET !ID 7ws]: %GREEN%%NAME% %DGREEN%그리스월드
+//Griswold's Honor
+ItemDisplay[SET !ID paf]: %GREEN%%NAME% %DGREEN%그리스월드
+
+//Heaven's Brethren
+//
+//Haemosu's Adamant
+ItemDisplay[SET !ID xrs]: %GREEN%%NAME% %DGREEN%천인의 형제
+//Dangoon's Teaching
+ItemDisplay[SET !ID 7ma]: %RED%¤ %GREEN%%NAME% %DGREEN%단군의 가르침%RED%¤
+//Taebaek's Glory
+ItemDisplay[SET !ID uts]: %GREEN%%NAME% %DGREEN%천인의 형제
+//Ondal's Almighty (50% reduced skill cooldown for 4 seconds on striking)
+ItemDisplay[SET !ID uhm]: %RED%¤ %GREEN%%NAME% %DGREEN%온달의 전능함 %RED%¤
+
+//Hwanin's Majesty
+//
+//Hwanin's Splendor
+ItemDisplay[SET !ID xrn]: %GREEN%%NAME% %DGREEN%환인
+//Hwanin's Justice
+ItemDisplay[SET !ID 9vo !ETH]: %GREEN%%NAME% %DGREEN%환인
+//Hwanin's Justice Eth
+ItemDisplay[SET !ID 9vo ETH]: %RED%¤ %GREEN%ETH %NAME% %DGREEN%환인 %RED%¤
+//Hwanin's Refuge
+ItemDisplay[SET !ID xcl]: %GREEN%%NAME% %DGREEN%환인
+//Hwanin's Blessing
+ItemDisplay[SET !ID mbl]: %GREEN%%NAME% %DGREEN%사루스 or 환인
+
+//Immortal King
+//
+//Immortal King's Will
+ItemDisplay[SET !ID ba5]: %RED%¤ %GREEN%%NAME% %DGREEN%임모틀 킹 %RED%¤
+//Immortal King's Stone Crusher
+ItemDisplay[SET !ID 7m7]: %GREEN%%NAME% %DGREEN%임모틀 킹
+//Immortal King's Soul Cage
+ItemDisplay[SET !ID uar]: %PURPLE%O %GREEN%%NAME% %DGREEN%임모틀 킹%PURPLE%O
+//Immortal King's Detail
+ItemDisplay[SET !ID zhb]: %GREEN%%NAME% %DGREEN%임모틀 킹
+//Immortal King's Forge
+ItemDisplay[SET !ID xhg]: %GREEN%%NAME% %DGREEN%임모틀 킹
+//Immortal King's Pillar
+ItemDisplay[SET !ID xhb]: %RED%¤ %GREEN%%NAME% %DGREEN%임모틀 킹 %RED%¤
+
+//M'avina's Battle Hymn
+//
+//M'avina's True Sight
+ItemDisplay[SET !ID ci3]: %GREEN%%NAME% %DGREEN%마비나
+//M'avina's Caster
+ItemDisplay[SET !ID amc]: %GREEN%%NAME% %DGREEN%마비나
+//M'avina's Embrace (+40% to freeze arrow AoE)
+ItemDisplay[SET !ID uld]: %RED%¤ %GREEN%%NAME% %DGREEN%마비나 %RED%¤
+//M'avina's Icy Clutch
+ItemDisplay[SET !ID xtg]: %GREEN%%NAME% %DGREEN%마비나
+//M'avina's Tenet
+ItemDisplay[SET !ID zvb]: %GREEN%%NAME% %DGREEN%마비나
+
+//Natalya's Odium
+//
+//Natalya's Totem
+ItemDisplay[SET !ID xh9]: %GREEN%%NAME% %DGREEN%나탈랴
+//Natalya's Mark
+ItemDisplay[SET !ID 7qr]: %RED%O %GREEN%%NAME% %DGREEN%나탈랴 %RED%O
+//Natalya's Shadow
+ItemDisplay[SET !ID ucl]: %RED%¤ %GREEN%%NAME% %DGREEN%나탈랴 %RED%¤
+//Natalya's Soul
+ItemDisplay[SET !ID xmb]: %RED%¤ %GREEN%%NAME% %DGREEN%나탈랴 %RED%¤
+
+//Naj's Ancient Vestige
+//
+//Naj's Circlet
+ItemDisplay[SET !ID ci0]: %GREEN%%NAME% %DGREEN%나즈
+//Naj's Light Plate
+ItemDisplay[SET !ID ult]: %RED%O %GREEN%%NAME% %DGREEN%나즈 %RED%O
+//Naj's Puzzler
+ItemDisplay[SET !ID 6cs]: %RED%¤ %GREEN%%NAME% %DGREEN%나즈 %RED%¤
+
+//Orphan's Call
+//
+//Guillaume's Face
+ItemDisplay[SET !ID xhm]: %RED%O %GREEN%%NAME% %DGREEN%오펀 (길리엄의 페이스) %RED%O
+//Whitstan's Guard
+ItemDisplay[SET !ID xml]: %RED%¤ %GREEN%%NAME% %DGREEN%오펀 %RED%¤
+//Magnus' Skin
+ItemDisplay[SET !ID xvg]: %GREEN%%NAME% %DGREEN%오펀
+//Wilhelm's Pride
+ItemDisplay[SET !ID ztb]: %GREEN%%NAME% %DGREEN%오펀
+
+//Sander's Folly
+//
+//Sander's Paragon
+ItemDisplay[SET !ID cap]: %GREEN%%NAME% %DGREEN%인퍼널 크래니엄 or 샌더의 파라곤
+//Sander's Superstition
+ItemDisplay[SET !ID bwn]: %GREEN%%NAME% %DGREEN%샌더
+//Sander's Taboo
+ItemDisplay[SET !ID vgl]: %GREEN%%NAME% %DGREEN%샌더
+//Sander's Riprap
+ItemDisplay[SET !ID vbt]: %GREEN%%NAME% %DGREEN%샌더 or 카우 킹
+
+//Sazabi's Grand Tribute
+//
+//Sazabi's Mental Sheath
+ItemDisplay[SET !ID xhl]: %GREEN%%NAME% %DGREEN%사자바이
+//Sazabi's Cobalt Redeemer
+ItemDisplay[SET !ID 7ls !ETH]: %RED%¤ %GREEN%%NAME% %DGREEN%사자바이 %RED%¤
+//Sazabi's Cobalt Redeemer ETH
+ItemDisplay[SET !ID 7ls ETH]: %RED%O %GREEN%ETH %NAME% %DGREEN%사자바이 %RED%O
+//Sazabi's Ghost Liberator
+ItemDisplay[SET !ID upl]: %RED%¤ %GREEN%%NAME% %DGREEN%사자바이 %RED%¤
+
+//Tal Rasha's Wrappings
+//
+//Tal Rasha's Lidless Eye
+ItemDisplay[SET !ID oba]: %RED%O %GREEN%%NAME% %DGREEN%탈 라샤 %RED%O
+//Tal Rasha's Horadric Crest
+ItemDisplay[SET !ID xsk]: %RED%O %GREEN%%NAME% %DGREEN%탈 라샤 %RED%O
+//Tal Rasha's Guardianship
+ItemDisplay[SET !ID uth]: %PURPLE%O %GREEN%%NAME% %DGREEN%탈 라샤 %PURPLE%O
+//Tal Rasha's Fine-Spun Cloth
+ItemDisplay[SET !ID zmb]: %RED%O %GREEN%%NAME% %DGREEN%탈 라샤 %RED%O
+
+//Trang-Oul's Avatar
+//
+//Trang-Oul's Guise
+ItemDisplay[SET !ID uh9]: %RED%¤ %GREEN%%NAME% %DGREEN%트랑-울 %RED%¤
+//Trang-Oul's Scales
+ItemDisplay[SET !ID xul]: %RED%¤ %GREEN%%NAME% %DGREEN%트랑-울 %RED%¤
+//Trang-Oul's Wing
+ItemDisplay[SET !ID ne9]: %RED%O %GREEN%%NAME% %DGREEN%트랑-울 %RED%O
+//Trang-Oul's Girth
+ItemDisplay[SET !ID utc]: %RED%O %GREEN%%NAME% %DGREEN%트랑-울 %RED%O
+//Trang-Oul's Claws
+ItemDisplay[SET !ID xmg]: %RED%O %GREEN%%NAME% %DGREEN%트랑-울 %RED%O
+
+ItemDisplay[SET !ID amu]: %RED%O %GREEN%%NAME% %RED%O
 
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%]
