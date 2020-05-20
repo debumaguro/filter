@@ -1,4 +1,4 @@
-//Anirml's Loot filter //Updated for Patch 18 Flint. Last updated 29-01-2020 OBS still missing new relic code!
+홀프//Anirml's Loot filter //Updated for Patch 18 Flint. Last updated 29-01-2020 OBS still missing new relic code!
 //OBS autoupdate will remove any changes made to filter!
 //Find item codes at: https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
 
@@ -2569,9 +2569,9 @@ ItemDisplay[EQ4 MAG !ETH TABSK2>2 IAS=20]: %NAME% %PURPLE%+3 자벨 20공속
 ItemDisplay[EQ4 MAG !ETH TABSK2>2 IAS=10]: %NAME% %RED%+3 자벨 10공속
 ItemDisplay[EQ4 MAG !ETH TABSK2>2]: %NAME% %ORANGE%+3 자벨
 //+3 Martial skills Magical Gloves
-ItemDisplay[EQ4 MAG !ETH TABSK50>2 IAS=20]: %NAME% %PURPLE%+3 Martial Skills 20공속
-ItemDisplay[EQ4 MAG !ETH TABSK50>2 IAS=10]: %NAME% %RED%+3 Martial Skills 10공속
-ItemDisplay[EQ4 MAG !ETH TABSK50>2]: %NAME% %WHITE%+3 Martial Skills
+ItemDisplay[EQ4 MAG !ETH TABSK50>2 IAS=20]: %NAME% %PURPLE%+3 마샬 20공속
+ItemDisplay[EQ4 MAG !ETH TABSK50>2 IAS=10]: %NAME% %RED%+3 마샬 10공속
+ItemDisplay[EQ4 MAG !ETH TABSK50>2]: %NAME% %WHITE%+3 마샬
 
 ////Shields////
 //
@@ -2591,7 +2591,7 @@ ItemDisplay[uit !ETH SOCK=0 NMAG]: %NAME% %WHITE%[%SOCKETS%]
 ItemDisplay[uit ETH SOCK=0 NMAG]: ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[uit ETH SOCK=4 NMAG]: ETH %NAME% %YELLOW%[%SOCKETS%]
 //Magic Shields +3 Off skills
-ItemDisplay[EQ3 !ETH ID MAG TABSK25>2]: %NAME% %ORANGE%+3 Offensive Skills %YELLOW%[%SOCKETS%]
+ItemDisplay[EQ3 !ETH ID MAG TABSK25>2]: %NAME% %ORANGE%+3 공격오라 Skills %YELLOW%[%SOCKETS%]
 //Troll Nest
 ItemDisplay[ush ETH !RW NMAG ED=10 (SOCK=3 OR SOCK=0)]: %DGREEN%ETH %NAME%%BLUE% +10%방상 %RED%[%SOCKETS%]
 ItemDisplay[ush ETH !RW NMAG ED=11 (SOCK=3 OR SOCK=0)]: %DGREEN%ETH %NAME%%BLUE% +11%방상 %RED%[%SOCKETS%]
@@ -2684,14 +2684,14 @@ ItemDisplay[crs !ETH NMAG SOCK=5]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[crs !ETH NMAG SOCK>2]: %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[crs ETH NMAG (SOCK=4 OR SOCK=5)]: %DGREEN%ETH %NAME% %GRAY%[%SOCKETS%]
 //Larzuk Gaurantee = SPIRIT
-ItemDisplay[crs !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME%%WHITE% (4솟 라주크) %WHITE%[L%ILVL%]
+ItemDisplay[crs !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME%%WHITE% (라죽4솟) %WHITE%[L%ILVL%]
 ItemDisplay[crs !ETH !RW NMAG ED=15 (SOCK=0 OR SOCK=2)]: %NAME%%BLUE% +15%증뎀 %GRAY%[%SOCKETS%]
 
 //Broad Sword - spirit (bad range adder 0)
 ItemDisplay[bsd CLVL<55 !ETH NMAG SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[bsd CLVL>54 !ETH NMAG SOCK=4]:
 //Larzuk Gaurantee = SPIRIT
-ItemDisplay[bsd !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME%%WHITE% (4솟 라주크) %WHITE%[L%ILVL%]
+ItemDisplay[bsd !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME%%WHITE% (라죽4솟) %WHITE%[L%ILVL%]
 ItemDisplay[bsd !ETH !RW NMAG ED=15 !SOCK=1 ILVL<55]: %GRAY%%NAME%%BLUE% +15%증뎀 %GRAY%[%SOCKETS%]
 
 //Long Sword - spirit
@@ -2699,7 +2699,7 @@ ItemDisplay[lsd ETH NMAG SOCK=3]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[lsd CLVL<55 !ETH NMAG SOCK=4]: %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[lsd CLVL>54 !ETH NMAG SOCK=4]:
 //Larzuk Gaurantee = SPIRIT
-//ItemDisplay[lsd NMAG !ETH !RW SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME%%WHITE% (4솟 라주크) %WHITE%[L%ILVL%]
+//ItemDisplay[lsd NMAG !ETH !RW SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME%%WHITE% (라죽4솟) %WHITE%[L%ILVL%]
 ItemDisplay[lsd !ETH !RW NMAG ED=15 !SOCK=1 ILVL<55]: %GRAY%%NAME%%BLUE% +15%증뎀 %GRAY%[%SOCKETS%]
 
 //War Sword
@@ -3655,18 +3655,18 @@ ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%ETH %NAME% %PURPLE%[%S
 //
 //Staves
 //
-ItemDisplay[WP11 !RW NMAG SOCK=4 SK58>2]: %DGREEN%%NAME% %ORANGE%+3 ES %PURPLE%[%SOCKETS%]
-ItemDisplay[WP11 !RW NMAG SOCK=5 SK58>2]: %DGREEN%%NAME% %ORANGE%+3 ES (CTA?) %YELLOW%[%SOCKETS%]
-ItemDisplay[WP11 !RW NMAG (cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) SOCK=0 SK58>2]: %DGREEN%%NAME% %ORANGE%+3 ES %PURPLE%[%SOCKETS%]
-ItemDisplay[WP11 !RW NMAG !SUP (wst OR 8ws OR 6ws) SOCK=0 SK58>2]: %NAME% %ORANGE%+3 ES (Cube for 4sox maybe) %RED%[%SOCKETS%]
+ItemDisplay[WP11 !RW NMAG SOCK=4 SK58>2]: %DGREEN%%NAME% %ORANGE%+3 에쉴 %PURPLE%[%SOCKETS%]
+ItemDisplay[WP11 !RW NMAG SOCK=5 SK58>2]: %DGREEN%%NAME% %ORANGE%+3 에쉴 (콜투?) %YELLOW%[%SOCKETS%]
+ItemDisplay[WP11 !RW NMAG (cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) SOCK=0 SK58>2]: %DGREEN%%NAME% %ORANGE%+3 에쉴 %PURPLE%[%SOCKETS%]
+ItemDisplay[WP11 !RW NMAG !SUP (wst OR 8ws OR 6ws) SOCK=0 SK58>2]: %NAME% %ORANGE%+3 에쉴 (큐빙4솟) %RED%[%SOCKETS%]
 //4os +3 Lightning Surge Staff = Memory
-ItemDisplay[WP11 NMAG SOCK=4 SK49>2]: %DGREEN%%NAME% %ORANGE%+3 Lightning Surge %WHITE%[%SOCKETS%]
+ItemDisplay[WP11 NMAG SOCK=4 SK49>2]: %DGREEN%%NAME% %ORANGE%+3 라이트닝서지 %WHITE%[%SOCKETS%]
 //2os +3 인플레임 Staff = Leaf
 ItemDisplay[WP11 NMAG SOCK=2 SK52>2]: %DGREEN%%NAME% %ORANGE%+3 인플레임 %WHITE%[%SOCKETS%]
 //2os +3 Fireball Staff = Leaf
-ItemDisplay[WP11 NMAG SOCK=2 SK47>2]: %NAME% %ORANGE%+3 Fireball %WHITE%[%SOCKETS%]
+ItemDisplay[WP11 NMAG SOCK=2 SK47>2]: %NAME% %ORANGE%+3 파볼 %WHITE%[%SOCKETS%]
 //2os +3 Immolate Staff = Leaf
-ItemDisplay[WP11 NMAG SOCK=2 SK46>2 ILVL<30]: %DGREEN%%NAME% %ORANGE%+3 Immolate %WHITE%[%SOCKETS%]
+ItemDisplay[WP11 NMAG SOCK=2 SK46>2 ILVL<30]: %DGREEN%%NAME% %ORANGE%+3 이몰레이트 %WHITE%[%SOCKETS%]
 //ETH Elite Staffs 0, 4 and 6 sox
 ItemDisplay[6ws NMAG ETH SOCK=6]: %DGREEN%ETH %NAME% %WHITE%[%SOCKETS%]
 ItemDisplay[(6cs OR 6bs OR 6ws) NMAG ETH ED=15 SOCK=4]: %DGREEN%ETH %NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
@@ -3674,61 +3674,61 @@ ItemDisplay[(6cs OR 6bs OR 6ws) NMAG ETH SOCK=4]: %DGREEN%ETH %NAME% %WHITE%[%SO
 ItemDisplay[(6cs OR 6bs) NMAG ETH ED=15 SOCK=0]: %DGREEN%ETH %NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 ItemDisplay[(6cs OR 6bs OR 6ws) NMAG ETH SOCK=0]: %GRAY%ETH %NAME% %WHITE%[%SOCKETS%]
 //lvling staffs
-ItemDisplay[WP11 NMAG SK38>2 ILVL<30]: %GRAY%%NAME% %ORANGE%+3 Charged Bolt %WHITE%[%SOCKETS%]
-ItemDisplay[WP11 NMAG SK38=2 ILVL<30]: %GRAY%%NAME% %ORANGE%+2 Charged Bolt %WHITE%[%SOCKETS%]
-ItemDisplay[WP11 NMAG SK44>2 ILVL<30]: %GRAY%%NAME% %ORANGE%+3 Frost Nova %WHITE%[%SOCKETS%]
-ItemDisplay[WP11 NMAG SK44=2 ILVL<30]: %GRAY%%NAME% %ORANGE%+2 Frost Nova %WHITE%[%SOCKETS%]
-ItemDisplay[WP11 NMAG SK47>2 !SOCK=3 ILVL<30]: %GRAY%%NAME% %ORANGE%+3 Fire Ball %WHITE%[%SOCKETS%]
-ItemDisplay[WP11 NMAG SK47=2 !SOCK=3 ILVL<30]: %GRAY%%NAME% %ORANGE%+2 Fire Ball %WHITE%[%SOCKETS%]
+ItemDisplay[WP11 NMAG SK38>2 ILVL<30]: %GRAY%%NAME% %ORANGE%+3 차지드볼트 %WHITE%[%SOCKETS%]
+ItemDisplay[WP11 NMAG SK38=2 ILVL<30]: %GRAY%%NAME% %ORANGE%+2 차지드볼트 %WHITE%[%SOCKETS%]
+ItemDisplay[WP11 NMAG SK44>2 ILVL<30]: %GRAY%%NAME% %ORANGE%+3 프노바 %WHITE%[%SOCKETS%]
+ItemDisplay[WP11 NMAG SK44=2 ILVL<30]: %GRAY%%NAME% %ORANGE%+2 프노바 %WHITE%[%SOCKETS%]
+ItemDisplay[WP11 NMAG SK47>2 !SOCK=3 ILVL<30]: %GRAY%%NAME% %ORANGE%+3 파볼 %WHITE%[%SOCKETS%]
+ItemDisplay[WP11 NMAG SK47=2 !SOCK=3 ILVL<30]: %GRAY%%NAME% %ORANGE%+2 파볼 %WHITE%[%SOCKETS%]
 
 ////Scepters////
 //
 //Magic Scepters
-ItemDisplay[WP13 !ETH (TABSK25>2 AND SK102>2)]: %NAME% %ORANGE%+3 Offensive +3 Holy Fire %PURPLE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK25=2 AND SK102>2)]: %NAME% %ORANGE%+2 Offensive +3 Holy Fire %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK25>2 AND SK102=2)]: %NAME% %ORANGE%+3 Offensive +2 Holy Fire %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (CLSK3>1 AND SK102>2)]: %NAME% %ORANGE%+2 Paladin Skills +3 Holy Fire %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK25>2 AND SK114>2)]: %NAME% %ORANGE%+3 Offensive +3 Holy Freeze %PURPLE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK25=2 AND SK114>2)]: %NAME% %ORANGE%+2 Offensive +3 Holy Freeze %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK25>2 AND SK114=2)]: %NAME% %ORANGE%+3 Offensive +2 Holy Freeze %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (CLSK3>1 AND SK114>2)]: %NAME% %ORANGE%+2 Paladin Skills +3 Holy Freeze %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK25>2 AND SK118>2)]: %NAME% %ORANGE%+3 Offensive +3 Holy Shock %PURPLE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK25=2 AND SK118>2)]: %NAME% %ORANGE%+2 Offensive +3 Holy Shock %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK25>2 AND SK118=2)]: %NAME% %ORANGE%+3 Offensive +2 Holy Shock %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (CLSK3>1 AND SK118>2)]: %NAME% %ORANGE%+2 Paladin Skills +3 Holy Shock %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK25>2 AND SK119>2)]: %NAME% %ORANGE%+3 Offensive +3 Sanctuary %PURPLE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK25=2 AND SK119>2)]: %NAME% %ORANGE%+2 Offensive +3 Sanctuary %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK25>2 AND SK119=2)]: %NAME% %ORANGE%+3 Offensive +2 Sanctuary %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (CLSK3>1 AND SK119>2)]: %NAME% %ORANGE%+2 Paladin Skills +3 Sanctuary %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK24>2 AND SK121>2)]: %NAME% %ORANGE%+3 Combat +3 FoH %PURPLE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK24=2 AND SK121>2)]: %NAME% %ORANGE%+2 Combat +3 FoH %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK24>2 AND SK121=2)]: %NAME% %ORANGE%+3 Combat +2 FoH %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (CLSK3>1 AND SK121>2)]: %NAME% %ORANGE%+2 Paladin Skills +3 FoH %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK24>2 AND SK101>2)]: %NAME% %ORANGE%+3 Combat +3 Holy Bolt %PURPLE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (CLSK3>1 AND SK112>2)]: %NAME% %ORANGE%+2 Paladin Skills +3 Blessed Hammer %RED%[%SOCKETS%]
-ItemDisplay[WP13 !ETH (TABSK24>2 AND SK112>2)]: %NAME% %ORANGE%+3 Combat +3 Blessed Hammer %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK25>2 AND SK102>2)]: %NAME% %ORANGE%+3 공격오라 +3 홀파 %PURPLE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK25=2 AND SK102>2)]: %NAME% %ORANGE%+2 공격오라 +3 홀파 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK25>2 AND SK102=2)]: %NAME% %ORANGE%+3 공격오라 +2 홀파 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (CLSK3>1 AND SK102>2)]: %NAME% %ORANGE%+2 팔라 +3 홀파 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK25>2 AND SK114>2)]: %NAME% %ORANGE%+3 공격오라 +3 홀프 %PURPLE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK25=2 AND SK114>2)]: %NAME% %ORANGE%+2 공격오라 +3 홀프 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK25>2 AND SK114=2)]: %NAME% %ORANGE%+3 공격오라 +2 홀프 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (CLSK3>1 AND SK114>2)]: %NAME% %ORANGE%+2 팔라 +3 홀프 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK25>2 AND SK118>2)]: %NAME% %ORANGE%+3 공격오라 +3 홀쇽 %PURPLE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK25=2 AND SK118>2)]: %NAME% %ORANGE%+2 공격오라 +3 홀쇽 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK25>2 AND SK118=2)]: %NAME% %ORANGE%+3 공격오라 +2 홀쇽 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (CLSK3>1 AND SK118>2)]: %NAME% %ORANGE%+2 팔라 +3 홀쇽 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK25>2 AND SK119>2)]: %NAME% %ORANGE%+3 공격오라 +3 생츄 %PURPLE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK25=2 AND SK119>2)]: %NAME% %ORANGE%+2 공격오라 +3 생츄 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK25>2 AND SK119=2)]: %NAME% %ORANGE%+3 공격오라 +2 생츄 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (CLSK3>1 AND SK119>2)]: %NAME% %ORANGE%+2 팔라 +3 생츄 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK24>2 AND SK121>2)]: %NAME% %ORANGE%+3 전투 +3 피스트 %PURPLE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK24=2 AND SK121>2)]: %NAME% %ORANGE%+2 전투 +3 피스트 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK24>2 AND SK121=2)]: %NAME% %ORANGE%+3 전투 +2 피스트 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (CLSK3>1 AND SK121>2)]: %NAME% %ORANGE%+2 팔라 +3 피스트 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK24>2 AND SK101>2)]: %NAME% %ORANGE%+3 전투 +3 홀리볼트 %PURPLE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (CLSK3>1 AND SK112>2)]: %NAME% %ORANGE%+2 팔라 +3 해머 %RED%[%SOCKETS%]
+ItemDisplay[WP13 !ETH (TABSK24>2 AND SK112>2)]: %NAME% %ORANGE%+3 전투 +3 해머 %RED%[%SOCKETS%]
 //
 //Non Magic Scepters
-//+3 holy fire/shock/freeze/sanct
-ItemDisplay[(gsc OR 9qs OR 7qs) !ETH NMAG SK118>2 SOCK=0]: %NAME% %ORANGE%+3 Holy Shock LARZUK 3SOX%WHITE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH NMAG SK118>2 SOCK=3]: %NAME% %ORANGE%+3 Holy Shock PLAGUE BASE%WHITE%[%SOCKETS%]
-ItemDisplay[(wsp OR 7ws OR 7qs) !ETH NMAG SK118>2]: %NAME% %ORANGE%+3 Holy Shock %WHITE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH NMAG SK118>2 ILVL<60]: %NAME% %ORANGE%+3 Holy Shock %WHITE%[%SOCKETS%]
-ItemDisplay[(gsc OR 9qs OR 7qs) !ETH NMAG SK119>2 SOCK=0]: %NAME% %ORANGE%+3 Sanct LARZUK 3SOX%WHITE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH NMAG SK119>2 SOCK=3]: %NAME% %ORANGE%+3 Sanct PLAGUE BASE%WHITE%[%SOCKETS%]
-ItemDisplay[(wsp OR 7ws OR 7qs) !ETH NMAG SK119>2]: %NAME% %ORANGE%+3 Sanctuary %WHITE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH NMAG SK119>2 ILVL<60]: %NAME% %ORANGE%+3 Sanctuary %WHITE%[%SOCKETS%]
-ItemDisplay[(gsc OR 9qs OR 7qs) !ETH NMAG SK114>2 SOCK=0]: %NAME% %ORANGE%+3 Holy Freeze LARZUK 3SOX%WHITE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH NMAG SK114>2 SOCK=3]: %NAME% %ORANGE%+3 Holy Freeze PLAGUE BASE%WHITE%[%SOCKETS%]
-ItemDisplay[(wsp OR 7ws OR 7qs) !ETH NMAG SK114>2]: %NAME% %ORANGE%+3 Holy Freeze %WHITE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH NMAG SK114>2 ILVL<60]: %NAME% %ORANGE%+3 Holy Freeze %WHITE%[%SOCKETS%]
-ItemDisplay[(gsc OR 9qs OR 7qs) !ETH NMAG SK102>2 SOCK=0]: %NAME% %ORANGE%+3 Holy Fire LARZUK 3SOX%WHITE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH NMAG SK102>2 SOCK=3]: %NAME% %ORANGE%+3 Holy Fire PLAGUE BASE%WHITE%[%SOCKETS%]
-ItemDisplay[(wsp OR 7ws OR 7qs) !ETH NMAG SK102>2]: %NAME% %ORANGE%+3 Holy Fire %WHITE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH NMAG SK102>2 ILVL<60]: %NAME% %ORANGE%+3 Holy Fire %WHITE%[%SOCKETS%]
-ItemDisplay[WP13 !ETH NMAG SK102=2 ILVL<45]: %NAME% %ORANGE%+2 Holy Fire %WHITE%[%SOCKETS%]
+//+3 홀파/shock/freeze/sanct
+ItemDisplay[(gsc OR 9qs OR 7qs) !ETH NMAG SK118>2 SOCK=0]: %NAME% %ORANGE%+3 홀쇽 라죽3솟%WHITE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH NMAG SK118>2 SOCK=3]: %NAME% %ORANGE%+3 홀쇽 PLAGUE BASE%WHITE%[%SOCKETS%]
+ItemDisplay[(wsp OR 7ws OR 7qs) !ETH NMAG SK118>2]: %NAME% %ORANGE%+3 홀쇽 %WHITE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH NMAG SK118>2 ILVL<60]: %NAME% %ORANGE%+3 홀쇽 %WHITE%[%SOCKETS%]
+ItemDisplay[(gsc OR 9qs OR 7qs) !ETH NMAG SK119>2 SOCK=0]: %NAME% %ORANGE%+3 생츄 라죽3솟%WHITE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH NMAG SK119>2 SOCK=3]: %NAME% %ORANGE%+3 생츄 플레이그베이스%WHITE%[%SOCKETS%]
+ItemDisplay[(wsp OR 7ws OR 7qs) !ETH NMAG SK119>2]: %NAME% %ORANGE%+3 생츄 %WHITE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH NMAG SK119>2 ILVL<60]: %NAME% %ORANGE%+3 생츄 %WHITE%[%SOCKETS%]
+ItemDisplay[(gsc OR 9qs OR 7qs) !ETH NMAG SK114>2 SOCK=0]: %NAME% %ORANGE%+3 홀프 라죽3솟%WHITE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH NMAG SK114>2 SOCK=3]: %NAME% %ORANGE%+3 홀프 PLAGUE BASE%WHITE%[%SOCKETS%]
+ItemDisplay[(wsp OR 7ws OR 7qs) !ETH NMAG SK114>2]: %NAME% %ORANGE%+3 홀프 %WHITE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH NMAG SK114>2 ILVL<60]: %NAME% %ORANGE%+3 홀프 %WHITE%[%SOCKETS%]
+ItemDisplay[(gsc OR 9qs OR 7qs) !ETH NMAG SK102>2 SOCK=0]: %NAME% %ORANGE%+3 홀파 라죽3솟%WHITE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH NMAG SK102>2 SOCK=3]: %NAME% %ORANGE%+3 홀파 플레이그베이스%WHITE%[%SOCKETS%]
+ItemDisplay[(wsp OR 7ws OR 7qs) !ETH NMAG SK102>2]: %NAME% %ORANGE%+3 홀파 %WHITE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH NMAG SK102>2 ILVL<60]: %NAME% %ORANGE%+3 홀파 %WHITE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH NMAG SK102=2 ILVL<45]: %NAME% %ORANGE%+2 홀파 %WHITE%[%SOCKETS%]
 +3 holy bolt
-ItemDisplay[WP13 !ETH NMAG SK101>2 ILVL<55]: %NAME% %ORANGE%+3 Holy Bolt %WHITE%[%SOCKETS%]
+ItemDisplay[WP13 !ETH NMAG SK101>2 ILVL<55]: %NAME% %ORANGE%+3 홀리볼트 %WHITE%[%SOCKETS%]
 //scepters no skills eth
 ItemDisplay[(7ws OR 7qs) ETH !RW NMAG ED>0 ED<12 !SOCK=1 !SOCK=2]: ETH %NAME%%BLUE% +증뎀 %YELLOW%[%SOCKETS%]
 ItemDisplay[(7ws OR 7qs) ETH !RW NMAG ED=12 !SOCK=1 !SOCK=2]: %DGREEN%ETH %NAME%%BLUE% +12%증뎀 %RED%[%SOCKETS%]
@@ -3742,8 +3742,8 @@ ItemDisplay[7ws !ETH !RW NMAG ED=14 !SOCK=1 !SOCK=2]: %DGREEN%%NAME%%BLUE% +14%�
 ItemDisplay[7ws !ETH !RW NMAG ED=15 !SOCK=1 !SOCK=2]: %DGREEN%%NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 ItemDisplay[7ws !ETH NMAG]: %NAME% %WHITE%[%SOCKETS%]
 //Holy Thunder Runeword Bases (60 teleport charges)
-ItemDisplay[wsp NMAG !ETH !RW SOCK=4]: %NAME% %ORANGE%Holy Thunder RW Base %WHITE%[%SOCKETS%]
-ItemDisplay[wsp NMAG !ETH !SUP !INF !RW SOCK=0]: %NAME% %ORANGE%Cube for 4os (Holy Thunder) %WHITE%[%SOCKETS%]
+ItemDisplay[wsp NMAG !ETH !RW SOCK=4]: %NAME% %ORANGE%홀리썬더 룬워드베이스 %WHITE%[%SOCKETS%]
+ItemDisplay[wsp NMAG !ETH !SUP !INF !RW SOCK=0]: %NAME% %ORANGE%4솟큐빙 (홀리썬더) %WHITE%[%SOCKETS%]
 
 ////Crossbows////
 //
@@ -3770,7 +3770,7 @@ ItemDisplay[(amb OR am6) NMAG ED=12 TABSK0>2 SOCK=3]: %DGREEN%%NAME%%BLUE% +12%�
 ItemDisplay[(amb OR am6) NMAG ED=13 TABSK0>2 SOCK=3]: %DGREEN%%NAME%%BLUE% +13%증뎀 %YELLOW%[%SOCKETS%]
 ItemDisplay[(amb OR am6) NMAG ED=14 TABSK0>2 SOCK=3]: %DGREEN%%NAME%%BLUE% +14%증뎀 %YELLOW%[%SOCKETS%]
 ItemDisplay[(amb OR am6) NMAG ED=15 TABSK0>2 SOCK=3]: %DGREEN%%NAME%%BLUE% +15%증뎀 %RED%[%SOCKETS%]
-ItemDisplay[(am1 OR amb OR am6) NMAG TABSK0>2 SOCK=3]: %DGREEN%%NAME%%ORANGE% Melody Base Ele Bowzon %WHITE%[%SOCKETS%]
+ItemDisplay[(am1 OR amb OR am6) NMAG TABSK0>2 SOCK=3]: %DGREEN%%NAME%%ORANGE% 원소마 멜로디베이스 %WHITE%[%SOCKETS%]
 +3보우 +ED Faith bow base Grand Matron or Matriarchal Bow 4sox
 ItemDisplay[(amb OR amc) NMAG ED>0 ED<10 TABSK0>2 SOCK=4]: %DGREEN%%NAME%%BLUE% +증뎀 %RED%[%SOCKETS%]
 ItemDisplay[(amb OR amc) NMAG ED=10 TABSK0>2 SOCK=4]: %DGREEN%%NAME%%BLUE% +10%증뎀 %RED%[%SOCKETS%]
@@ -4216,15 +4216,15 @@ ItemDisplay[CL1 (MAG OR RARE) (CLSK5>1 AND SK225>2)]: %NAME% %ORANGE%+2 드루 +
 ////Barbarian Primal Helms////
 //
 //Non Magic Primal Helm +3 to 워크라이
-ItemDisplay[CL2 !ETH NMAG (SK154>2 AND SK150>2)]: %DGREEN%%NAME% %ORANGE%+3 워크라이 and +3 Grim Ward %PURPLE%[%SOCKETS%]
-ItemDisplay[CL2 !ETH NMAG (SK154>2 AND SK150=2)]: %DGREEN%%NAME% %ORANGE%+3 워크라이 and +2 Grim Ward %RED%[%SOCKETS%]
+ItemDisplay[CL2 !ETH NMAG (SK154>2 AND SK150>2)]: %DGREEN%%NAME% %ORANGE%+3 워크라이 and +3 그림워드 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL2 !ETH NMAG (SK154>2 AND SK150=2)]: %DGREEN%%NAME% %ORANGE%+3 워크라이 and +2 그림워드 %RED%[%SOCKETS%]
 ItemDisplay[CL2 !ETH NMAG (SK154>2 AND SK149>2)]: %DGREEN%%NAME% %ORANGE%+3 워크라이 and +3 오더 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL2 !ETH NMAG SK154>2]: %DGREEN%%NAME% %ORANGE%+3 워크라이 %YELLOW%[%SOCKETS%]
 ItemDisplay[CL2 !ETH NMAG SK133>2]: %DGREEN%%NAME% %ORANGE%+3 에테쓰로우 %YELLOW%[%SOCKETS%]
 ItemDisplay[CL2 !ETH NMAG SK149>2]: %DGREEN%%NAME% %ORANGE%+3 오더 %YELLOW%[%SOCKETS%]
 //Remove the two // in the line under this text to see magic barb helms
 //ItemDisplay[CL2 !ETH MAG ILVL>59]: %NAME%
-ItemDisplay[CL2 !UNI !SET (CLSK4>1 AND SK150>2)]: %NAME% %ORANGE%+2 Barb +3 워크라이 %RED%[%SOCKETS%]
+ItemDisplay[CL2 !UNI !SET (CLSK4>1 AND SK150>2)]: %NAME% %ORANGE%+2 바바 +3 워크라이 %RED%[%SOCKETS%]
 ItemDisplay[CL2 !UNI !SET (TABSK34>2 AND SK150>2)]: %NAME% %ORANGE%+3 함성 +3 워크라이 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL2 !UNI !SET (TABSK34>2 AND SK150=2)]: %NAME% %ORANGE%+3 함성 +2 워크라이 %RED%[%SOCKETS%]
 ItemDisplay[CL2 !UNI !SET (TABSK34=2 AND SK150>2)]: %NAME% %ORANGE%+2 함성 +3 워크라이 %RED%[%SOCKETS%]
