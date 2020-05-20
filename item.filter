@@ -1,4 +1,4 @@
-홀프//Anirml's Loot filter //Updated for Patch 18 Flint. Last updated 29-01-2020 OBS still missing new relic code!
+//Anirml's Loot filter //Updated for Patch 18 Flint. Last updated 29-01-2020 OBS still missing new relic code!
 //OBS autoupdate will remove any changes made to filter!
 //Find item codes at: https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
 
@@ -2591,7 +2591,7 @@ ItemDisplay[uit !ETH SOCK=0 NMAG]: %NAME% %WHITE%[%SOCKETS%]
 ItemDisplay[uit ETH SOCK=0 NMAG]: ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[uit ETH SOCK=4 NMAG]: ETH %NAME% %YELLOW%[%SOCKETS%]
 //Magic Shields +3 Off skills
-ItemDisplay[EQ3 !ETH ID MAG TABSK25>2]: %NAME% %ORANGE%+3 공격오라 Skills %YELLOW%[%SOCKETS%]
+ItemDisplay[EQ3 !ETH ID MAG TABSK25>2]: %NAME% %ORANGE%+3 공격오라 %YELLOW%[%SOCKETS%]
 //Troll Nest
 ItemDisplay[ush ETH !RW NMAG ED=10 (SOCK=3 OR SOCK=0)]: %DGREEN%ETH %NAME%%BLUE% +10%방상 %RED%[%SOCKETS%]
 ItemDisplay[ush ETH !RW NMAG ED=11 (SOCK=3 OR SOCK=0)]: %DGREEN%ETH %NAME%%BLUE% +11%방상 %RED%[%SOCKETS%]
@@ -3659,13 +3659,13 @@ ItemDisplay[WP11 !RW NMAG SOCK=4 SK58>2]: %DGREEN%%NAME% %ORANGE%+3 에쉴 %PURP
 ItemDisplay[WP11 !RW NMAG SOCK=5 SK58>2]: %DGREEN%%NAME% %ORANGE%+3 에쉴 (콜투?) %YELLOW%[%SOCKETS%]
 ItemDisplay[WP11 !RW NMAG (cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) SOCK=0 SK58>2]: %DGREEN%%NAME% %ORANGE%+3 에쉴 %PURPLE%[%SOCKETS%]
 ItemDisplay[WP11 !RW NMAG !SUP (wst OR 8ws OR 6ws) SOCK=0 SK58>2]: %NAME% %ORANGE%+3 에쉴 (큐빙4솟) %RED%[%SOCKETS%]
-//4os +3 Lightning Surge Staff = Memory
+//4os +3 라이트닝서지 = Memory
 ItemDisplay[WP11 NMAG SOCK=4 SK49>2]: %DGREEN%%NAME% %ORANGE%+3 라이트닝서지 %WHITE%[%SOCKETS%]
 //2os +3 인플레임 Staff = Leaf
 ItemDisplay[WP11 NMAG SOCK=2 SK52>2]: %DGREEN%%NAME% %ORANGE%+3 인플레임 %WHITE%[%SOCKETS%]
-//2os +3 Fireball Staff = Leaf
+//2os +3 파볼 Staff = Leaf
 ItemDisplay[WP11 NMAG SOCK=2 SK47>2]: %NAME% %ORANGE%+3 파볼 %WHITE%[%SOCKETS%]
-//2os +3 Immolate Staff = Leaf
+//2os +3 이몰레이트 Staff = Leaf
 ItemDisplay[WP11 NMAG SOCK=2 SK46>2 ILVL<30]: %DGREEN%%NAME% %ORANGE%+3 이몰레이트 %WHITE%[%SOCKETS%]
 //ETH Elite Staffs 0, 4 and 6 sox
 ItemDisplay[6ws NMAG ETH SOCK=6]: %DGREEN%ETH %NAME% %WHITE%[%SOCKETS%]
