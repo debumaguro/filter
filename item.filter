@@ -3983,7 +3983,7 @@ ItemDisplay[CL6 NMAG SK47=2 ILVL<54]: %GRAY%%NAME% %ORANGE%+2 파볼 %WHITE%[%SO
 ////Wands////
 //
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG (SK67>2 AND SK84>2) !SOCK=1]: %DGREEN%%NAME% %ORANGE%+3 티쓰 +3 본스피어 %PURPLE%[%SOCKETS%]
-ItemDisplay[WP12 !wnd !ywn !9wn NMAG (SK92>2 AND SK83>2) !SOCK=1]: %DGREEN%%NAME% %ORANGE%+3 포노바 +3 데세크레이트 %PURPLE%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn NMAG (SK92>2 AND SK83>2) !SOCK=1]: %DGREEN%%NAME% %ORANGE%+3 포노바 +3 데서크레이트 %PURPLE%[%SOCKETS%]
 //
 //Non Magic Wands +3 to 티쓰
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG (SK67>2 AND SK79>2) !SOCK=1]: %DGREEN%%NAME% %ORANGE%+3 티쓰 +3 컨보케이션 %PURPLE%[%SOCKETS%]
