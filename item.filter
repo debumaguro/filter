@@ -2,7 +2,7 @@
 //OBS autoupdate will remove any changes made to filter!
 //Find item codes at: https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
 
-//Modified by Debu for Korean language compatibility. Last updated 20-05-2020
+//Modified by Debu for Korean language compatibility. Last updated 02-06-2020
 
 //Basics
 //Hide Gold Piles Smaller Than (<) X
@@ -427,9 +427,9 @@ ItemDisplay[UNI !ID ci2 ETH]: %RED%ETH 기라의 가디안
 ////Unique Armor
 //
 //Greyform
-ItemDisplay[UNI !ID qui !ETH]: %TAN%글레이폼
+ItemDisplay[UNI !ID qui !ETH]: %TAN%그레이폼
 //Greyform
-ItemDisplay[UNI !ID qui ETH]: %TAN%ETH 글레이폼
+ItemDisplay[UNI !ID qui ETH]: %TAN%ETH 그레이폼
 //Blinkbat's Form
 ItemDisplay[UNI !ID lea !ETH]: %TAN%블링크뱃스 폼
 //Blinkbat's Form
@@ -1361,9 +1361,9 @@ ItemDisplay[UNI !ID 6ws ETH]: %TAN%ETH 망 송의 레슨
 ////Unique Swords
 //
 //Rixot's Keen
-ItemDisplay[UNI !ID ssd !ETH]: %TAN%릭잣즈 킨
+ItemDisplay[UNI !ID ssd !ETH]: %TAN%릭소츠 킨
 //Rixot's Keen
-ItemDisplay[UNI !ID ssd ETH]: %TAN%ETH 릭잣즈 킨
+ItemDisplay[UNI !ID ssd ETH]: %TAN%ETH 릭소츠 킨
 //Blood Crescent
 ItemDisplay[UNI !ID scm !ETH]: %TAN%블러드 크레센트
 //Blood Crescent
@@ -1377,9 +1377,9 @@ ItemDisplay[UNI !ID flc !ETH]: %TAN%글림싸이드
 //Gleamscythe
 ItemDisplay[UNI !ID flc ETH]: %TAN%ETH 글림싸이드
 //Griswold's Edge
-ItemDisplay[UNI !ID bsd !ETH]: %TAN%그리스월즈엣지
+ItemDisplay[UNI !ID bsd !ETH]: %TAN%그리스월즈 엣지
 //Griswold's Edge
-ItemDisplay[UNI !ID bsd ETH]: %TAN%ETH 그리스월즈엣지
+ItemDisplay[UNI !ID bsd ETH]: %TAN%ETH 그리스월즈 엣지
 //Hellplague
 ItemDisplay[UNI !ID lsd !ETH]: %TAN%헬플레이그
 //Hellplague
@@ -1405,9 +1405,9 @@ ItemDisplay[UNI !ID bsw !ETH]: %TAN%블랙텅
 //Blacktongue
 ItemDisplay[UNI !ID bsw ETH]: %TAN%ETH 블랙텅
 //Ripsaw
-ItemDisplay[UNI !ID flb !ETH]: %TAN%립서어
+ItemDisplay[UNI !ID flb !ETH]: %TAN%립쏘우
 //Ripsaw
-ItemDisplay[UNI !ID flb ETH]: %TAN%ETH 립서어
+ItemDisplay[UNI !ID flb ETH]: %TAN%ETH 립쏘우
 //The Patriarch (dual these with 6 sox curr filled with lem runes for max gold find on barb)
 ItemDisplay[UNI !ID gsd !ETH]: %TAN%더 페이트리악
 //The Patriarch
@@ -1879,9 +1879,9 @@ ItemDisplay[SET !ID 9mt]: %GREEN%%NAME% %DGREEN%알더
 //Bul-Kathos' Children
 //
 //Bul-Kathos' Sacred Charge
-ItemDisplay[SET !ID 7gd]: %RED%¤ %GREEN%%NAME% %DGREEN%발카서스 %RED%¤
+ItemDisplay[SET !ID 7gd]: %RED%¤ %GREEN%%NAME% %DGREEN%불-카토스 %RED%¤
 //Bul-Kathos' Tribal Guardian
-ItemDisplay[SET !ID 7wd]: %RED%¤ %GREEN%%NAME% %DGREEN%발카서스 %RED%¤
+ItemDisplay[SET !ID 7wd]: %RED%¤ %GREEN%%NAME% %DGREEN%불-카토스 %RED%¤
 
 //Cow King's Leathers
 //
@@ -3919,58 +3919,58 @@ ItemDisplay[NMAG ELT ETH (7ar OR 7qr) !SOCK=1 !SOCK=2]: ETH %NAME%%BLUE% 블쉴�
 ItemDisplay[CL6 !ID MAG ILVL>59]: %NAME%
 //+프리저레이트
 ItemDisplay[CL6 NMAG (ob5 OR oba OR obf) !SOCK=1 !SOCK=2 (SK40>2 AND SK52>2)]: %NAME% %ORANGE%+3 인플레임 +3 프리저레이트 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL6 (TABSK10>2 AND SK40>2)]: %NAME% %ORANGE%+3 Cold +3 프리저레이트 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL6 (TABSK10>2 AND SK40=2)]: %NAME% %ORANGE%+3 Cold +2 프리저레이트 %RED%[%SOCKETS%]
-ItemDisplay[CL6 (TABSK10=2 AND SK40>2)]: %NAME% %ORANGE%+2 Cold +3 프리저레이트 %RED%[%SOCKETS%]
-ItemDisplay[CL6 (CLSK1>1 AND SK40>2)]: %NAME% %ORANGE%+2 Sorc +3 프리저레이트 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK10>2 AND SK40>2)]: %NAME% %ORANGE%+3 콜드 +3 프리저레이트 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK10>2 AND SK40=2)]: %NAME% %ORANGE%+3 콜드 +2 프리저레이트 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK10=2 AND SK40>2)]: %NAME% %ORANGE%+2 콜드 +3 프리저레이트 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (CLSK1>1 AND SK40>2)]: %NAME% %ORANGE%+2 소서 +3 프리저레이트 %RED%[%SOCKETS%]
 ItemDisplay[CL6 NMAG !SOCK=1 !SOCK=2 (ob5 OR oba OR obf) SK40>2]: %NAME% %ORANGE%+3 프리저레이트 %YELLOW%[%SOCKETS%]
 //+Shiver Armor
-ItemDisplay[CL6 (TABSK10>1 AND SK50>2)]: %NAME% %ORANGE%+Cold +3 쉬버아머 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK10>1 AND SK50>2)]: %NAME% %ORANGE%+콜드 +3 쉬버아머 %RED%[%SOCKETS%]
 ItemDisplay[CL6 NMAG !SOCK=1 !SOCK=2 (ob5 OR oba OR obf) SK50>2]: %NAME% %ORANGE%+3 쉬버아머 %WHITE%[%SOCKETS%]
 //+인플레임
-ItemDisplay[CL6 (TABSK8>2 AND SK52>2)]: %NAME% %ORANGE%+3 Fire +3 인플레임 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL6 (TABSK8>2 AND SK52=2)]: %NAME% %ORANGE%+3 Fire +2 인플레임 %RED%[%SOCKETS%]
-ItemDisplay[CL6 (TABSK8=2 AND SK52>2)]: %NAME% %ORANGE%+2 Fire +3 인플레임 %RED%[%SOCKETS%]
-ItemDisplay[CL6 (CLSK1>1 AND SK52>2)]: %NAME% %ORANGE%+2 Sorc +3 인플레임 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK8>2 AND SK52>2)]: %NAME% %ORANGE%+3 파이어 +3 인플레임 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK8>2 AND SK52=2)]: %NAME% %ORANGE%+3 파이어 +2 인플레임 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK8=2 AND SK52>2)]: %NAME% %ORANGE%+2 파이어 +3 인플레임 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (CLSK1>1 AND SK52>2)]: %NAME% %ORANGE%+2 소서 +3 인플레임 %RED%[%SOCKETS%]
 ItemDisplay[CL6 NMAG !SOCK=1 !SOCK=2 (ob5 OR oba OR obf) SK52>2]: %NAME% %ORANGE%+3 인플레임 %YELLOW%[%SOCKETS%]
 //+Discharge
-ItemDisplay[CL6 (TABSK9>1 AND SK57>2)]: %NAME% %ORANGE%+Light +3 디스차지 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK9>1 AND SK57>2)]: %NAME% %ORANGE%+라이트닝 +3 디스차지 %RED%[%SOCKETS%]
 ItemDisplay[CL6 NMAG !SOCK=1 !SOCK=2 (ob5 OR oba OR obf) SK57>2]: %NAME% %ORANGE%+3 디스차지 %YELLOW%[%SOCKETS%]
 //+Energy Shield
 ItemDisplay[CL6 (TABSK9>1 AND SK58>2)]: %NAME% %ORANGE%+5 or +6 에쉴 %RED%[%SOCKETS%]
 ItemDisplay[CL6 NMAG !SOCK=1 !SOCK=2 (ob5 OR oba OR obf) SK58>2]: %NAME% %ORANGE%+3 에쉴 %YELLOW%[%SOCKETS%]
 //+Hydra
-ItemDisplay[CL6 (TABSK8>2 AND SK62>2)]: %NAME% %ORANGE%+3 Fire +3 하이드라 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL6 (CLSK1>1 AND SK62>2)]: %NAME% %ORANGE%+2 Sorc +3 하이드라 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK8>2 AND SK62>2)]: %NAME% %ORANGE%+3 파이어 +3 하이드라 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL6 (CLSK1>1 AND SK62>2)]: %NAME% %ORANGE%+2 소서 +3 하이드라 %RED%[%SOCKETS%]
 ItemDisplay[CL6 NMAG !SOCK=1 !SOCK=2 (ob5 OR oba OR obf) SK62>2]: %NAME% %ORANGE%+3 하이드라 %YELLOW%[%SOCKETS%]
 //+Frost Nova
-ItemDisplay[CL6 (TABSK10>2 AND SK44>2)]: %NAME% %ORANGE%+3 Cold +3 프노바 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL6 (CLSK1>1 AND SK44>2)]: %NAME% %ORANGE%+2 Sorc +3 프노바 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK10>2 AND SK44>2)]: %NAME% %ORANGE%+3 콜드 +3 프노바 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL6 (CLSK1>1 AND SK44>2)]: %NAME% %ORANGE%+2 소서 +3 프노바 %RED%[%SOCKETS%]
 ItemDisplay[CL6 NMAG !SOCK=1 !SOCK=2 (ob5 OR oba OR obf) SK44>2]: %NAME% %ORANGE%+3 프노바 %YELLOW%[%SOCKETS%]
 //+Fire ball
-ItemDisplay[CL6 (TABSK8>2 AND SK47>2)]: %NAME% %ORANGE%+3 Fire +3 파볼 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL6 (CLSK1>1 AND SK47>2)]: %NAME% %ORANGE%+2 Sorc +3 파볼 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK8>2 AND SK47>2)]: %NAME% %ORANGE%+3 파이어 +3 파볼 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL6 (CLSK1>1 AND SK47>2)]: %NAME% %ORANGE%+2 소서 +3 파볼 %RED%[%SOCKETS%]
 ItemDisplay[CL6 NMAG !SOCK=1 !SOCK=2 (ob5 OR oba OR obf) SK47>2]: %NAME% %ORANGE%+3 파볼 %YELLOW%[%SOCKETS%]
 //+Chain Lightning
-ItemDisplay[CL6 (TABSK9>2 AND SK54>2)]: %NAME% %ORANGE%+3 Light +3 체라 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL6 (CLSK1>1 AND SK54>2)]: %NAME% %ORANGE%+2 Sorc +3 체라 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK9>2 AND SK54>2)]: %NAME% %ORANGE%+3 라이트닝 +3 체라 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL6 (CLSK1>1 AND SK54>2)]: %NAME% %ORANGE%+2 소서 +3 체라 %RED%[%SOCKETS%]
 ItemDisplay[CL6 NMAG !SOCK=1 !SOCK=2 (ob5 OR oba OR obf) SK54>2]: %NAME% %ORANGE%+3 체라 %YELLOW%[%SOCKETS%]
 //+Nova
-ItemDisplay[CL6 (TABSK9>2 AND SK48>2)]: %NAME% %ORANGE%+3 Light +3 노바 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL6 (CLSK1>1 AND SK48>2)]: %NAME% %ORANGE%+2 Sorc +3 노바 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK9>2 AND SK48>2)]: %NAME% %ORANGE%+3 라이트닝 +3 노바 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL6 (CLSK1>1 AND SK48>2)]: %NAME% %ORANGE%+2 소서 +3 노바 %RED%[%SOCKETS%]
 ItemDisplay[CL6 NMAG !SOCK=1 !SOCK=2 (ob5 OR oba OR obf) SK48>2]: %NAME% %ORANGE%+3 노바 %YELLOW%[%SOCKETS%]
 //thunderstorm there is no skill code for it seems!
 //+Blizzard
-ItemDisplay[CL6 (TABSK10>2 AND SK59>2)]: %NAME% %ORANGE%+3 Cold +3 블리자드 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL6 (CLSK1>1 AND SK59>2)]: %NAME% %ORANGE%+2 Sorc +3 블리자드 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK10>2 AND SK59>2)]: %NAME% %ORANGE%+3 콜드 +3 블리자드 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL6 (CLSK1>1 AND SK59>2)]: %NAME% %ORANGE%+2 소서 +3 블리자드 %RED%[%SOCKETS%]
 ItemDisplay[CL6 NMAG !SOCK=1 !SOCK=2 (ob5 OR oba OR obf) SK59>2]: %NAME% %ORANGE%+3 블리자드 %YELLOW%[%SOCKETS%]
 //+Frozen Orb
-ItemDisplay[CL6 (TABSK10>2 AND SK64>2)]: %NAME% %ORANGE%+3 Cold +3 프로즌오브 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL6 (CLSK1>1 AND SK64>2)]: %NAME% %ORANGE%+2 Sorc +3 프로즌오브 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK10>2 AND SK64>2)]: %NAME% %ORANGE%+3 콜드 +3 프로즌오브 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL6 (CLSK1>1 AND SK64>2)]: %NAME% %ORANGE%+2 소서 +3 프로즌오브 %RED%[%SOCKETS%]
 ItemDisplay[CL6 NMAG !SOCK=1 !SOCK=2 (ob5 OR oba OR obf) SK64>2]: %NAME% %ORANGE%+3 프로즌오브 %YELLOW%[%SOCKETS%]
 //+Immolate
-ItemDisplay[CL6 (TABSK8>2 AND SK46>2)]: %NAME% %ORANGE%+3 Fire +3 이몰레이트 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL6 (CLSK1>1 AND SK46>2)]: %NAME% %ORANGE%+2 Sorc +3 이몰레이트 %RED%[%SOCKETS%]
+ItemDisplay[CL6 (TABSK8>2 AND SK46>2)]: %NAME% %ORANGE%+3 파이어 +3 이몰레이트 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL6 (CLSK1>1 AND SK46>2)]: %NAME% %ORANGE%+2 소서 +3 이몰레이트 %RED%[%SOCKETS%]
 ItemDisplay[CL6 NMAG !SOCK=1 !SOCK=2 (ob5 OR oba OR obf) SK46>2]: %NAME% %ORANGE%+3 이몰레이트 %YELLOW%[%SOCKETS%]
 //lvling Orbs
 ItemDisplay[CL6 NMAG SK38>2 ILVL<54]: %GRAY%%NAME% %ORANGE%+3 차지드볼트 %WHITE%[%SOCKETS%]
@@ -4029,7 +4029,7 @@ ItemDisplay[WP12 NMAG SK83=2 ILVL<50]: %GRAY%%NAME% %ORANGE%+2 데서크레이�
 ItemDisplay[WP12 MAG (TABSK18>2 AND SK94>2)]: %NAME% %ORANGE%+3 소환 +3 파골 %PURPLE%[%SOCKETS%]
 ItemDisplay[WP12 MAG (TABSK18>2 AND SK94=2)]: %NAME% %ORANGE%+3 소환 +2 파골 %RED%[%SOCKETS%]
 ItemDisplay[WP12 !UNI (TABSK18=2 AND SK94>2)]: %NAME% %ORANGE%+2 소환 +3 파골 %RED%[%SOCKETS%]
-ItemDisplay[WP12 !UNI (CLSK2>1 AND SK94>2)]: %NAME% %ORANGE%+2 Nec +3 파골 %RED%[%SOCKETS%]
+ItemDisplay[WP12 !UNI (CLSK2>1 AND SK94>2)]: %NAME% %ORANGE%+2 넥 +3 파골 %RED%[%SOCKETS%]
 ItemDisplay[WP12 MAG (TABSK18>2 AND SK70>2)]: %NAME% %ORANGE%+3 소환 +3 스켈워리어 %PURPLE%[%SOCKETS%]
 ItemDisplay[WP12 MAG (TABSK18>2 AND SK80>2)]: %NAME% %ORANGE%+3 소환 +3 스켈메이지 %PURPLE%[%SOCKETS%]
 ItemDisplay[WP12 MAG (TABSK18>2 AND SK85>2)]: %NAME% %ORANGE%+3 소환 +3 블러드골렘 %PURPLE%[%SOCKETS%]
@@ -4100,31 +4100,31 @@ ItemDisplay[CL4 (CLSK2>1 AND SK84>2)]: %NAME% %ORANGE%+2 넥 +3 본스피어 %RE
 ItemDisplay[CL4 MAG (TABSK17>2 AND SK67>2)]: %NAME% %ORANGE%+3 포본 +3 티쓰 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK17>2 AND SK67=2)]: %NAME% %ORANGE%+3 포본 +2 티쓰 %RED%[%SOCKETS%]
 ItemDisplay[CL4 (MAG OR RARE) (TABSK17=2 AND SK67>2)]: %NAME% %ORANGE%+2 포본 +3 티쓰 %RED%[%SOCKETS%]
-ItemDisplay[CL4 (CLSK2>1 AND SK67>2)]: %NAME% %ORANGE%+2 Nec +3 티쓰 %RED%[%SOCKETS%]
+ItemDisplay[CL4 (CLSK2>1 AND SK67>2)]: %NAME% %ORANGE%+2 넥 +3 티쓰 %RED%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK17>2 AND SK92>2)]: %NAME% %ORANGE%+3 포본 +3 포노바 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK17>2 AND SK92=2)]: %NAME% %ORANGE%+3 포본 +2 포노바 %RED%[%SOCKETS%]
 ItemDisplay[CL4 (MAG OR RARE) (TABSK17=2 AND SK92>2)]: %NAME% %ORANGE%+2 포본 +3 포노바 %RED%[%SOCKETS%]
-ItemDisplay[CL4 (CLSK2>1 AND SK92>2)]: %NAME% %ORANGE%+2 Nec +3 포노바 %RED%[%SOCKETS%]
+ItemDisplay[CL4 (CLSK2>1 AND SK92>2)]: %NAME% %ORANGE%+2 넥 +3 포노바 %RED%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK17>2 AND SK83>2)]: %NAME% %ORANGE%+3 포본 +3 데서크레이트 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK17>2 AND SK83=2)]: %NAME% %ORANGE%+3 포본 +2 데서크레이트 %RED%[%SOCKETS%]
 ItemDisplay[CL4 (MAG OR RARE) (TABSK17=2 AND SK83>2)]: %NAME% %ORANGE%+2 포본 +3 데서크레이트 %RED%[%SOCKETS%]
-ItemDisplay[CL4 (CLSK2>1 AND SK83>2)]: %NAME% %ORANGE%+2 Nec +3 데서크레이트 %RED%[%SOCKETS%]
+ItemDisplay[CL4 (CLSK2>1 AND SK83>2)]: %NAME% %ORANGE%+2 넥 +3 데서크레이트 %RED%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK17>2 AND SK73>2)]: %NAME% %ORANGE%+3 포본 +3 데들리포이즌 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK17>2 AND SK73=2)]: %NAME% %ORANGE%+3 포본 +2 데들리포이즌 %RED%[%SOCKETS%]
 ItemDisplay[CL4 (MAG OR RARE) (TABSK17=2 AND SK73>2)]: %NAME% %ORANGE%+2 포본 +3 데들리포이즌 %RED%[%SOCKETS%]
-ItemDisplay[CL4 (CLSK2>1 AND SK73>2)]: %NAME% %ORANGE%+2 Nec +3 데들리포이즌 %RED%[%SOCKETS%]
+ItemDisplay[CL4 (CLSK2>1 AND SK73>2)]: %NAME% %ORANGE%+2 넥 +3 데들리포이즌 %RED%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK17>2 AND SK74>2)]: %NAME% %ORANGE%+3 포본 +3 시폭 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK17>2 AND SK74=2)]: %NAME% %ORANGE%+3 포본 +2 시폭 %RED%[%SOCKETS%]
 ItemDisplay[CL4 (MAG OR RARE) (TABSK17=2 AND SK74>2)]: %NAME% %ORANGE%+2 포본 +3 시폭 %RED%[%SOCKETS%]
-ItemDisplay[CL4 (CLSK2>1 AND SK74>2)]: %NAME% %ORANGE%+2 Nec +3 시폭 %RED%[%SOCKETS%]
+ItemDisplay[CL4 (CLSK2>1 AND SK74>2)]: %NAME% %ORANGE%+2 넥 +3 시폭 %RED%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK18>2 AND SK70>2)]: %NAME% %ORANGE%+3 소환 +3 스켈워리어 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK18>2 AND SK70=2)]: %NAME% %ORANGE%+3 소환 +2 스켈워리어 %RED%[%SOCKETS%]
 ItemDisplay[CL4 (MAG OR RARE) (TABSK18=2 AND SK70>2)]: %NAME% %ORANGE%+2 소환 +3 스켈워리어 %RED%[%SOCKETS%]
-ItemDisplay[CL4 (CLSK2>1 AND SK70>2)]: %NAME% %ORANGE%+2 Nec +3 스켈워리어 %RED%[%SOCKETS%]
+ItemDisplay[CL4 (CLSK2>1 AND SK70>2)]: %NAME% %ORANGE%+2 넥 +3 스켈워리어 %RED%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK18>2 AND SK80>2)]: %NAME% %ORANGE%+3 소환 +3 스켈메이지 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK18>2 AND SK80=2)]: %NAME% %ORANGE%+3 소환 +2 스켈메이지 %RED%[%SOCKETS%]
 ItemDisplay[CL4 (MAG OR RARE) (TABSK18=2 AND SK80>2)]: %NAME% %ORANGE%+2 소환 +3 스켈메이지 %RED%[%SOCKETS%]
-ItemDisplay[CL4 (CLSK2>1 AND SK80>2)]: %NAME% %ORANGE%+2 Nec +3 스켈메이지 %RED%[%SOCKETS%]
+ItemDisplay[CL4 (CLSK2>1 AND SK80>2)]: %NAME% %ORANGE%+2 넥 +3 스켈메이지 %RED%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK17>2 AND SK68>2)]: %NAME% %ORANGE%+3 포본 +3 본아머 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL4 MAG (TABSK18>2 AND SK85>2)]: %NAME% %ORANGE%+3 소환 +3 블러드골렘 %PURPLE%[%SOCKETS%]
 
