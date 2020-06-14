@@ -669,9 +669,9 @@ ItemDisplay[UNI !ID uts ETH]: %RED%ETH 스피리트 워드
 ////Unique Gloves
 //
 //The Hand of Broc
-ItemDisplay[UNI !ID lgl !ETH]: %TAN%더 헨드 오브 브록
+ItemDisplay[UNI !ID lgl !ETH]: %TAN%더 핸드 오브 브록
 //The Hand of Broc
-ItemDisplay[UNI !ID lgl ETH]: %TAN%ETH 더 헨드 오브 브록
+ItemDisplay[UNI !ID lgl ETH]: %TAN%ETH 더 핸드 오브 브록
 //Bloodfist
 ItemDisplay[UNI !ID vgl !ETH]: %RED%블러드피스트
 //Bloodfist
@@ -752,9 +752,9 @@ ItemDisplay[UNI !ID xvb !ETH]: %RED%㉧ 워터워크 %RED%㉧
 //Waterwalk
 ItemDisplay[UNI !ID xvb ETH]: %TAN%ETH 워터워크
 //Silkweave
-ItemDisplay[UNI !ID xmb !ETH]: %RED%㉧ 실크위버 %RED%㉧
+ItemDisplay[UNI !ID xmb !ETH]: %RED%㉧ 실크위브 %RED%㉧
 //Silkweave
-ItemDisplay[UNI !ID xmb ETH]: %TAN%ETH 실크위버
+ItemDisplay[UNI !ID xmb ETH]: %TAN%ETH 실크위브
 //War Traveler
 ItemDisplay[UNI !ID xtb !ETH]: %RED%㉧ %PURPLE%워 트래블러 %RED%㉧
 //War Traveler
@@ -772,9 +772,9 @@ ItemDisplay[UNI !ID umb !ETH]: %RED%메로우워커
 //Marrowwalk
 ItemDisplay[UNI !ID umb ETH]: %TAN%ETH 메로우워커
 //Shadow Dancer
-ItemDisplay[UNI !ID uhb !ETH]: %RED%㉧ 쉐도우 댄서 %RED%㉧
+ItemDisplay[UNI !ID uhb !ETH]: %RED%㉧ 섀도우 댄서 %RED%㉧
 //Shadow Dancer
-ItemDisplay[UNI !ID uhb ETH]: %TAN%ETH 쉐도우 댄서
+ItemDisplay[UNI !ID uhb ETH]: %TAN%ETH 섀도우 댄서
 
 ////Unique Belts
 //
@@ -795,9 +795,9 @@ ItemDisplay[UNI !ID tbl !ETH]: %RED%골드랩
 //Goldwrap
 ItemDisplay[UNI !ID tbl ETH]: %TAN%ETH 골드랩
 //Bladebuckle
-ItemDisplay[UNI !ID hbl !ETH]: %TAN%브레이드버클
+ItemDisplay[UNI !ID hbl !ETH]: %TAN%블레이드버클
 //Bladebuckle
-ItemDisplay[UNI !ID hbl ETH]: %TAN%ETH 브레이드버클
+ItemDisplay[UNI !ID hbl ETH]: %TAN%ETH 블레이드버클
 //String of Ears
 ItemDisplay[UNI !ID zlb !ETH]: %RED%㉧ 스트링 오브 이어스 %RED%㉧
 //String of Ears
@@ -1021,9 +1021,9 @@ ItemDisplay[UNI !ID dir !ETH]: %TAN%더 디글러
 //The Diggler
 ItemDisplay[UNI !ID dir ETH]: %TAN%ETH 더 디글러
 //The Jade Tan Do
-ItemDisplay[UNI !ID kri !ETH]: %TAN%아사달의 단도
+ItemDisplay[UNI !ID kri !ETH]: %TAN%비취 단도
 //The Jade Tan Do
-ItemDisplay[UNI !ID kri ETH]: %TAN%ETH 아사달의 단도
+ItemDisplay[UNI !ID kri ETH]: %TAN%ETH 비취 단도
 //Spectral Shard
 ItemDisplay[UNI !ID bld !ETH]: %TAN%스펙트럴 샤드
 //Spectral Shard
@@ -1074,9 +1074,9 @@ ItemDisplay[UNI !ID mst !ETH]: %TAN%블러드라이즈
 //Bloodrise
 ItemDisplay[UNI !ID mst ETH]: %TAN%ETH 블러드라이즈
 //The General's Tan Do Li Ga
-ItemDisplay[UNI !ID fla !ETH]: %TAN%치우천왕의 철퇴
+ItemDisplay[UNI !ID fla !ETH]: %TAN%장군의 도리깨
 //The General's Tan Do Li Ga
-ItemDisplay[UNI !ID fla ETH]: %TAN%ETH 치우천왕의 철퇴
+ItemDisplay[UNI !ID fla ETH]: %TAN%ETH 장군의 도리깨
 //Ironstone
 ItemDisplay[UNI !ID whm !ETH]: %TAN%아이언스톤
 //Ironstone
@@ -1255,9 +1255,9 @@ ItemDisplay[UNI !ID 7ws ETH]: %RED%ETH 아스트레온의 아이언 워드
 ////Unique Spears
 //
 //The Dragon Chang
-ItemDisplay[UNI !ID spr !ETH]: %TAN%운사의 용봉창
+ItemDisplay[UNI !ID spr !ETH]: %TAN%드래곤 창
 //The Dragon Chang
-ItemDisplay[UNI !ID spr ETH]: %TAN%ETH 운사의 용봉창
+ItemDisplay[UNI !ID spr ETH]: %TAN%ETH 드래곤 창
 //Razortine
 ItemDisplay[UNI !ID tri !ETH]: %TAN%레이저타인
 //Razortine
@@ -1326,9 +1326,9 @@ ItemDisplay[UNI !ID bst !ETH]: %TAN%더 샐러맨더
 //The Salamander
 ItemDisplay[UNI !ID bst ETH]: %TAN%ETH 더 샐러맨더
 //The Iron Jang Bong
-ItemDisplay[UNI !ID wst !ETH]: %TAN%풍사의 철장봉
+ItemDisplay[UNI !ID wst !ETH]: %TAN%철장봉
 //The Iron Jang Bong
-ItemDisplay[UNI !ID wst ETH]: %TAN%ETH 풍사의 철장봉
+ItemDisplay[UNI !ID wst ETH]: %TAN%ETH 철장봉
 //Razorswitch
 ItemDisplay[UNI !ID 8ss !ETH]: %TAN%레이저스위치
 //Razorswitch
@@ -1389,9 +1389,9 @@ ItemDisplay[UNI !ID wsd !ETH]: %TAN%컬웬즈 포인트
 //Culwen's Point
 ItemDisplay[UNI !ID wsd ETH]: %TAN%ETH 컬웬즈 포인트
 //Shadowfang
-ItemDisplay[UNI !ID 2hs !ETH]: %TAN%쉐도우팽
+ItemDisplay[UNI !ID 2hs !ETH]: %TAN%섀도우팽
 //Shadowfang
-ItemDisplay[UNI !ID 2hs ETH]: %TAN%ETH 쉐도우팽
+ItemDisplay[UNI !ID 2hs ETH]: %TAN%ETH 섀도우팽
 //Soulflay
 ItemDisplay[UNI !ID clm !ETH]: %TAN%소울플레이
 //Soulflay
@@ -1600,7 +1600,7 @@ ItemDisplay[UNI !ID amb]: %TAN%블러드 레이븐의 차지
 ////Unique Assassin only items
 //
 //ETH Shadow Killer (its always ETH)
-ItemDisplay[UNI !ID 7cs ETH]: %RED%ETH 쉐도우 킬러
+ItemDisplay[UNI !ID 7cs ETH]: %RED%ETH 섀도우 킬러
 //Bartuc's Cut-Throat
 ItemDisplay[UNI !ID 9tw !ETH]: %RED%㉧ 바르툭의 경동맥칼 %RED%㉧
 //Bartuc's Cut-Throat
@@ -2093,9 +2093,9 @@ ItemDisplay[MAG (xvg OR uvg) ILVL=95]: %ORANGE%블러드 글러브(크랩용)%WH
 
 //Hit Power Gloves (Chain Gloves/Heavy Bracers/Vambraces) + ORT + SAPPHIRE + JEWEL
 //Chain Gloves
-ItemDisplay[MAG vgl ILVL=85]: %ORANGE%힛파워 글러브(크랩용)%WHITE% [L%ILVL%]
-ItemDisplay[MAG vgl ILVL=86]: %ORANGE%힛파워 글러브(크랩용)%WHITE% [L%ILVL%]
-ItemDisplay[MAG vgl ILVL=87]: %ORANGE%힛파워 글러브(크랩용)%WHITE% [L%ILVL%]
+ItemDisplay[MAG mgl ILVL=85]: %ORANGE%힛파워 글러브(크랩용)%WHITE% [L%ILVL%]
+ItemDisplay[MAG mgl ILVL=86]: %ORANGE%힛파워 글러브(크랩용)%WHITE% [L%ILVL%]
+ItemDisplay[MAG mgl ILVL=87]: %ORANGE%힛파워 글러브(크랩용)%WHITE% [L%ILVL%]
 //Heavy Bracers & Vambraces
 ItemDisplay[MAG xmg ILVL=85]: %ORANGE%힛파워 글러브(크랩용)%WHITE% [L%ILVL%]
 ItemDisplay[MAG xmg ILVL=86]: %ORANGE%힛파워 글러브(크랩용)%WHITE% [L%ILVL%]
@@ -3856,21 +3856,21 @@ ItemDisplay[CL5 (TABSK48>2 AND SK272>2)]: %NAME% %ORANGE%+3 트랩 +3 인페르�
 ItemDisplay[CL5 (CLSK6>1 AND SK272>2)]: %NAME% %ORANGE%+2 어쌔 +3 인페르노 %RED%[%SOCKETS%]
 ItemDisplay[CL5 (TABSK48>2 AND SK251>2)]: %NAME% %ORANGE%+3 트랩 +3 파블 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL5 (CLSK6>1 AND SK251>2)]: %NAME% %ORANGE%+2 어쌔 +3 파블 %RED%[%SOCKETS%]
-ItemDisplay[CL5 (TABSK49>2 AND SK278>2)]: %NAME% %ORANGE%+3 쉐도우 +3 베놈 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL5 (TABSK49>2 AND SK278=2)]: %NAME% %ORANGE%+3 쉐도우 +2 베놈 %RED%[%SOCKETS%]
-ItemDisplay[CL5 (TABSK49=2 AND SK278>2)]: %NAME% %ORANGE%+2 쉐도우 +3 베놈 %RED%[%SOCKETS%]
+ItemDisplay[CL5 (TABSK49>2 AND SK278>2)]: %NAME% %ORANGE%+3 섀도우 +3 베놈 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL5 (TABSK49>2 AND SK278=2)]: %NAME% %ORANGE%+3 섀도우 +2 베놈 %RED%[%SOCKETS%]
+ItemDisplay[CL5 (TABSK49=2 AND SK278>2)]: %NAME% %ORANGE%+2 섀도우 +3 베놈 %RED%[%SOCKETS%]
 ItemDisplay[CL5 (CLSK6>1 AND SK278>2)]: %NAME% %ORANGE%+2 어쌔 +3 베놈 %RED%[%SOCKETS%]
-ItemDisplay[CL5 (TABSK49>2 AND SK253>2)]: %NAME% %ORANGE%+3 쉐도우 +3 싸이킥해머 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL5 (TABSK49>2 AND SK253=2)]: %NAME% %ORANGE%+3 쉐도우 +2 싸이킥해머 %RED%[%SOCKETS%]
-ItemDisplay[CL5 (TABSK49=2 AND SK253>2)]: %NAME% %ORANGE%+2 쉐도우 +3 싸이킥해머 %RED%[%SOCKETS%]
+ItemDisplay[CL5 (TABSK49>2 AND SK253>2)]: %NAME% %ORANGE%+3 섀도우 +3 싸이킥해머 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL5 (TABSK49>2 AND SK253=2)]: %NAME% %ORANGE%+3 섀도우 +2 싸이킥해머 %RED%[%SOCKETS%]
+ItemDisplay[CL5 (TABSK49=2 AND SK253>2)]: %NAME% %ORANGE%+2 섀도우 +3 싸이킥해머 %RED%[%SOCKETS%]
 ItemDisplay[CL5 (CLSK6>1 AND SK253>2)]: %NAME% %ORANGE%+2 어쌔 +3 싸이킥해머 %RED%[%SOCKETS%]
-ItemDisplay[CL5 (TABSK49>2 AND SK273>2)]: %NAME% %ORANGE%+3 쉐도우 +3 마블 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL5 (TABSK49>2 AND SK273=2)]: %NAME% %ORANGE%+3 쉐도우 +2 마블 %RED%[%SOCKETS%]
-ItemDisplay[CL5 (TABSK49=2 AND SK273>2)]: %NAME% %ORANGE%+2 쉐도우 +3 마블 %RED%[%SOCKETS%]
+ItemDisplay[CL5 (TABSK49>2 AND SK273>2)]: %NAME% %ORANGE%+3 섀도우 +3 마블 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL5 (TABSK49>2 AND SK273=2)]: %NAME% %ORANGE%+3 섀도우 +2 마블 %RED%[%SOCKETS%]
+ItemDisplay[CL5 (TABSK49=2 AND SK273>2)]: %NAME% %ORANGE%+2 섀도우 +3 마블 %RED%[%SOCKETS%]
 ItemDisplay[CL5 (CLSK6>1 AND SK273>2)]: %NAME% %ORANGE%+2 어쌔 +3 마블 %RED%[%SOCKETS%]
-ItemDisplay[CL5 (TABSK49>2 AND SK267>2)]: %NAME% %ORANGE%+3 쉐도우 +3 페이드 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL5 (TABSK49>2 AND SK267>2)]: %NAME% %ORANGE%+3 섀도우 +3 페이드 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL5 (CLSK6>1 AND SK267>2)]: %NAME% %ORANGE%+2 어쌔 +3 페이드 %RED%[%SOCKETS%]
-ItemDisplay[CL5 (TABSK49>2 AND SK258>2)]: %NAME% %ORANGE%+3 쉐도우 +3 버스트 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL5 (TABSK49>2 AND SK258>2)]: %NAME% %ORANGE%+3 섀도우 +3 버스트 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL5 (CLSK6>1 AND SK258>2)]: %NAME% %ORANGE%+2 어쌔 +3 버스트 %RED%[%SOCKETS%]
 ItemDisplay[CL5 (CLSK6>1 AND SK276>2)]: %NAME% %ORANGE%+2 어쌔 +3 데센 %RED%[%SOCKETS%]
 ItemDisplay[CL5 (TABSK48>2 AND SK276>2)]: %NAME% %ORANGE%+3 트랩 +3 데센 %PURPLE%[%SOCKETS%]
