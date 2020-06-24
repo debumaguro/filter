@@ -368,7 +368,7 @@ ItemDisplay[UNI !ID xkp !ETH]: %RED%록스토퍼
 //Rockstopper ETH
 ItemDisplay[UNI !ID xkp ETH]: %RED%ETH 록스토퍼
 //Stealskull
-ItemDisplay[UNI !ID xlm !ETH]: %RED%스틸트컬
+ItemDisplay[UNI !ID xlm !ETH]: %RED%스틸스컬
 //Stealskull ETH
 ItemDisplay[UNI !ID xlm ETH]: %RED%ETH 스틸스컬
 //Darksight Helm
