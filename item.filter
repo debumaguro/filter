@@ -2,7 +2,7 @@
 //OBS autoupdate will remove any changes made to filter!
 //Find item codes at: https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
 
-//Modified by Debu for Korean language compatibility. Last updated 24-06-2020
+//Modified by Debu for Korean language compatibility. Last updated 26-06-2020
 
 //Basics
 //Hide Gold Piles Smaller Than (<) X
@@ -332,9 +332,9 @@ ItemDisplay[UNI !ID cap !ETH]: %TAN%비긴의 끈모자
 //Biggin's Bonnet ETH
 ItemDisplay[UNI !ID cap ETH]: %TAN%ETH 비긴의 끈모자
 //Tarnhelm
-ItemDisplay[UNI !ID skp !ETH]: %RED%탄헬름
+ItemDisplay[UNI !ID skp !ETH]: %RED%타른 투구
 //Tarnhelm ETH
-ItemDisplay[UNI !ID skp ETH]: %TAN%ETH 탄헬름
+ItemDisplay[UNI !ID skp ETH]: %TAN%ETH 타른 투구
 //Coif of Glory
 ItemDisplay[UNI !ID hlm !ETH]: %TAN%영광의 두건모
 //Coif of Glory ETH
@@ -396,9 +396,9 @@ ItemDisplay[UNI !ID uap !ETH]: %RED%㉧ %PURPLE%샤코 %RED%㉧
 //Shako ETH
 ItemDisplay[UNI !ID uap ETH]: %RED%㉧ ETH 샤코 %RED%㉧
 //Steel Shade
-ItemDisplay[UNI !ID ulm !ETH]: %RED%㉧ %PURPLE%강철 가리개 %RED%㉧
+ItemDisplay[UNI !ID ulm !ETH]: %RED%㉧ %PURPLE%강철 차양 %RED%㉧
 //Steel Shade ETH
-ItemDisplay[UNI !ID ulm ETH]: %RED%㉧ %PURPLE%ETH 강철 가리개 %RED%㉧
+ItemDisplay[UNI !ID ulm ETH]: %RED%㉧ %PURPLE%ETH 강철 차양 %RED%㉧
 //Veil of Steel or Nightwing's Veil
 ItemDisplay[UNI !ID uhm !ETH]: %RED%㉧ 강철 베일 or 나이트윙의 베일 %RED%㉧
 //ETH Veil of Steel or ETH Nightwing's Veil
@@ -471,9 +471,9 @@ ItemDisplay[UNI !ID fld !ETH]: %TAN%바위 외투
 //Rockfleece
 ItemDisplay[UNI !ID fld ETH]: %TAN%ETH 바위 외투
 //Boneflesh
-ItemDisplay[UNI !ID plt !ETH]: %TAN%뼈와 살
+ItemDisplay[UNI !ID plt !ETH]: %TAN%뼈가죽
 //Boneflesh
-ItemDisplay[UNI !ID plt ETH]: %TAN%ETH 뼈와 살
+ItemDisplay[UNI !ID plt ETH]: %TAN%ETH 뼈가죽
 //Rattlecage
 ItemDisplay[UNI !ID gth !ETH]: %TAN%절그럭대는 갑주
 //Rattlecage
@@ -811,17 +811,17 @@ ItemDisplay[UNI !ID zmb !ETH]: %RED%우울의 올가미
 //Gloom's Trap
 ItemDisplay[UNI !ID zmb ETH]: %TAN%ETH 우울의 올가미
 //Snowclash
-ItemDisplay[UNI !ID ztb !ETH]: %RED%㉧ 눈꽃 폭탄 %RED%㉧
+ItemDisplay[UNI !ID ztb !ETH]: %RED%㉧ 눈꽃충돌 %RED%㉧
 //Snowclash
-ItemDisplay[UNI !ID ztb ETH]: %RED%ETH 눈꽃 폭탄
+ItemDisplay[UNI !ID ztb ETH]: %RED%ETH 눈꽃충돌
 //Thundergod's Vigor
 ItemDisplay[UNI !ID zhb !ETH]: %RED%㉧ %PURPLE%천둥신의 박력 %RED%㉧
 //Thundergod's Vigor
 ItemDisplay[UNI !ID zhb ETH]: %RED%ETH 천둥신의 박력
 //Arachnid Mesh
-ItemDisplay[UNI !ID ulc !ETH]: %RED%㉧ %PURPLE%거미줄 허리띠 %RED%㉧
+ItemDisplay[UNI !ID ulc !ETH]: %RED%㉧ %PURPLE%거미줄 그물끈 %RED%㉧
 //Arachnid Mesh
-ItemDisplay[UNI !ID ulc ETH]: %RED%ETH 거미줄 허리띠
+ItemDisplay[UNI !ID ulc ETH]: %RED%ETH 거미줄 그물끈
 //Nosferatu's Coil
 ItemDisplay[UNI !ID uvc !ETH]: %RED%㉧ 노스페라투의 고리 %RED%㉧
 //Nosferatu's Coil
@@ -983,7 +983,7 @@ ItemDisplay[UNI !ID 8lw]: %RED%㉧ 금격의 아치 %RED%㉧
 //Eaglehorn
 ItemDisplay[UNI !ID 6l7]: %RED%독수리뿔 장궁
 //Widowmaker
-ItemDisplay[UNI !ID 6sw]: %RED%위도우메이커
+ItemDisplay[UNI !ID 6sw]: %RED%과부제조기
 //Windforce
 ItemDisplay[UNI !ID 6lw]: %RED%㉧ %PURPLE%바람살 %RED%㉧
 
@@ -1058,9 +1058,9 @@ ItemDisplay[UNI !ID 7bl ETH]: %RED%ETH 유령불꽃
 ////Unique Maces
 //
 //Felloak
-ItemDisplay[UNI !ID clb !ETH]: %TAN%펠오크
+ItemDisplay[UNI !ID clb !ETH]: %TAN%성난 떡갈나무
 //Felloak
-ItemDisplay[UNI !ID clb ETH]: %TAN%ETH 펠오크
+ItemDisplay[UNI !ID clb ETH]: %TAN%ETH 성난 떡갈나무
 //Stoutnail
 ItemDisplay[UNI !ID spc !ETH]: %TAN%못박힌 각목
 //Stoutnail
@@ -1102,9 +1102,9 @@ ItemDisplay[UNI !ID 9ma !ETH]: %TAN%서리냉기 철퇴
 //Sureshrill Frost
 ItemDisplay[UNI !ID 9ma ETH]: %TAN%ETH 서리냉기 철퇴
 //Moonfall
-ItemDisplay[UNI !ID 9mt !ETH]: %TAN%문폴
+ItemDisplay[UNI !ID 9mt !ETH]: %TAN%달부름
 //Moonfall
-ItemDisplay[UNI !ID 9mt ETH]: %TAN%ETH 문폴
+ItemDisplay[UNI !ID 9mt ETH]: %TAN%ETH 달부름
 //Baezil's Vortex
 ItemDisplay[UNI !ID 9fl !ETH]: %TAN%배질의 소용돌이
 //Baezil's Vortex
@@ -1275,9 +1275,9 @@ ItemDisplay[UNI !ID pik !ETH]: %TAN%더 탄르 고어라드
 //The Tannr Gorerod
 ItemDisplay[UNI !ID pik ETH]: %TAN%ETH 더 탄르 고어라드
 //The Impaler
-ItemDisplay[UNI !ID 9sr !ETH]: %TAN%더 임페일러
+ItemDisplay[UNI !ID 9sr !ETH]: %TAN%관통창
 //The Impaler
-ItemDisplay[UNI !ID 9sr ETH]: %TAN%ETH 더 임페일러
+ItemDisplay[UNI !ID 9sr ETH]: %TAN%ETH 관통창
 //Kelpie Snare
 ItemDisplay[UNI !ID 9tr !ETH]: %RED%켈피의 함정
 //Kelpie Snare
@@ -1553,9 +1553,9 @@ ItemDisplay[UNI !ID 7bk !ETH]: %RED%㉧ 전장의 새 %RED%㉧
 //ETH Warshrike
 ItemDisplay[UNI !ID 7bk ETH]: %RED%㉧ %PURPLE%ETH 전장의 새 %RED%㉧
 //Gimmershred
-ItemDisplay[UNI !ID 7ta !ETH]: %RED%김머쉬레드
+ItemDisplay[UNI !ID 7ta !ETH]: %RED%새끼양 저밈도끼
 //ETH Gimmershred
-ItemDisplay[UNI !ID 7ta ETH]: %TAN%ETH 김머쉬레드
+ItemDisplay[UNI !ID 7ta ETH]: %TAN%ETH 새끼양 저밈도끼
 //Lacerator
 ItemDisplay[UNI !ID 7b8 !ETH]: %RED%㉧ 절개 도끼 %RED%㉧
 //ETH Lacerator
@@ -1714,9 +1714,9 @@ ItemDisplay[UNI !ID cm3]: %PURPLE%  ㉧ %RED%기드의 행운%PURPLE% ㉧  %PURP
 //Angelic Raiment
 //
 //Angelic Mantle
-ItemDisplay[SET !ID rng]: %GREEN%%NAME% %DGREEN%엔젤릭
+ItemDisplay[SET !ID rng]: %GREEN%%NAME% %DGREEN%천사
 //Angelic Sickle
-ItemDisplay[SET !ID sbr]: %GREEN%%NAME% %DGREEN%엔젤릭
+ItemDisplay[SET !ID sbr]: %GREEN%%NAME% %DGREEN%천사
 
 //Arcanna's Tricks
 //
@@ -1730,22 +1730,22 @@ ItemDisplay[SET !ID wst]: %GREEN%%NAME% %DGREEN%아칸나
 //Arctic Gear
 //
 //Arctic Furs
-ItemDisplay[SET !ID qui]: %GREEN%%NAME% %DGREEN%아틱
+ItemDisplay[SET !ID qui]: %GREEN%%NAME% %DGREEN%혹한
 //Arctic Binding
-ItemDisplay[SET !ID vbl]: %GREEN%%NAME% %DGREEN%아틱
+ItemDisplay[SET !ID vbl]: %GREEN%%NAME% %DGREEN%혹한
 //Arctic Mitts
-ItemDisplay[SET !ID tgl]: %GREEN%%NAME% %DGREEN%아틱
+ItemDisplay[SET !ID tgl]: %GREEN%%NAME% %DGREEN%혹한
 //Arctic Horn (+2 to cold arrow projectiles)
-ItemDisplay[SET !ID swb]: %GREEN%%NAME% %DGREEN%아틱
+ItemDisplay[SET !ID swb]: %GREEN%%NAME% %DGREEN%혹한
 
 //Berserker'Arsenal
 //
 //Berserker's Headgear
-ItemDisplay[SET !ID hlm]: %GREEN%%NAME% %DGREEN%버서커
+ItemDisplay[SET !ID hlm]: %GREEN%%NAME% %DGREEN%광전사
 //Berserker's Hauberk
-ItemDisplay[SET !ID spl]: %GREEN%%NAME% %DGREEN%버서커
+ItemDisplay[SET !ID spl]: %GREEN%%NAME% %DGREEN%광전사
 //Berserker's Hatchet
-ItemDisplay[SET !ID 2ax]: %GREEN%%NAME% %DGREEN%버서커
+ItemDisplay[SET !ID 2ax]: %GREEN%%NAME% %DGREEN%광전사
 
 //Cathan's Traps
 //
@@ -1775,11 +1775,11 @@ ItemDisplay[SET !ID sml]: %GREEN%%NAME% %DGREEN%클레글로
 //Death's Disguise
 //
 //Death's Touch
-ItemDisplay[SET !ID wsd]: %GREEN%%NAME% %DGREEN%데쓰
+ItemDisplay[SET !ID wsd]: %GREEN%%NAME% %DGREEN%죽음
 //Death's Hand
-ItemDisplay[SET !ID lgl]: %GREEN%%NAME% %DGREEN%데쓰
+ItemDisplay[SET !ID lgl]: %GREEN%%NAME% %DGREEN%죽음
 //Death's Guard
-ItemDisplay[SET !ID lbl]: %GREEN%%NAME% %DGREEN%데쓰
+ItemDisplay[SET !ID lbl]: %GREEN%%NAME% %DGREEN%죽음
 
 //Hsarus' Defense
 //
@@ -1793,20 +1793,20 @@ ItemDisplay[SET !ID mbt]: %GREEN%%NAME% %DGREEN%사루스
 //Infernal Tools
 //
 //Infernal Cranium
-ItemDisplay[SET !ID cap]: %GREEN%%NAME% %DGREEN%인퍼널 크래니엄 or 샌더의 파라곤
+ItemDisplay[SET !ID cap]: %GREEN%%NAME% %DGREEN%지옥의 두개골 or 샌더의 본보기
 //Infernal Sign
-ItemDisplay[SET !ID tbl]: %GREEN%%NAME% %DGREEN%인퍼널 싸인 or 이라사의 코드
+ItemDisplay[SET !ID tbl]: %GREEN%%NAME% %DGREEN%지옥의 표식 or 이라사의 허리띠
 //Infernal Torch
-ItemDisplay[SET !ID gwn]: %GREEN%%NAME% %DGREEN%인퍼널
+ItemDisplay[SET !ID gwn]: %GREEN%%NAME% %DGREEN%지옥
 
 //Iratha's Finery
 //
 //Iratha's Coil
-ItemDisplay[SET !ID crn]: %GREEN%%NAME% %DGREEN%이라사의 코일 or 밀라브레가의 다이어뎀
+ItemDisplay[SET !ID crn]: %GREEN%%NAME% %DGREEN%이라사의 고리 or 밀라브레가의 머리장식
 //Iratha's Cord
-ItemDisplay[SET !ID tbl]: %GREEN%%NAME% %DGREEN%인퍼널 싸인 or 이라사의 코드
+ItemDisplay[SET !ID tbl]: %GREEN%%NAME% %DGREEN%지옥의 표식 or 이라사의 허리띠
 //Iratha's Cuff
-ItemDisplay[SET !ID tgl]: %GREEN%%NAME% %DGREEN%이라사의 커프 or 아틱 미트
+ItemDisplay[SET !ID tgl]: %GREEN%%NAME% %DGREEN%이라사의 수갑 or 혹한의 털장갑
 
 //Isenhart's Armory
 //
@@ -1822,7 +1822,7 @@ ItemDisplay[SET !ID gts]: %GREEN%%NAME% %DGREEN%아이젠하트
 //Milabrega's Regalia
 //
 //Milabrega's Diadem
-ItemDisplay[SET !ID crn]: %GREEN%%NAME% %DGREEN%이라사의 코일 or 밀라브레가의 다이어뎀
+ItemDisplay[SET !ID crn]: %GREEN%%NAME% %DGREEN%이라사의 고리 or 밀라브레가의 머리장식
 //Milabrega's Robe
 ItemDisplay[SET !ID aar]: %GREEN%%NAME% %DGREEN%밀라브레가
 //Milabrega's Orb
@@ -1886,22 +1886,22 @@ ItemDisplay[SET !ID 7wd]: %RED%¤ %GREEN%%NAME% %DGREEN%불-카토스 %RED%¤
 //Cow King's Leathers
 //
 //Cow King's Horns
-ItemDisplay[SET !ID xap]: %RED%¤ %GREEN%%NAME% %DGREEN%카우 킹 %RED%¤
+ItemDisplay[SET !ID xap]: %RED%¤ %GREEN%%NAME% %DGREEN%카우 왕 %RED%¤
 //Cow King's Hide
-ItemDisplay[SET !ID stu]: %RED%¤ %GREEN%%NAME% %DGREEN%카우 킹 %RED%¤
+ItemDisplay[SET !ID stu]: %RED%¤ %GREEN%%NAME% %DGREEN%카우 왕 %RED%¤
 //Cow King's Hooves
-ItemDisplay[SET !ID vbt]: %GREEN%%NAME% %DGREEN%샌더 or 카우 킹
+ItemDisplay[SET !ID vbt]: %GREEN%%NAME% %DGREEN%샌더 or 카우 왕
 
 //The Disciple
 //
 //Laying of Hands
-ItemDisplay[SET !ID ulg]: %PURPLE%㉧ %GREEN%%NAME% %DGREEN%디싸이플%PURPLE%㉧
+ItemDisplay[SET !ID ulg]: %PURPLE%㉧ %GREEN%%NAME% %DGREEN%사도%PURPLE%㉧
 //Dark Adherent
-ItemDisplay[SET !ID uui]: %GREEN%%NAME% %DGREEN%디싸이플
+ItemDisplay[SET !ID uui]: %GREEN%%NAME% %DGREEN%사도
 //Rite of Passage
-ItemDisplay[SET !ID xlb]: %GREEN%%NAME% %DGREEN%디싸이플
+ItemDisplay[SET !ID xlb]: %GREEN%%NAME% %DGREEN%사도
 //Credendum
-ItemDisplay[SET !ID umc]: %GREEN%%NAME% %DGREEN%디싸이플
+ItemDisplay[SET !ID umc]: %GREEN%%NAME% %DGREEN%사도
 
 //Griswold's Legacy
 //
@@ -2000,24 +2000,24 @@ ItemDisplay[SET !ID ztb]: %GREEN%%NAME% %DGREEN%오펀
 //Sander's Folly
 //
 //Sander's Paragon
-ItemDisplay[SET !ID cap]: %GREEN%%NAME% %DGREEN%인퍼널 크래니엄 or 샌더의 파라곤
+ItemDisplay[SET !ID cap]: %GREEN%%NAME% %DGREEN%지옥의 두개골 or 샌더의 본보기
 //Sander's Superstition
 ItemDisplay[SET !ID bwn]: %GREEN%%NAME% %DGREEN%샌더
 //Sander's Taboo
 ItemDisplay[SET !ID vgl]: %GREEN%%NAME% %DGREEN%샌더
 //Sander's Riprap
-ItemDisplay[SET !ID vbt]: %GREEN%%NAME% %DGREEN%샌더 or 카우 킹
+ItemDisplay[SET !ID vbt]: %GREEN%%NAME% %DGREEN%샌더 or 카우 왕
 
 //Sazabi's Grand Tribute
 //
 //Sazabi's Mental Sheath
-ItemDisplay[SET !ID xhl]: %GREEN%%NAME% %DGREEN%사자바이
+ItemDisplay[SET !ID xhl]: %GREEN%%NAME% %DGREEN%사자비
 //Sazabi's Cobalt Redeemer
-ItemDisplay[SET !ID 7ls !ETH]: %RED%¤ %GREEN%%NAME% %DGREEN%사자바이 %RED%¤
+ItemDisplay[SET !ID 7ls !ETH]: %RED%¤ %GREEN%%NAME% %DGREEN%사자비 %RED%¤
 //Sazabi's Cobalt Redeemer ETH
-ItemDisplay[SET !ID 7ls ETH]: %RED%㉧ %GREEN%ETH %NAME% %DGREEN%사자바이 %RED%㉧
+ItemDisplay[SET !ID 7ls ETH]: %RED%㉧ %GREEN%ETH %NAME% %DGREEN%사자비 %RED%㉧
 //Sazabi's Ghost Liberator
-ItemDisplay[SET !ID upl]: %RED%¤ %GREEN%%NAME% %DGREEN%사자바이 %RED%¤
+ItemDisplay[SET !ID upl]: %RED%¤ %GREEN%%NAME% %DGREEN%사자비 %RED%¤
 
 //Tal Rasha's Wrappings
 //
