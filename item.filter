@@ -951,7 +951,7 @@ ItemDisplay[UNI !ID 7gi ETH]: %RED%ETH 사형집행인의 정의
 //Pluckeye
 ItemDisplay[UNI !ID sbw]: %TAN%눈알 관통활
 //Witherstring
-ItemDisplay[UNI !ID hbw]: %TAN%시들시들한 활시위
+ItemDisplay[UNI !ID hbw]: %TAN%쇠약의 활
 //Raven Claw
 ItemDisplay[UNI !ID lbw]: %TAN%까마귀 발톱
 //Rogue's Bow
@@ -959,11 +959,11 @@ ItemDisplay[UNI !ID cbw]: %TAN%로그의 활
 //Stormstrike
 ItemDisplay[UNI !ID sbb]: %TAN%뇌격궁
 //Wizendraw
-ItemDisplay[UNI !ID lbb]: %TAN%볼품없는 활
+ItemDisplay[UNI !ID lbb]: %TAN%말라비틀어진 활
 //Hellclap
 ItemDisplay[UNI !ID swb]: %TAN%지옥천둥
 //Blastbark
-ItemDisplay[UNI !ID lwb]: %TAN%폭발울음 활
+ItemDisplay[UNI !ID lwb]: %TAN%폭발울음
 //Skystrike
 ItemDisplay[UNI !ID 8sb]: %TAN%천격궁
 //Riphook
@@ -1102,9 +1102,9 @@ ItemDisplay[UNI !ID 9ma !ETH]: %TAN%서리냉기 철퇴
 //Sureshrill Frost
 ItemDisplay[UNI !ID 9ma ETH]: %TAN%ETH 서리냉기 철퇴
 //Moonfall
-ItemDisplay[UNI !ID 9mt !ETH]: %TAN%달부름
+ItemDisplay[UNI !ID 9mt !ETH]: %TAN%달내림
 //Moonfall
-ItemDisplay[UNI !ID 9mt ETH]: %TAN%ETH 달부름
+ItemDisplay[UNI !ID 9mt ETH]: %TAN%ETH 달내림
 //Baezil's Vortex
 ItemDisplay[UNI !ID 9fl !ETH]: %TAN%배질의 소용돌이
 //Baezil's Vortex
