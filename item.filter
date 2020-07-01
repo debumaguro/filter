@@ -1617,9 +1617,9 @@ ItemDisplay[UNI !ID 7lw ETH]: %TAN%ETH 불도마뱀의 발톱
 ////Unique Necromancer only items
 //
 //Homunculus
-ItemDisplay[UNI !ID nea !ETH]: %RED%㉧ %PURPLE%호우먼컬러스 %RED%㉧
+ItemDisplay[UNI !ID nea !ETH]: %RED%㉧ %PURPLE%호문쿨루스 %RED%㉧
 //Homunculus
-ItemDisplay[UNI !ID nea ETH]: %RED%ETH 호우먼컬러스
+ItemDisplay[UNI !ID nea ETH]: %RED%ETH 호문쿨루스
 //Darkforce Spawn
 ItemDisplay[UNI !ID nef !ETH]: %RED%암흑의 힘의 원천
 //Darkforce Spawn
