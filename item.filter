@@ -1,8 +1,10 @@
-//Anirml's Loot filter //Updated for Patch 18 Flint. Last updated 29-01-2020 OBS still missing new relic code!
-//OBS autoupdate will remove any changes made to filter!
-//Find item codes at: https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
+//Anirml's Loot Filter fork for Korean compatibility.
+//https://raw.githubusercontent.com/debumaguro/filter/master/item.filter
+//Last Updated: 15-08-2020
 
-//Modified by Debu for Korean language compatibility. Last updated 01-07-2020
+//╔═════════════════════════════════════════════════╗
+//║				한글 아이템 필터 by Debu				║
+//╚═════════════════════════════════════════════════╝
 
 //Basics
 //Hide Gold Piles Smaller Than (<) X
@@ -39,24 +41,26 @@ ItemDisplay[toa]: %GOLD%면죄의 징표
 ItemDisplay[std]: %NAME%
 ItemDisplay[cx5]: %PURPLE%타락의 오브
 ItemDisplay[cx6]: %PURPLE%디아블로의 소울스톤
-ItemDisplay[cx7]: %PURPLE%¤¤¤ 혼돈의 열쇠 ¤¤¤
+ItemDisplay[cx7]: %PURPLE%Â¤Â¤Â¤ 혼돈의 열쇠 Â¤Â¤Â¤
 ItemDisplay[cx8]: %PURPLE%마법부여의 오브
 ItemDisplay[cx9]: %PURPLE%%NAME%
-ItemDisplay[ma1]: %PURPLE%%NAME%
-ItemDisplay[ma2]: %PURPLE%티어 4 렐릭
+ItemDisplay[ma1]: %PURPLE%%NAME%%RED% 티어 1
+ItemDisplay[ma2]: %PURPLE%%NAME%%RED% 티어 3
 ItemDisplay[ma3]: %PURPLE%%NAME%
-ItemDisplay[ma4]: %PURPLE% 티어 1 렐릭
-ItemDisplay[ma5]: %PURPLE%티어 2 렐릭
-ItemDisplay[ma6]: %PURPLE%티어 3 렐릭
-ItemDisplay[ma7]: %PURPLE%티어 5 렐릭
+ItemDisplay[ma4]: %PURPLE%%NAME%%RED% 티어 2
+ItemDisplay[ma5]: %PURPLE%%NAME%%RED% 티어 1
+ItemDisplay[ma6]: %PURPLE%%NAME%%RED% 티어 3
+ItemDisplay[ma7]: %PURPLE%%NAME%%RED% 티어 3
+ItemDisplay[ma8]: %PURPLE%%NAME%%RED% 티어 2
+ItemDisplay[ma9]: %PURPLE%%NAME%%RED% 티어 2
 ItemDisplay[maz]: %PURPLE%%NAME%
-ItemDisplay[UNI !ID cm4]: %RED%  ¤ 호라드림 시질 ¤  %RED%
+ItemDisplay[UNI !ID cm4]: %RED%  Â¤ 호라드림 시질 Â¤  %RED%
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
 ItemDisplay[pk1]: %ORANGE%공포 [카운테스]
 ItemDisplay[pk2]: %ORANGE%증오 [소환사]
-ItemDisplay[pk3]: %ORANGE%파괴 [니라트하크]
+ItemDisplay[pk3]: %ORANGE%파괴 [닐라트하크]
 ItemDisplay[dhn]: %ORANGE%디아블로의 뿔
 ItemDisplay[bey]: %ORANGE%바알의 눈
 ItemDisplay[mbr]: %ORANGE%메피스토의 뇌
@@ -64,19 +68,19 @@ ItemDisplay[mbr]: %ORANGE%메피스토의 뇌
 ItemDisplay[ear]: %ORANGE%%NAME%
 
 //Utility
-ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%포탈
+ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%차원문
 ItemDisplay[tsc CLVL>40]:
 ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%식별
 ItemDisplay[isc CLVL>40]:
 //
 ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%해빙
 ItemDisplay[wms CLVL>59]:
-ItemDisplay[yps CLVL<20]: %GREEN%!%WHITE%해독
-ItemDisplay[yps CLVL>19]:
+ItemDisplay[yps CLVL<20 OR CLVL>79]: %GREEN%!%WHITE%해독
+ItemDisplay[yps (CLVL>19 AND CLVL<80)]:
 //Keys for Locked Chests
-ItemDisplay[key]: %WHITE%키
+ItemDisplay[key]: %WHITE%열쇠
 //Tomes
-ItemDisplay[tbk]: %WHITE%타운포탈 책
+ItemDisplay[tbk]: %WHITE%마을 차원문 책
 ItemDisplay[ibk]: %WHITE%아이템 식별 책
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling, Stamina
 ItemDisplay[gpm]:
@@ -117,8 +121,8 @@ ItemDisplay[xyz]: %TAN%%NAME%
 //Vendor items
 //Value Vendor items
 //SK88=1 =32453 Gold. SK73=1 =32453 Gold.
-ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>0 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)
-ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>0 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)
+ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)
+ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)
 ItemDisplay[NMAG !ETH !ED=15 (7tk OR 7ta OR 7bk)]: 투척%ORANGE% ($%PRICE%)
 
 //All norm white items 1sox hidden
@@ -146,30 +150,30 @@ ItemDisplay[r16]: %TAN%%RUNENAME% [%RUNENUM%]
 ItemDisplay[r17]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
 ItemDisplay[r18]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
 ItemDisplay[r19]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
-ItemDisplay[r20]: %PURPLE%  ㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧ [%RUNENUM%]  %RED%
-ItemDisplay[r21]: %PURPLE%  ㉧㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧㉧ [%RUNENUM%]  %RED%
-ItemDisplay[r22]: %PURPLE%  ㉧㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧㉧ [%RUNENUM%]  %RED%
-ItemDisplay[r23]: %PURPLE%  ㉧㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧㉧ [%RUNENUM%]  %RED%
+ItemDisplay[r20]: %PURPLE%  OO %RED%%RUNENAME%%PURPLE% OO [%RUNENUM%]  %RED%
+ItemDisplay[r21]: %PURPLE%  OOO %RED%%RUNENAME%%PURPLE% OOO [%RUNENUM%]  %RED%
+ItemDisplay[r22]: %PURPLE%  OOO %RED%%RUNENAME%%PURPLE% OOO [%RUNENUM%]  %RED%
+ItemDisplay[r23]: %PURPLE%  OOO %RED%%RUNENAME%%PURPLE% OOO [%RUNENUM%]  %RED%
 //24-33
-ItemDisplay[r24]: %PURPLE% ㉧㉧㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧㉧㉧ [%RUNENUM%] %RED%
-ItemDisplay[r25]: %PURPLE% ㉧㉧㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧㉧㉧ [%RUNENUM%] %RED%
-ItemDisplay[r26]: %PURPLE% ㉧㉧㉧㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧㉧㉧㉧ [%RUNENUM%] %RED%
-ItemDisplay[r27]: %PURPLE% ㉧㉧㉧㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧㉧㉧㉧ [%RUNENUM%] %RED%
-ItemDisplay[r28]: %PURPLE% ㉧㉧㉧㉧㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧㉧㉧㉧㉧ [%RUNENUM%] %RED%
-ItemDisplay[r29]: %PURPLE% ㉧㉧㉧㉧㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧㉧㉧㉧㉧ [%RUNENUM%] %RED%
-ItemDisplay[r30]: %PURPLE% ㉧㉧㉧㉧㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧㉧㉧㉧㉧ [%RUNENUM%] %RED%
-ItemDisplay[r31]: %PURPLE% ㉧㉧㉧㉧㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧㉧㉧㉧㉧ [%RUNENUM%] %RED%
-ItemDisplay[r32]: %PURPLE% ㉧㉧㉧㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧㉧㉧㉧ [%RUNENUM%] %RED%
-ItemDisplay[r33]: %PURPLE% ㉧㉧㉧㉧㉧ %RED%%RUNENAME%%PURPLE% ㉧㉧㉧㉧㉧ [%RUNENUM%] %RED%
+ItemDisplay[r24]: %PURPLE% OOOO %RED%%RUNENAME%%PURPLE% OOOO [%RUNENUM%] %RED%
+ItemDisplay[r25]: %PURPLE% OOOO %RED%%RUNENAME%%PURPLE% OOOO [%RUNENUM%] %RED%
+ItemDisplay[r26]: %PURPLE% OOOOO %RED%%RUNENAME%%PURPLE% OOOOO [%RUNENUM%] %RED%
+ItemDisplay[r27]: %PURPLE% OOOOO %RED%%RUNENAME%%PURPLE% OOOOO [%RUNENUM%] %RED%
+ItemDisplay[r28]: %PURPLE% OOOOOO %RED%%RUNENAME%%PURPLE% OOOOOO [%RUNENUM%] %RED%
+ItemDisplay[r29]: %PURPLE% OOOOOO %RED%%RUNENAME%%PURPLE% OOOOOO [%RUNENUM%] %RED%
+ItemDisplay[r30]: %PURPLE% OOOOOO %RED%%RUNENAME%%PURPLE% OOOOOO [%RUNENUM%] %RED%
+ItemDisplay[r31]: %PURPLE% OOOOOO %RED%%RUNENAME%%PURPLE% OOOOOO [%RUNENUM%] %RED%
+ItemDisplay[r32]: %PURPLE% OOOOO %RED%%RUNENAME%%PURPLE% OOOOO [%RUNENUM%] %RED%
+ItemDisplay[r33]: %PURPLE% OOOOO %RED%%RUNENAME%%PURPLE% OOOOO [%RUNENUM%] %RED%
 
 //Gems Chipped
 ItemDisplay[gcv CLVL<20]: 최하급 자수정
 ItemDisplay[gcw CLVL<20]: 최하급 다이아몬드
-ItemDisplay[gcg CLVL<20]: 최하급 에머랄드
+ItemDisplay[gcg CLVL<20]: 최하급 에메랄드
 ItemDisplay[gcr CLVL<20]: 최하급 루비
 ItemDisplay[gcb CLVL<20]: 최하급 사파이어
 ItemDisplay[gcy CLVL<20]: 최하급 토파즈
-ItemDisplay[skc CLVL<20]: 최하급 스컬
+ItemDisplay[skc CLVL<20]: 최하급 해골
 ItemDisplay[gcv CLVL>19]:
 ItemDisplay[gcw CLVL>19]:
 ItemDisplay[gcg CLVL>19]:
@@ -180,11 +184,11 @@ ItemDisplay[skc CLVL>19]:
 //Gems Flawed
 ItemDisplay[gfv CLVL<30]: 하급 자수정
 ItemDisplay[gfw CLVL<30]: 하급 다이아몬드
-ItemDisplay[gfg CLVL<30]: 하급 에머랄드
+ItemDisplay[gfg CLVL<30]: 하급 에메랄드
 ItemDisplay[gfr CLVL<30]: 하급 루비
 ItemDisplay[gfb CLVL<30]: 하급 사파이어
 ItemDisplay[gfy CLVL<30]: 하급 토파즈
-ItemDisplay[skf CLVL<30]: 하급 스컬
+ItemDisplay[skf CLVL<30]: 하급 해골
 ItemDisplay[gfv CLVL>29]:
 ItemDisplay[gfw CLVL>29]:
 ItemDisplay[gfg CLVL>29]:
@@ -195,11 +199,11 @@ ItemDisplay[skf CLVL>29]:
 //Gems Normal
 ItemDisplay[gsv CLVL<40]: 자수정
 ItemDisplay[gsw CLVL<40]: 다이아몬드
-ItemDisplay[gsg CLVL<40]: 에머랄드
+ItemDisplay[gsg CLVL<40]: 에메랄드
 ItemDisplay[gsr CLVL<40]: 루비
 ItemDisplay[gsb CLVL<40]: 사파이어
 ItemDisplay[gsy CLVL<40]: 토파즈
-ItemDisplay[sku CLVL<40]: 스컬
+ItemDisplay[sku CLVL<40]: 해골
 ItemDisplay[gsv CLVL>39]:
 ItemDisplay[gsw CLVL>39]:
 ItemDisplay[gsg CLVL>39]:
@@ -210,19 +214,19 @@ ItemDisplay[sku CLVL>39]:
 //Gems flawless
 ItemDisplay[gzv]: %ORANGE%자수정
 ItemDisplay[glw]: %ORANGE%다이아몬드
-ItemDisplay[glg]: %ORANGE%에머랄드
+ItemDisplay[glg]: %ORANGE%에메랄드
 ItemDisplay[glr]: %ORANGE%루비
 ItemDisplay[glb]: %ORANGE%사파이어
 ItemDisplay[gly]: %ORANGE%토파즈
-ItemDisplay[skl]: %ORANGE%스컬
+ItemDisplay[skl]: %ORANGE%해골
 //Gems Perfect
 ItemDisplay[gpv]: %ORANGE%P %PURPLE%자수정
 ItemDisplay[gpw]: %ORANGE%P %WHITE%다이아몬드
-ItemDisplay[gpg]: %ORANGE%P %GREEN%에머랄드
+ItemDisplay[gpg]: %ORANGE%P %GREEN%에메랄드
 ItemDisplay[gpr]: %ORANGE%P %RED%루비
 ItemDisplay[gpb]: %ORANGE%P %BLUE%사파이어
 ItemDisplay[gpy]: %ORANGE%P %YELLOW%토파즈
-ItemDisplay[skz]: %ORANGE%P %TAN%스컬
+ItemDisplay[skz]: %ORANGE%P %TAN%해골
 
 //***Your own custom items here***
 
@@ -230,14 +234,14 @@ ItemDisplay[skz]: %ORANGE%P %TAN%스컬
 
 //RARES
 //Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
-ItemDisplay[RARE EQ7 !ETH !ID]: %PURPLE% ¤ %YELLOW%%NAME% %PURPLE%¤ %PURPLE%
-ItemDisplay[RARE EQ7 ETH !ID]: %PURPLE% ¤ %YELLOW%ETH %NAME% %PURPLE%¤ %PURPLE%
+ItemDisplay[RARE EQ7 !ETH !ID]: %PURPLE% Â¤ %YELLOW%%NAME% %PURPLE%Â¤ %PURPLE%
+ItemDisplay[RARE EQ7 ETH !ID]: %PURPLE% Â¤ %YELLOW%ETH %NAME% %PURPLE%Â¤ %PURPLE%
 
 ItemDisplay[INF !RW !WP12 !CL4 !CL6 !leg]:
 
-ItemDisplay[RARE amu !ID]: %PURPLE% ¤ %YELLOW%%NAME% %PURPLE%¤ %PURPLE%
-ItemDisplay[RARE rin !ID]: %PURPLE% ¤ %YELLOW%%NAME% %PURPLE%¤ %PURPLE%
-ItemDisplay[RARE jew !ID]: %PURPLE% ¤ %YELLOW%%NAME% %PURPLE%¤ %PURPLE%
+ItemDisplay[RARE amu !ID]: %PURPLE% Â¤ %YELLOW%%NAME% %PURPLE%Â¤ %PURPLE%
+ItemDisplay[RARE rin !ID]: %PURPLE% Â¤ %YELLOW%%NAME% %PURPLE%Â¤ %PURPLE%
+ItemDisplay[RARE jew !ID]: %PURPLE% Â¤ %YELLOW%%NAME% %PURPLE%Â¤ %PURPLE%
 //RARES (All elite rares exept dagger and xbow)
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) ETH !ID]: ETH %YELLOW%%NAME%
@@ -278,14 +282,14 @@ ItemDisplay[RARE !ID]:
 //CHARMS
 //Rerolling
 //Grand Charms
-ItemDisplay[MAG cm3 !ID ILVL>77]: %BLUE%¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% ¤
+ItemDisplay[MAG cm3 !ID ILVL>77]: %BLUE%Â¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% Â¤
 ItemDisplay[MAG cm3 ILVL>77]: %NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG cm3 !ID ILVL<78 ILVL>49]: %BLUE%¤ %NAME% %WHITE%[L%ILVL%]%BLUE% ¤
+ItemDisplay[MAG cm3 !ID ILVL<78 ILVL>49]: %BLUE%Â¤ %NAME% %WHITE%[L%ILVL%]%BLUE% Â¤
 
 //Small Charms
-ItemDisplay[MAG cm1 !ID ILVL>89]: %BLUE%¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% ¤
-ItemDisplay[MAG cm1 !ID ILVL<90 ILVL>47]: %BLUE%¤ %NAME% %WHITE%[L%ILVL%]%BLUE% ¤
-ItemDisplay[MAG cm1 !ID ILVL=47]: %BLUE%¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% ¤
+ItemDisplay[MAG cm1 !ID ILVL>89]: %BLUE%Â¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% Â¤
+ItemDisplay[MAG cm1 !ID ILVL<90 ILVL>47]: %BLUE%Â¤ %NAME% %WHITE%[L%ILVL%]%BLUE% Â¤
+ItemDisplay[MAG cm1 !ID ILVL=47]: %BLUE%Â¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% Â¤
 ItemDisplay[MAG cm1 ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[MAG cm1 ILVL>89]: %NAME% %ORANGE%[L%ILVL%]
 //
@@ -320,7 +324,7 @@ ItemDisplay[MAG rin ILVL>94]: %BLUE%%NAME%%ORANGE% [CLVL 74+]
 ItemDisplay[MAG rin ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Magic Jewels
-ItemDisplay[MAG !ID jew]: %BLUE% ¤ %NAME% ¤ %BLUE%
+ItemDisplay[MAG !ID jew]: %BLUE% Â¤ %NAME% Â¤ %BLUE%
 ItemDisplay[MAG jew]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 ////UNIQUE ITEMS////
@@ -388,37 +392,37 @@ ItemDisplay[UNI !ID xrn !ETH]: %RED%도둑의 왕관
 //Crown of Thieves ETH
 ItemDisplay[UNI !ID xrn ETH]: %RED%ETH 도둑의 왕관
 //Vampire Gaze
-ItemDisplay[UNI !ID xh9 !ETH]: %RED%㉧ %PURPLE%뱀파이어의 응시 %RED%㉧
+ItemDisplay[UNI !ID xh9 !ETH]: %RED%O %PURPLE%뱀파이어의 응시 %RED%O
 //Vampire Gaze ETH
-ItemDisplay[UNI !ID xh9 ETH]: %RED%㉧ %PURPLE%ETH 뱀파이어의 응시 %RED%㉧
+ItemDisplay[UNI !ID xh9 ETH]: %RED%O %PURPLE%ETH 뱀파이어의 응시 %RED%O
 //Shako
-ItemDisplay[UNI !ID uap !ETH]: %RED%㉧ %PURPLE%샤코 %RED%㉧
+ItemDisplay[UNI !ID uap !ETH]: %RED%O %PURPLE%샤코 %RED%O
 //Shako ETH
-ItemDisplay[UNI !ID uap ETH]: %RED%㉧ ETH 샤코 %RED%㉧
+ItemDisplay[UNI !ID uap ETH]: %RED%O ETH 샤코 %RED%O
 //Steel Shade
-ItemDisplay[UNI !ID ulm !ETH]: %RED%㉧ %PURPLE%강철 차양 %RED%㉧
+ItemDisplay[UNI !ID ulm !ETH]: %RED%O %PURPLE%강철 차양 %RED%O
 //Steel Shade ETH
-ItemDisplay[UNI !ID ulm ETH]: %RED%㉧ %PURPLE%ETH 강철 차양 %RED%㉧
+ItemDisplay[UNI !ID ulm ETH]: %RED%O %PURPLE%ETH 강철 차양 %RED%O
 //Veil of Steel or Nightwing's Veil
-ItemDisplay[UNI !ID uhm !ETH]: %RED%㉧ 강철 베일 or 나이트윙의 베일 %RED%㉧
+ItemDisplay[UNI !ID uhm !ETH]: %RED%O 강철 베일 or 나이트윙의 베일 %RED%O
 //ETH Veil of Steel or ETH Nightwing's Veil
 ItemDisplay[UNI !ID uhm ETH]: %RED%ETH 강철 베일 or ETH 나이트윙의 베일
 //Andariel's Visage
-ItemDisplay[UNI !ID usk !ETH]: %RED%㉧ %PURPLE%안다리엘의 두개골 %RED%㉧
+ItemDisplay[UNI !ID usk !ETH]: %RED%O %PURPLE%안다리엘의 두개골 %RED%O
 //Andariel's Visage ETH
-ItemDisplay[UNI !ID usk ETH]: %RED%㉧ ETH 안다리엘의 두개골 %RED%㉧
+ItemDisplay[UNI !ID usk ETH]: %RED%O ETH 안다리엘의 두개골 %RED%O
 //Crown of Ages
-ItemDisplay[UNI !ID urn !ETH]: %RED%㉧ 영겁의 왕관 %RED%㉧
+ItemDisplay[UNI !ID urn !ETH]: %RED%O 영겁의 왕관 %RED%O
 //Crown of Ages ETH
-ItemDisplay[UNI !ID urn ETH]: %RED%㉧ %PURPLE%ETH 영겁의 왕관 %RED%㉧
+ItemDisplay[UNI !ID urn ETH]: %RED%O %PURPLE%ETH 영겁의 왕관 %RED%O
 //Giant Skull
 ItemDisplay[UNI !ID uh9 !ETH]: %RED%거대 해골
 //Giant Skull ETH
 ItemDisplay[UNI !ID uh9 ETH]: %TAN%ETH 거대 해골
 //Griffon's Eye
-ItemDisplay[UNI !ID ci3 !ETH]: %RED%㉧ %PURPLE%그리폰의 눈 %RED%㉧
+ItemDisplay[UNI !ID ci3 !ETH]: %RED%O %PURPLE%그리폰의 눈 %RED%O
 //Griffon's Eye ETH
-ItemDisplay[UNI !ID ci3 ETH]: %RED%㉧ ETH 그리폰의 눈 ㉧
+ItemDisplay[UNI !ID ci3 ETH]: %RED%O ETH 그리폰의 눈 O
 //Kira's Guardian
 ItemDisplay[UNI !ID ci2 !ETH]: %RED%키라의 수호자
 //Kira's Guardian ETH
@@ -491,13 +495,13 @@ ItemDisplay[UNI !ID xui !ETH]: %RED%영혼의 의복
 //The Spirit Shroud
 ItemDisplay[UNI !ID xui ETH]: %TAN%ETH 영혼의 의복
 //Skin of the Vipermagi
-ItemDisplay[UNI !ID xea !ETH]: %RED%㉧ %PURPLE%뱀 주술사의 가죽 %RED%㉧
+ItemDisplay[UNI !ID xea !ETH]: %RED%O %PURPLE%뱀 주술사의 가죽 %RED%O
 //Skin of the Vipermagi
 ItemDisplay[UNI !ID xea ETH]: %RED%ETH 뱀 주술사의 가죽
 //Skin of the Flayed One
-ItemDisplay[UNI !ID xla !ETH]: %TAN%플레이드 원의 가죽
+ItemDisplay[UNI !ID xla !ETH]: %TAN%박피된 자의 가죽
 //Skin of the Flayed One
-ItemDisplay[UNI !ID xla ETH]: %RED%ETH 플레이드 원의 가죽
+ItemDisplay[UNI !ID xla ETH]: %RED%ETH 박피된 자의 가죽
 //Iron Pelt
 ItemDisplay[UNI !ID xtu !ETH]: %TAN%강철 모피
 //Iron Pelt
@@ -511,29 +515,29 @@ ItemDisplay[UNI !ID xng !ETH]: %TAN%영혼 대장간
 //Spirit Forge
 ItemDisplay[UNI !ID xng ETH]: %TAN%ETH 영혼 대장간
 //Duriel's Shell
-ItemDisplay[UNI !ID xrs !ETH]: %RED%㉧ 듀리엘의 껍데기 %RED%㉧
+ItemDisplay[UNI !ID xrs !ETH]: %RED%O 듀리엘의 껍데기 %RED%O
 //Duriel's Shell
-ItemDisplay[UNI !ID xrs ETH]: %RED%㉧ ETH 듀리엘의 껍데기 %RED%㉧
+ItemDisplay[UNI !ID xrs ETH]: %RED%O ETH 듀리엘의 껍데기 %RED%O
 //Shaftstop
-ItemDisplay[UNI !ID xhn !ETH]: %RED%㉧ %PURPLE%칼날막이 갑옷 %RED%㉧
+ItemDisplay[UNI !ID xhn !ETH]: %RED%O %PURPLE%칼날막이 갑옷 %RED%O
 //Shaftstop
-ItemDisplay[UNI !ID xhn ETH]: %RED%㉧ ETH 칼날막이 갑옷 %RED%㉧
+ItemDisplay[UNI !ID xhn ETH]: %RED%O ETH 칼날막이 갑옷 %RED%O
 //Skullder's Ire
-ItemDisplay[UNI !ID xpl !ETH]: %RED%㉧ %PURPLE%스컬더의 분노 %RED%㉧
+ItemDisplay[UNI !ID xpl !ETH]: %RED%O %PURPLE%스컬더의 분노 %RED%O
 //Skullder's Ire
-ItemDisplay[UNI !ID xpl ETH]: %RED%㉧ %PURPLE%ETH 스컬더의 분노 %RED%㉧
+ItemDisplay[UNI !ID xpl ETH]: %RED%O %PURPLE%ETH 스컬더의 분노 %RED%O
 //Que-Hegan's Wisdom
-ItemDisplay[UNI !ID xtp !ETH]: %RED%퀘-히간의 지혜
+ItemDisplay[UNI !ID xtp !ETH]: %RED%퀘 히간의 지혜
 //Que-Hegan's Wisdom
-ItemDisplay[UNI !ID xtp ETH]: %TAN%ETH 퀘-히간의 지혜
+ItemDisplay[UNI !ID xtp ETH]: %TAN%ETH 퀘 히간의 지혜
 //Toothrow
 ItemDisplay[UNI !ID xld !ETH]: %TAN%줄이빨 갑옷
 //Toothrow
 ItemDisplay[UNI !ID xld ETH]: %TAN%ETH 줄이빨 갑옷
 //Guardian Angel
-ItemDisplay[UNI !ID xlt !ETH]: %RED%㉧ %PURPLE%수호 천사 %RED%㉧
+ItemDisplay[UNI !ID xlt !ETH]: %RED%O %PURPLE%수호 천사 %RED%O
 //Guardian Angel
-ItemDisplay[UNI !ID xlt ETH]: %RED%㉧ ETH 수호 천사 %RED%㉧
+ItemDisplay[UNI !ID xlt ETH]: %RED%O ETH 수호 천사 %RED%O
 //Atma's Wail
 ItemDisplay[UNI !ID xth !ETH]: %TAN%아트마의 흐느낌
 //Atma's Wail
@@ -547,33 +551,33 @@ ItemDisplay[UNI !ID xar !ETH]: %TAN%커프스모온
 //Corpsemourn
 ItemDisplay[UNI !ID xar ETH]: %TAN%ETH 커프스모온
 //Ormus' Robes
-ItemDisplay[UNI !ID uui !ETH]: %RED%㉧ %PURPLE%오르무스의 장포 %RED%㉧
+ItemDisplay[UNI !ID uui !ETH]: %RED%O %PURPLE%올머스의 장포 %RED%O
 //Ormus' Robes
-ItemDisplay[UNI !ID uui ETH]: %RED%ETH 오르무스의 장포
+ItemDisplay[UNI !ID uui ETH]: %RED%ETH 올머스의 장포
 //The Gladiator's Bane
 ItemDisplay[UNI !ID utu !ETH]: %RED%검투사의 골칫거리
 //The Gladiator's Bane
 ItemDisplay[UNI !ID utu ETH]: %RED%ETH 검투사의 골칫거리
 //Arkaine's Valor
-ItemDisplay[UNI !ID upl !ETH]: %RED%㉧ %PURPLE%아케인의 용기 %RED%㉧
+ItemDisplay[UNI !ID upl !ETH]: %RED%O %PURPLE%아케인의 용기 %RED%O
 //Arkaine's Valor
 ItemDisplay[UNI !ID upl ETH]: %RED%ETH 아케인의 용기
 //Leviathan
-ItemDisplay[UNI !ID uld !ETH]: %RED%㉧ 레비아탄 %RED%㉧
+ItemDisplay[UNI !ID uld !ETH]: %RED%O 레비아탄 %RED%O
 //Leviathan
-ItemDisplay[UNI !ID uld ETH]: %RED%㉧ ETH 레비아탄 %RED%㉧
+ItemDisplay[UNI !ID uld ETH]: %RED%O ETH 레비아탄 %RED%O
 //Steel Carapace
 ItemDisplay[UNI !ID uul !ETH]: %TAN%강철 외피
 //Steel Carapace
 ItemDisplay[UNI !ID uul ETH]: %RED%ETH 강철 외피
 //Templar's Might
-ItemDisplay[UNI !ID uar !ETH]: %RED%㉧ 기사단의 권능 %RED%㉧
+ItemDisplay[UNI !ID uar !ETH]: %RED%O 기사단의 권능 %RED%O
 //Templar's Might
 ItemDisplay[UNI !ID uar ETH]: %RED%ETH 기사단의 권능
 //Tyrael's Might
-ItemDisplay[UNI !ID uar !ETH]: %RED%㉧ %PURPLE%티리얼의 권능 %RED%㉧
+ItemDisplay[UNI !ID uar !ETH]: %RED%O %PURPLE%티리얼의 권능 %RED%O
 //Tyrael's Might
-ItemDisplay[UNI !ID uar ETH]: %RED%㉧ %PURPLE%ETH 티리얼의 권능 %RED%㉧
+ItemDisplay[UNI !ID uar ETH]: %RED%O %PURPLE%ETH 티리얼의 권능 %RED%O
 
 ////Unique Shields
 //
@@ -634,11 +638,11 @@ ItemDisplay[UNI !ID xow !ETH]: %RED%게르크의 성역
 //Gerke's Sanctuary
 ItemDisplay[UNI !ID xow ETH]: %TAN%ETH 게르크의 성역
 //Lidless Wall
-ItemDisplay[UNI !ID xsh !ETH]: %RED%㉧ 각성의 벽 %RED%㉧
+ItemDisplay[UNI !ID xsh !ETH]: %RED%O 각성의 벽 %RED%O
 //Lidless Wall
 ItemDisplay[UNI !ID xsh ETH]: %TAN%ETH 각성의 벽
 //Radament's Sphere
-ItemDisplay[UNI !ID xts !ETH]: %RED%㉧ 라다만트의 구체 %RED%㉧
+ItemDisplay[UNI !ID xts !ETH]: %RED%O 라다만트의 구체 %RED%O
 //Radament's Sphere
 ItemDisplay[UNI !ID xts ETH]: %TAN%ETH 라다만트의 구체
 //Blackoak Shield
@@ -646,15 +650,15 @@ ItemDisplay[UNI !ID uml !ETH]: %TAN%검은 떡갈나무 방패
 //Blackoak Shield
 ItemDisplay[UNI !ID uml ETH]: %RED%ETH 검은 떡갈나무 방패
 //Stormshield
-ItemDisplay[UNI !ID uit !ETH]: %RED%㉧ %PURPLE%폭풍막이 %RED%㉧
+ItemDisplay[UNI !ID uit !ETH]: %RED%O %PURPLE%폭풍막이 %RED%O
 //Stormshield
-ItemDisplay[UNI !ID uit ETH]: %RED%㉧ %PURPLE%ETH 폭풍막이 %RED%㉧
+ItemDisplay[UNI !ID uit ETH]: %RED%O %PURPLE%ETH 폭풍막이 %RED%O
 //Spike Thorn
 ItemDisplay[UNI !ID upk !ETH]: %TAN%뾰족가시 방패
 //Spike Thorn
 ItemDisplay[UNI !ID upk ETH]: %TAN%ETH 뾰족가시 방패
 //Medusa's Gaze
-ItemDisplay[UNI !ID uow !ETH]: %RED%㉧ %PURPLE%메두사의 응시 %RED%㉧
+ItemDisplay[UNI !ID uow !ETH]: %RED%O %PURPLE%메두사의 응시 %RED%O
 //Medusa's Gaze
 ItemDisplay[UNI !ID uow ETH]: %RED%ETH 메두사의 응시
 //Head Hunter's Glory
@@ -677,11 +681,11 @@ ItemDisplay[UNI !ID vgl !ETH]: %RED%피주먹
 //Bloodfist
 ItemDisplay[UNI !ID vgl ETH]: %TAN%ETH 피주먹
 //Chance Guards
-ItemDisplay[UNI !ID mgl !ETH]: %RED%㉧ 기회의 장갑 %RED%㉧
+ItemDisplay[UNI !ID mgl !ETH]: %RED%O 기회의 장갑 %RED%O
 //Chance Guards
 ItemDisplay[UNI !ID mgl ETH]: %TAN%ETH 기회의 장갑
 //Magefist
-ItemDisplay[UNI !ID tgl !ETH]: %RED%㉧ 마수 %RED%㉧
+ItemDisplay[UNI !ID tgl !ETH]: %RED%O 마수 %RED%O
 //Magefist
 ItemDisplay[UNI !ID tgl ETH]: %TAN%ETH 마수
 //Frostburn
@@ -709,11 +713,11 @@ ItemDisplay[UNI !ID xhg !ETH]: %TAN%지옥의 입구
 //Hellmouth
 ItemDisplay[UNI !ID xhg ETH]: %TAN%ETH 지옥의 입구
 //Dracul's Grasp
-ItemDisplay[UNI !ID uvg !ETH]: %RED%㉧ %PURPLE%드라큘의 손아귀 %RED%㉧
+ItemDisplay[UNI !ID uvg !ETH]: %RED%O %PURPLE%드라큘의 손아귀 %RED%O
 //Dracul's Grasp
 ItemDisplay[UNI !ID uvg ETH]: %TAN%ETH 드라큘의 손아귀
 //Soul Drainer
-ItemDisplay[UNI !ID umg !ETH]: %RED%㉧ 영혼흡수 완갑 %RED%㉧
+ItemDisplay[UNI !ID umg !ETH]: %RED%O 영혼흡수 완갑 %RED%O
 //Soul Drainer
 ItemDisplay[UNI !ID umg ETH]: %TAN%ETH 영혼흡수 완갑
 //Steelrend
@@ -748,19 +752,19 @@ ItemDisplay[UNI !ID xlb !ETH]: %RED%불꽃걸음
 //Infernostride
 ItemDisplay[UNI !ID xlb ETH]: %TAN%ETH 불꽃걸음
 //Waterwalk
-ItemDisplay[UNI !ID xvb !ETH]: %RED%㉧ 물걸음 장화 %RED%㉧
+ItemDisplay[UNI !ID xvb !ETH]: %RED%O 물걸음 장화 %RED%O
 //Waterwalk
 ItemDisplay[UNI !ID xvb ETH]: %TAN%ETH 물걸음 장화
 //Silkweave
-ItemDisplay[UNI !ID xmb !ETH]: %RED%㉧ 비단직조 장화 %RED%㉧
+ItemDisplay[UNI !ID xmb !ETH]: %RED%O 비단직조 장화 %RED%O
 //Silkweave
 ItemDisplay[UNI !ID xmb ETH]: %TAN%ETH 비단직조 장화
 //War Traveler
-ItemDisplay[UNI !ID xtb !ETH]: %RED%㉧ %PURPLE%전장의 여행자 %RED%㉧
+ItemDisplay[UNI !ID xtb !ETH]: %RED%O %PURPLE%전장의 여행자 %RED%O
 //War Traveler
 ItemDisplay[UNI !ID xtb ETH]: %RED%ETH 전장의 여행자
 //Gore Rider
-ItemDisplay[UNI !ID xhb !ETH]: %RED%㉧ %PURPLE%선혈의 장화 %RED%㉧
+ItemDisplay[UNI !ID xhb !ETH]: %RED%O %PURPLE%선혈의 장화 %RED%O
 //Gore Rider
 ItemDisplay[UNI !ID xhb ETH]: %TAN%ETH 선혈의 장화
 //Sandstorm Trek
@@ -772,7 +776,7 @@ ItemDisplay[UNI !ID umb !ETH]: %RED%뼈걸음 장화
 //Marrowwalk
 ItemDisplay[UNI !ID umb ETH]: %TAN%ETH 뼈걸음 장화
 //Shadow Dancer
-ItemDisplay[UNI !ID uhb !ETH]: %RED%㉧ 그림자 춤꾼 %RED%㉧
+ItemDisplay[UNI !ID uhb !ETH]: %RED%O 그림자 춤꾼 %RED%O
 //Shadow Dancer
 ItemDisplay[UNI !ID uhb ETH]: %TAN%ETH 그림자 춤꾼
 
@@ -799,11 +803,11 @@ ItemDisplay[UNI !ID hbl !ETH]: %TAN%칼날 요대
 //Bladebuckle
 ItemDisplay[UNI !ID hbl ETH]: %TAN%ETH 칼날 요대
 //String of Ears
-ItemDisplay[UNI !ID zlb !ETH]: %RED%㉧ 귀 꿰미 %RED%㉧
+ItemDisplay[UNI !ID zlb !ETH]: %RED%O 귀 꿰미 %RED%O
 //String of Ears
 ItemDisplay[UNI !ID zlb ETH]: %RED%ETH 귀 꿰미
 //Razortail
-ItemDisplay[UNI !ID zvb !ETH]: %RED%㉧ 날카로운 꼬리 %RED%㉧
+ItemDisplay[UNI !ID zvb !ETH]: %RED%O 날카로운 꼬리 %RED%O
 //Razortail
 ItemDisplay[UNI !ID zvb ETH]: %RED%ETH 날카로운 꼬리
 //Gloom's Trap
@@ -811,23 +815,23 @@ ItemDisplay[UNI !ID zmb !ETH]: %RED%우울의 올가미
 //Gloom's Trap
 ItemDisplay[UNI !ID zmb ETH]: %TAN%ETH 우울의 올가미
 //Snowclash
-ItemDisplay[UNI !ID ztb !ETH]: %RED%㉧ 눈꽃충돌 %RED%㉧
+ItemDisplay[UNI !ID ztb !ETH]: %RED%O 눈꽃충돌 %RED%O
 //Snowclash
 ItemDisplay[UNI !ID ztb ETH]: %RED%ETH 눈꽃충돌
 //Thundergod's Vigor
-ItemDisplay[UNI !ID zhb !ETH]: %RED%㉧ %PURPLE%천둥신의 박력 %RED%㉧
+ItemDisplay[UNI !ID zhb !ETH]: %RED%O %PURPLE%천둥신의 박력 %RED%O
 //Thundergod's Vigor
 ItemDisplay[UNI !ID zhb ETH]: %RED%ETH 천둥신의 박력
 //Arachnid Mesh
-ItemDisplay[UNI !ID ulc !ETH]: %RED%㉧ %PURPLE%거미줄 그물끈 %RED%㉧
+ItemDisplay[UNI !ID ulc !ETH]: %RED%O %PURPLE%거미줄 그물끈 %RED%O
 //Arachnid Mesh
 ItemDisplay[UNI !ID ulc ETH]: %RED%ETH 거미줄 그물끈
 //Nosferatu's Coil
-ItemDisplay[UNI !ID uvc !ETH]: %RED%㉧ 노스페라투의 고리 %RED%㉧
+ItemDisplay[UNI !ID uvc !ETH]: %RED%O 노스페라투의 고리 %RED%O
 //Nosferatu's Coil
 ItemDisplay[UNI !ID uvc ETH]: %TAN%ETH 노스페라투의 고리
 //Verdungo's Hearty Cord
-ItemDisplay[UNI !ID umc !ETH]: %RED%㉧ %PURPLE%베르던고의 든든한 끈 %RED%㉧
+ItemDisplay[UNI !ID umc !ETH]: %RED%O %PURPLE%베르던고의 든든한 끈 %RED%O
 //Verdungo's Hearty Cord
 ItemDisplay[UNI !ID umc ETH]: %RED%ETH 베르던고의 든든한 끈
 
@@ -884,9 +888,9 @@ ItemDisplay[UNI !ID 9ax !ETH]: %TAN%도살자의 눈동자
 //ETH Butcher's Pupil
 ItemDisplay[UNI !ID 9ax ETH]: %RED%ETH 도살자의 눈동자
 //Islestrike
-ItemDisplay[UNI !ID 92a !ETH]: %TAN%섬 공격도끼
+ItemDisplay[UNI !ID 92a !ETH]: %TAN%섬타격 도끼
 //Islestrike
-ItemDisplay[UNI !ID 92a ETH]: %TAN%ETH 섬 공격도끼
+ItemDisplay[UNI !ID 92a ETH]: %TAN%ETH 섬타격 도끼
 //Pompeii's Wrath
 ItemDisplay[UNI !ID 9mp !ETH]: %RED%폼페이의 분노
 //Pompeii's Wrath
@@ -928,7 +932,7 @@ ItemDisplay[UNI !ID 7mp !ETH]: %TAN%학의 부리
 //Cranebeak
 ItemDisplay[UNI !ID 7mp ETH]: %TAN%ETH 학의 부리
 //Death Cleaver
-ItemDisplay[UNI !ID 7wa !ETH]: %RED%㉧ 죽음의 식칼 %RED%㉧
+ItemDisplay[UNI !ID 7wa !ETH]: %RED%O 죽음의 식칼 %RED%O
 //Death Cleaver
 ItemDisplay[UNI !ID 7wa ETH]: %RED%ETH 죽음의 식칼
 //Ethereal Edge (always Eth)
@@ -955,7 +959,7 @@ ItemDisplay[UNI !ID hbw]: %TAN%쇠약의 활
 //Raven Claw
 ItemDisplay[UNI !ID lbw]: %TAN%까마귀 발톱
 //Rogue's Bow
-ItemDisplay[UNI !ID cbw]: %TAN%로그의 활
+ItemDisplay[UNI !ID cbw]: %TAN%도적의 활
 //Stormstrike
 ItemDisplay[UNI !ID sbb]: %TAN%뇌격궁
 //Wizendraw
@@ -979,13 +983,13 @@ ItemDisplay[UNI !ID 8l8]: %TAN%절벽살인마
 //Magewrath
 ItemDisplay[UNI !ID 8sw]: %RED%마법사의 분노
 //Goldstrike Arch
-ItemDisplay[UNI !ID 8lw]: %RED%㉧ 금격의 아치 %RED%㉧
+ItemDisplay[UNI !ID 8lw]: %RED%O 금격의 아치 %RED%O
 //Eaglehorn
 ItemDisplay[UNI !ID 6l7]: %RED%독수리뿔 장궁
 //Widowmaker
 ItemDisplay[UNI !ID 6sw]: %RED%과부제조기
 //Windforce
-ItemDisplay[UNI !ID 6lw]: %RED%㉧ %PURPLE%바람살 %RED%㉧
+ItemDisplay[UNI !ID 6lw]: %RED%O %PURPLE%바람살 %RED%O
 
 ////Unique Crossbows
 //
@@ -996,7 +1000,7 @@ ItemDisplay[UNI !ID mxb]: %TAN%아이커 쏘개
 //Hellcast
 ItemDisplay[UNI !ID hxb]: %TAN%지옥쇠뇌
 //Doomslinger
-ItemDisplay[UNI !ID rxb]: %RED%㉧ 파멸발사기 %RED%㉧
+ItemDisplay[UNI !ID rxb]: %RED%O 파멸발사기 %RED%O
 //Langer Briser
 ItemDisplay[UNI !ID 8lx]: %TAN%랭거 브리저
 //Pus Spitter
@@ -1013,9 +1017,9 @@ ItemDisplay[UNI !ID 6rx]: %TAN%내장 적출기
 ////Unique Daggers
 //
 //Gull
-ItemDisplay[UNI !ID dgr !ETH]: %RED%㉧ 걸 %RED%㉧
+ItemDisplay[UNI !ID dgr !ETH]: %RED%O 갈매기 단도 %RED%O
 //Gull
-ItemDisplay[UNI !ID dgr ETH]: %RED%ETH 걸
+ItemDisplay[UNI !ID dgr ETH]: %RED%ETH 갈매기 단도
 //The Diggler
 ItemDisplay[UNI !ID dir !ETH]: %TAN%더 디글러
 //The Diggler
@@ -1045,11 +1049,11 @@ ItemDisplay[UNI !ID 9bl !ETH]: %TAN%폭풍쐐기검
 //Stormspike
 ItemDisplay[UNI !ID 9bl ETH]: %TAN%ETH 폭풍쐐기검
 //Wizardspike
-ItemDisplay[UNI !ID 7dg !ETH]: %RED%㉧ 마법사의 쐐기검 %RED%㉧
+ItemDisplay[UNI !ID 7dg !ETH]: %RED%O 마법사의 쐐기검 %RED%O
 //Wizardspike
-ItemDisplay[UNI !ID 7dg ETH]: %RED%㉧ ETH 마법사의 쐐기검 %RED%㉧
+ItemDisplay[UNI !ID 7dg ETH]: %RED%O ETH 마법사의 쐐기검 %RED%O
 //Fleshripper
-ItemDisplay[UNI !ID 7kr !ETH]: %RED%㉧ 살갗 찢개 %RED%㉧
+ItemDisplay[UNI !ID 7kr !ETH]: %RED%O 살갗 찢개 %RED%O
 //Fleshripper
 ItemDisplay[UNI !ID 7kr ETH]: %RED%ETH 살갗 찢개
 //ETH Ghostflame (always eth)
@@ -1134,11 +1138,11 @@ ItemDisplay[UNI !ID 7mt !ETH]: %TAN%바라나의 별
 //Baranar's Star
 ItemDisplay[UNI !ID 7mt ETH]: %TAN%ETH 바라나의 별
 //Horizon's Tornado or Stormlash
-ItemDisplay[UNI !ID 7fl !ETH]: %RED%㉧ 호라즌의 회오리바람 or 천둥채찍 %RED%㉧
+ItemDisplay[UNI !ID 7fl !ETH]: %RED%O 호라즌의 회오리바람 or 천둥채찍 %RED%O
 //Horizon's Tornado or Stormlash
 ItemDisplay[UNI !ID 7fl ETH]: %RED%ETH 호라즌의 회오리바람 or ETH 천둥채찍
 //Stone Crusher or Schaefer's Hammer
-ItemDisplay[UNI !ID 7wh !ETH]: %RED%㉧ 바위 격파기 or 쉐퍼의 망치 %RED%㉧
+ItemDisplay[UNI !ID 7wh !ETH]: %RED%O 바위 격파기 or 쉐퍼의 망치 %RED%O
 //Stone Crusher or Schaefer's Hammer
 ItemDisplay[UNI !ID 7wh ETH]: %RED%ETH 바위 격파기 or ETH 쉐퍼의 망치
 //Windhammer
@@ -1146,9 +1150,9 @@ ItemDisplay[UNI !ID 7m7 !ETH]: %TAN%바람망치
 //Windhammer
 ItemDisplay[UNI !ID 7m7 ETH]: %TAN%ETH 바람망치
 //Earth Shifter or The Cranium Basher
-ItemDisplay[UNI !ID 7gm !ETH]: %RED%㉧ 지축 망치 or 두개골 파괴자 %RED%㉧
+ItemDisplay[UNI !ID 7gm !ETH]: %RED%O 지축 망치 or 두개골 파괴자 %RED%O
 //Earth Shifter or The Cranium Basher
-ItemDisplay[UNI !ID 7gm ETH]: %RED%㉧ ETH 지축 망치 or ETH 두개골 파괴자%RED%㉧
+ItemDisplay[UNI !ID 7gm ETH]: %RED%O ETH 지축 망치 or ETH 두개골 파괴자%RED%O
 
 ////Unique Polearms
 //
@@ -1203,15 +1207,15 @@ ItemDisplay[UNI !ID 9wc ETH]: %TAN%ETH 그림의 불타는 시체
 //Bonehew
 ItemDisplay[UNI !ID 7o7 !ETH]: %RED%뼈 절단기
 //Bonehew
-ItemDisplay[UNI !ID 7o7 ETH]: %RED%㉧ ETH 뼈 절단기 %RED%㉧
+ItemDisplay[UNI !ID 7o7 ETH]: %RED%O ETH 뼈 절단기 %RED%O
 //Reaper's Toll
-ItemDisplay[UNI !ID 7s8 !ETH]: %RED%㉧ 사신의 수확 %RED%㉧
+ItemDisplay[UNI !ID 7s8 !ETH]: %RED%O 사신의 수확 %RED%O
 //ETH Reaper's Toll
-ItemDisplay[UNI !ID 7s8 ETH]: %RED%㉧ %PURPLE%ETH 사신의 수확 %RED%㉧
+ItemDisplay[UNI !ID 7s8 ETH]: %RED%O %PURPLE%ETH 사신의 수확 %RED%O
 //Tomb Reaver
-ItemDisplay[UNI !ID 7pa !ETH]: %RED%㉧ 무덤 약탈자  %RED%㉧
+ItemDisplay[UNI !ID 7pa !ETH]: %RED%O 무덤 약탈자  %RED%O
 //Tomb Reaver
-ItemDisplay[UNI !ID 7pa ETH]: %RED%㉧ ETH 무덤 약탈자 %RED%㉧
+ItemDisplay[UNI !ID 7pa ETH]: %RED%O ETH 무덤 약탈자 %RED%O
 //Stormspire
 ItemDisplay[UNI !ID 7wc !ETH]: %RED%폭풍장대
 //ETH Stormspire
@@ -1232,9 +1236,9 @@ ItemDisplay[UNI !ID wsp !ETH]: %TAN%폭풍의 눈
 //Stormeye
 ItemDisplay[UNI !ID wsp ETH]: %TAN%ETH 폭풍의 눈
 //Zakarum's Hand
-ItemDisplay[UNI !ID 9sc !ETH]: %TAN%자카럼의 손길
+ItemDisplay[UNI !ID 9sc !ETH]: %TAN%자카룸의 손길
 //Zakarum's Hand
-ItemDisplay[UNI !ID 9sc ETH]: %TAN%ETH 자카럼의 손길
+ItemDisplay[UNI !ID 9sc ETH]: %TAN%ETH 자카룸의 손길
 //The Fetid Sprinkler
 ItemDisplay[UNI !ID 9qs !ETH]: %TAN%악취나는 성수뿌리개
 //The Fetid Sprinkler
@@ -1244,11 +1248,11 @@ ItemDisplay[UNI !ID 9ws !ETH]: %RED%축복받은 빛의 손길
 //Hand of Blessed Light (Holy bolt/FoH scepter)
 ItemDisplay[UNI !ID 9ws ETH]: %TAN%ETH 축복받은 빛의 손길
 //Heaven's Light or the Redeemer
-ItemDisplay[UNI !ID 7sc !ETH]: %RED%㉧ 천상의 빛 or 구원자 %RED%㉧
+ItemDisplay[UNI !ID 7sc !ETH]: %RED%O 천상의 빛 or 구원자 %RED%O
 //Heaven's Light or the Redeemer
 ItemDisplay[UNI !ID 7sc ETH]: %RED%ETH 천상의 빛 or ETH 구원자
 //Astreon's Iron Ward
-ItemDisplay[UNI !ID 7ws !ETH]: %RED%㉧ 아스트리온의 강철 홀 %RED%㉧
+ItemDisplay[UNI !ID 7ws !ETH]: %RED%O 아스트리온의 강철 홀 %RED%O
 //Astreon's Iron Ward
 ItemDisplay[UNI !ID 7ws ETH]: %RED%ETH 아스트리온의 강철 홀
 
@@ -1281,15 +1285,15 @@ ItemDisplay[UNI !ID 9sr ETH]: %TAN%ETH 관통창
 //Kelpie Snare
 ItemDisplay[UNI !ID 9tr !ETH]: %RED%켈피의 함정
 //Kelpie Snare
-ItemDisplay[UNI !ID 9tr ETH]: %RED%㉧ ETH 켈피의 함정 %RED%㉧
+ItemDisplay[UNI !ID 9tr ETH]: %RED%O ETH 켈피의 함정 %RED%O
 //Soulfeast Time
 ItemDisplay[UNI !ID 9br !ETH]: %TAN%영혼수확의 가지
 //Soulfeast Time
 ItemDisplay[UNI !ID 9br ETH]: %TAN%ETH 영혼수확의 가지
 //Hone Sundan
-ItemDisplay[UNI !ID 9st !ETH]: %RED%㉧ 혼 선단 %RED%㉧
+ItemDisplay[UNI !ID 9st !ETH]: %RED%O 혼 선단 %RED%O
 //ETH Hone Sundan
-ItemDisplay[UNI !ID 9st ETH]: %RED%㉧ %PURPLE%ETH 혼 선단 %RED%㉧
+ItemDisplay[UNI !ID 9st ETH]: %RED%O %PURPLE%ETH 혼 선단 %RED%O
 //Spire of Honor
 ItemDisplay[UNI !ID 9p9 !ETH]: %TAN%명예의 창
 //Spire of Honor
@@ -1299,13 +1303,13 @@ ItemDisplay[UNI !ID 7sr !ETH]: %RED%아리옥의 바늘
 //Arioc's Needle
 ItemDisplay[UNI !ID 7sr ETH]: %TAN%ETH 아리옥의 바늘
 //Viperfork
-ItemDisplay[UNI !ID 7br !ETH]: %RED%㉧ 뱀 갈퀴 %RED%㉧
+ItemDisplay[UNI !ID 7br !ETH]: %RED%O 뱀 갈퀴 %RED%O
 //Viperfork
-ItemDisplay[UNI !ID 7br ETH]: %RED%㉧ ETH 뱀 갈퀴 %RED%㉧
+ItemDisplay[UNI !ID 7br ETH]: %RED%O ETH 뱀 갈퀴 %RED%O
 //Steel Pillar
-ItemDisplay[UNI !ID 7p7 !ETH]: %RED%㉧ 강철 기둥 %RED%㉧
+ItemDisplay[UNI !ID 7p7 !ETH]: %RED%O 강철 기둥 %RED%O
 //Steel Pillar
-ItemDisplay[UNI !ID 7p7 ETH]: %RED%㉧ ETH 강철 기둥 %RED%㉧
+ItemDisplay[UNI !ID 7p7 ETH]: %RED%O ETH 강철 기둥 %RED%O
 
 ////Unique Staves
 //
@@ -1336,7 +1340,7 @@ ItemDisplay[UNI !ID 8ss ETH]: %TAN%ETH 뾰족나무 가지
 //Ribcracker
 ItemDisplay[UNI !ID 8ls !ETH]: %RED%늑골 분쇄기
 //Ribcracker
-ItemDisplay[UNI !ID 8ls ETH]: %RED%㉧ ETH 늑골 분쇄기 %RED%㉧
+ItemDisplay[UNI !ID 8ls ETH]: %RED%O ETH 늑골 분쇄기 %RED%O
 //Chromatic Ire
 ItemDisplay[UNI !ID 8cs !ETH]: %TAN%형형색색의 분노
 //Chromatic Ire
@@ -1350,7 +1354,7 @@ ItemDisplay[UNI !ID 8ws !ETH]: %TAN%두개골 수집가
 //Skull Collector
 ItemDisplay[UNI !ID 8ws ETH]: %TAN%ETH 두개골 수집가
 //Ondal's Wisdom
-ItemDisplay[UNI !ID 6cs !ETH]: %RED%㉧ %PURPLE%온달의 지혜 %RED%㉧
+ItemDisplay[UNI !ID 6cs !ETH]: %RED%O %PURPLE%온달의 지혜 %RED%O
 //Ondal's Wisdom
 ItemDisplay[UNI !ID 6cs ETH]: %RED%ETH 온달의 지혜
 //Mang Song's Lesson
@@ -1425,7 +1429,7 @@ ItemDisplay[UNI !ID 9sb !ETH]: %RED%마법불꽃
 //Hexfire (+3 to fire skills)(+1 Hydra)
 ItemDisplay[UNI !ID 9sb ETH]: %TAN%ETH 마법불꽃
 //Blade of Ali Baba (the MF sword)
-ItemDisplay[UNI !ID 9fc !ETH]: %RED%㉧ 알리바바의 검 %RED%㉧
+ItemDisplay[UNI !ID 9fc !ETH]: %RED%O 알리바바의 검 %RED%O
 //Blade of Ali Baba (the MF sword)
 ItemDisplay[UNI !ID 9fc ETH]: %RED%ETH 알리바바의 검
 //Ginther's Rift
@@ -1461,7 +1465,7 @@ ItemDisplay[UNI !ID 9b9 !ETH]: %TAN%구름 가르개
 //Cloudcrack
 ItemDisplay[UNI !ID 9b9 ETH]: %TAN%ETH 구름 가르개
 //Todesfaelle Flamme (The RF Sword)
-ItemDisplay[UNI !ID 9fb !ETH]: %RED%㉧ 토즈팰러 플렘 %RED%㉧
+ItemDisplay[UNI !ID 9fb !ETH]: %RED%O 토즈팰러 플렘 %RED%O
 //Todesfaelle Flamme (The RF Sword)
 ItemDisplay[UNI !ID 9fb ETH]: %RED%ETH 토즈팰러 플렘
 //Swordguard
@@ -1477,7 +1481,7 @@ ItemDisplay[UNI !ID 7sb !ETH]: %TAN%핏빛 달
 //Bloodmoon (lvl 15 blood golem charges)
 ItemDisplay[UNI !ID 7sb ETH]: %TAN%ETH 핏빛 달
 //Lightsabre or Azurewrath
-ItemDisplay[UNI !ID 7cr]: %RED%㉧ %PURPLE%광검 or 푸른 서슬 %RED%㉧
+ItemDisplay[UNI !ID 7cr]: %RED%O %PURPLE%광검 or 푸른 서슬 %RED%O
 //Frostwind (arctic blast +14 can do fun builds)
 ItemDisplay[UNI !ID 7ls !ETH]: %RED%서리바람
 //Frostwind (arctic blast +14 can do fun builds)
@@ -1487,13 +1491,13 @@ ItemDisplay[UNI !ID 7gs !ETH]: %RED%우레화염
 //Flamebellow (flame dash +18)
 ItemDisplay[UNI !ID 7gs ETH]: %TAN%ETH 우레화염
 //Doombringer
-ItemDisplay[UNI !ID 7b7 !ETH]: %RED%㉧ 괴멸자 %RED%㉧
+ItemDisplay[UNI !ID 7b7 !ETH]: %RED%O 괴멸자 %RED%O
 //ETH Doombringer
-ItemDisplay[UNI !ID 7b7 ETH]: %RED%㉧ %PURPLE%ETH 괴멸자 %RED%㉧
+ItemDisplay[UNI !ID 7b7 ETH]: %RED%O %PURPLE%ETH 괴멸자 %RED%O
 //The Grandfather
-ItemDisplay[UNI !ID 7gd !ETH]: %RED%㉧ 대선조 %RED%㉧
+ItemDisplay[UNI !ID 7gd !ETH]: %RED%O 대선조 %RED%O
 //ETH The Grandfather
-ItemDisplay[UNI !ID 7gd ETH]: %RED%㉧ ETH 대선조 %RED%㉧
+ItemDisplay[UNI !ID 7gd ETH]: %RED%O ETH 대선조 %RED%O
 
 ////Unique Wands
 //
@@ -1534,39 +1538,39 @@ ItemDisplay[UNI !ID 7bw !ETH]: %RED%유령뼈 완드
 //Boneshade (can get +7 Teeth +7 Bone Armor)
 ItemDisplay[UNI !ID 7bw ETH]: %RED%ETH 유령뼈 완드
 //Death's Web (-40 to -50 to enemy poison res)
-ItemDisplay[UNI !ID 7gw !ETH]: %RED%㉧ %PURPLE%죽음의 거미줄 %RED%㉧
+ItemDisplay[UNI !ID 7gw !ETH]: %RED%O %PURPLE%죽음의 거미줄 %RED%O
 //Death's Web (-40 to -50 to enemy poison res)
-ItemDisplay[UNI !ID 7gw ETH]: %RED%㉧ ETH 죽음의 거미줄 %RED%㉧
+ItemDisplay[UNI !ID 7gw ETH]: %RED%O ETH 죽음의 거미줄 %RED%O
 
 ////Unique Throwing Weapons
 //
 //Deathbit
 ItemDisplay[UNI !ID 9tk !ETH]: %TAN%죽음칼날
 //ETH Deathbit
-ItemDisplay[UNI !ID 9tk ETH]: %RED%㉧ ETH 죽음칼날 %RED%㉧
+ItemDisplay[UNI !ID 9tk ETH]: %RED%O ETH 죽음칼날 %RED%O
 //The Scalper
 ItemDisplay[UNI !ID 9ta !ETH]: %TAN%끌칼
 //ETH The Scalper
-ItemDisplay[UNI !ID 9ta ETH]: %RED%㉧ ETH 끌칼 %RED%㉧
+ItemDisplay[UNI !ID 9ta ETH]: %RED%O ETH 끌칼 %RED%O
 //Warshrike
-ItemDisplay[UNI !ID 7bk !ETH]: %RED%㉧ 전장의 새 %RED%㉧
+ItemDisplay[UNI !ID 7bk !ETH]: %RED%O 전장의 새 %RED%O
 //ETH Warshrike
-ItemDisplay[UNI !ID 7bk ETH]: %RED%㉧ %PURPLE%ETH 전장의 새 %RED%㉧
+ItemDisplay[UNI !ID 7bk ETH]: %RED%O %PURPLE%ETH 전장의 새 %RED%O
 //Gimmershred
 ItemDisplay[UNI !ID 7ta !ETH]: %RED%새끼양 저밈도끼
 //ETH Gimmershred
 ItemDisplay[UNI !ID 7ta ETH]: %TAN%ETH 새끼양 저밈도끼
 //Lacerator
-ItemDisplay[UNI !ID 7b8 !ETH]: %RED%㉧ 절개 도끼 %RED%㉧
+ItemDisplay[UNI !ID 7b8 !ETH]: %RED%O 절개 도끼 %RED%O
 //ETH Lacerator
-ItemDisplay[UNI !ID 7b8 ETH]: %RED%㉧ %PURPLE%ETH 절개 도끼 %RED%㉧
+ItemDisplay[UNI !ID 7b8 ETH]: %RED%O %PURPLE%ETH 절개 도끼 %RED%O
 
 ////Unique Javelins
 //
 //Demon's Arch
 ItemDisplay[UNI !ID 7s7 !ETH]: %TAN%악마의 아치
 //ETH Demon's Arch
-ItemDisplay[UNI !ID 7s7 ETH]: %RED%㉧ ETH 악마의 아치 %RED%㉧
+ItemDisplay[UNI !ID 7s7 ETH]: %RED%O ETH 악마의 아치 %RED%O
 //ETH Wraith Flight (always ETH)
 ItemDisplay[UNI !ID 7gl ETH]: %RED%ETH 유령 비행
 //Gargoyle's Bite
@@ -1587,24 +1591,24 @@ ItemDisplay[UNI !ID am9 ETH]: %RED%ETH 라이캔더의 창
 //Lycander's Aim
 ItemDisplay[UNI !ID am7]: %RED%라이캔더의 조준
 //Titan's Revenge
-ItemDisplay[UNI !ID ama !ETH]: %RED%㉧ 타이탄의 복수 %RED%㉧
+ItemDisplay[UNI !ID ama !ETH]: %RED%O 타이탄의 복수 %RED%O
 //Titan's Revenge
-ItemDisplay[UNI !ID ama ETH]: %RED%㉧ ETH 타이탄의 복수 %RED%㉧
+ItemDisplay[UNI !ID ama ETH]: %RED%O ETH 타이탄의 복수 %RED%O
 //Thunderstroke
-ItemDisplay[UNI !ID amf !ETH]: %RED%㉧ 낙뢰 %RED%㉧
+ItemDisplay[UNI !ID amf !ETH]: %RED%O 낙뢰 %RED%O
 //Thunderstroke
 ItemDisplay[UNI !ID amf ETH]: %TAN%ETH 낙뢰
 //Blood Raven's Charge (got lvl 5 revive (30charges))
-ItemDisplay[UNI !ID amb]: %TAN%블러드 레이븐의 돌격
+ItemDisplay[UNI !ID amb]: %TAN%핏빛 까마귀의 임무
 
 ////Unique Assassin only items
 //
 //ETH Shadow Killer (its always ETH)
 ItemDisplay[UNI !ID 7cs ETH]: %RED%ETH 그림자 암살자
 //Bartuc's Cut-Throat
-ItemDisplay[UNI !ID 9tw !ETH]: %RED%㉧ 바르툭의 경동맥칼 %RED%㉧
+ItemDisplay[UNI !ID 9tw !ETH]: %RED%O 바르툭의 목따개 %RED%O
 //Bartuc's Cut-Throat
-ItemDisplay[UNI !ID 9tw ETH]: %RED%ETH 바르툭의 경동맥칼
+ItemDisplay[UNI !ID 9tw ETH]: %RED%ETH 바르툭의 목따개
 //Jade Talon
 ItemDisplay[UNI !ID 7wb !ETH]: %RED%비취 발톱
 //Jade Talon
@@ -1617,7 +1621,7 @@ ItemDisplay[UNI !ID 7lw ETH]: %TAN%ETH 불도마뱀의 발톱
 ////Unique Necromancer only items
 //
 //Homunculus
-ItemDisplay[UNI !ID nea !ETH]: %RED%㉧ %PURPLE%호문쿨루스 %RED%㉧
+ItemDisplay[UNI !ID nea !ETH]: %RED%O %PURPLE%호문쿨루스 %RED%O
 //Homunculus
 ItemDisplay[UNI !ID nea ETH]: %RED%ETH 호문쿨루스
 //Darkforce Spawn
@@ -1625,20 +1629,20 @@ ItemDisplay[UNI !ID nef !ETH]: %RED%암흑의 힘의 원천
 //Darkforce Spawn
 ItemDisplay[UNI !ID nef ETH]: %TAN%ETH 암흑의 힘의 원천
 //Boneflame
-ItemDisplay[UNI !ID nee !ETH]: %RED%㉧ 화염의 뼈 %RED%㉧
+ItemDisplay[UNI !ID nee !ETH]: %RED%O 화염의 뼈 %RED%O
 //Boneflame
 ItemDisplay[UNI !ID nee ETH]: %TAN%ETH 화염의 뼈
 
 ////Unique Barbarian only items
 //
 //Arreat's Face
-ItemDisplay[UNI !ID baa !ETH]: %RED%㉧ %PURPLE%아리앗의 얼굴 %RED%㉧
+ItemDisplay[UNI !ID baa !ETH]: %RED%O %PURPLE%아리앗의 얼굴 %RED%O
 //Arreat's Face
 ItemDisplay[UNI !ID baa ETH]: %RED%ETH 아리앗의 얼굴
 //Wolfhowl (for bear/werewolf barb)
-ItemDisplay[UNI !ID bac !ETH]: %RED%㉧ 늑대의 울음 %RED%㉧
+ItemDisplay[UNI !ID bac !ETH]: %RED%O 늑대울음 %RED%O
 //Wolfhowl (for bear/werewolf barb)
-ItemDisplay[UNI !ID bac ETH]: %RED%ETH 늑대의 울음
+ItemDisplay[UNI !ID bac ETH]: %RED%ETH 늑대울음
 //Demonhorn's Edge
 ItemDisplay[UNI !ID bad !ETH]: %TAN%악마뿔 투구
 //Demonhorn's Edge
@@ -1655,45 +1659,45 @@ ItemDisplay[UNI !ID oba !ETH]: %RED%망울
 //The Oculus
 ItemDisplay[UNI !ID oba ETH]: %TAN%ETH 망울
 //Eschuta's Temper
-ItemDisplay[UNI !ID obc !ETH]: %RED%㉧ 에슈타의 성미 %RED%㉧
+ItemDisplay[UNI !ID obc !ETH]: %RED%O 에슈타의 성미 %RED%O
 //Eschuta's Temper
 ItemDisplay[UNI !ID obc ETH]: %RED%ETH 에슈타의 성미
 //Death's Fathom
-ItemDisplay[UNI !ID obf !ETH]: %RED%㉧ 죽음의 깊이 %RED%㉧
+ItemDisplay[UNI !ID obf !ETH]: %RED%O 죽음의 헤아림 %RED%O
 //Death's Fathom
-ItemDisplay[UNI !ID obf ETH]: %RED%ETH 죽음의 깊이
+ItemDisplay[UNI !ID obf ETH]: %RED%ETH 죽음의 헤아림
 
 ////Unique Druid only items
 //
 //Jalal's Mane
-ItemDisplay[UNI !ID dra !ETH]: %RED%㉧ %PURPLE%잘알의 갈기 %RED%㉧
+ItemDisplay[UNI !ID dra !ETH]: %RED%O %PURPLE%잘알의 갈기 %RED%O
 //Jalal's Mane
 ItemDisplay[UNI !ID dra ETH]: %RED%ETH 잘알의 갈기
 //Cerebus' Bite
-ItemDisplay[UNI !ID drb !ETH]: %RED%㉧ 케레버스의 이빨 %RED%㉧
+ItemDisplay[UNI !ID drb !ETH]: %RED%O 세레버스의 이빨 %RED%O
 //Cerebus' Bite
-ItemDisplay[UNI !ID drb ETH]: %TAN%ETH 케레버스의 이빨
+ItemDisplay[UNI !ID drb ETH]: %TAN%ETH 세레버스의 이빨
 //Ravenlore (bis raven/fire ele druid helm)
-ItemDisplay[UNI !ID dre !ETH]: %RED%㉧ 까마귀 설화 %RED%㉧
+ItemDisplay[UNI !ID dre !ETH]: %RED%O 까마귀 설화 %RED%O
 //Ravenlore (bis raven/fire ele druid helm)
 ItemDisplay[UNI !ID dre ETH]: %RED%ETH %까마귀 설화
 //Spirit Keeper
-ItemDisplay[UNI !ID drd !ETH]: %RED%㉧ 영혼 수호자 %RED%㉧
+ItemDisplay[UNI !ID drd !ETH]: %RED%O 영혼 수호자 %RED%O
 //Spirit Keeper
 ItemDisplay[UNI !ID drd ETH]: %TAN%ETH 영혼 수호자
 
 ////Unique Paladin only items
 //
 //Alma Negra
-ItemDisplay[UNI !ID pac !ETH]: %RED%㉧ 알마 네그라 %RED%㉧
+ItemDisplay[UNI !ID pac !ETH]: %RED%O 알마 네그라 %RED%O
 //Alma Negra
 ItemDisplay[UNI !ID pac ETH]: %RED%ETH 알마 네그라
 //Herald of Zakarum
-ItemDisplay[UNI !ID pa9 !ETH]: %RED%㉧ %PURPLE%자카럼의 전령 %RED%㉧
+ItemDisplay[UNI !ID pa9 !ETH]: %RED%O %PURPLE%자카룸의 전령 %RED%O
 //Herald of Zakarum
-ItemDisplay[UNI !ID pa9 ETH]: %RED%ETH 자카럼의 전령
+ItemDisplay[UNI !ID pa9 ETH]: %RED%ETH 자카룸의 전령
 //Dragonscale (Hydra paladin)
-ItemDisplay[UNI !ID pae !ETH]: %RED%㉧ 용의 비늘 %RED%㉧
+ItemDisplay[UNI !ID pae !ETH]: %RED%O 용의 비늘 %RED%O
 //Dragonscale (Hydra paladin)
 ItemDisplay[UNI !ID pae ETH]: %RED%ETH 용의 비늘
 
@@ -1702,12 +1706,12 @@ ItemDisplay[UNI !ID pae ETH]: %RED%ETH 용의 비늘
 ItemDisplay[UNI !ID aq2]: %TAN%애로우
 
 ////Unique Rings Amulets Jewels Charms
-ItemDisplay[UNI !ID (rin OR amu OR jew)]: %PURPLE%  ㉧ %RED%%NAME%%PURPLE% ㉧  %PURPLE%
+ItemDisplay[UNI !ID (rin OR amu OR jew)]: %PURPLE%  O %RED%%NAME%%PURPLE% O  %PURPLE%
 
 ////Unique Charms
-ItemDisplay[UNI !ID cm1]: %PURPLE%  ㉧ %ORANGE%애니힐러스%PURPLE% ㉧  %PURPLE%
-ItemDisplay[UNI !ID cm2]: %PURPLE%  ㉧ %ORANGE%지옥의 횃불%PURPLE% ㉧  %PURPLE%
-ItemDisplay[UNI !ID cm3]: %PURPLE%  ㉧ %RED%기드의 행운%PURPLE% ㉧  %PURPLE%
+ItemDisplay[UNI !ID cm1]: %PURPLE%  O %ORANGE%애니힐러스%PURPLE% O  %PURPLE%
+ItemDisplay[UNI !ID cm2]: %PURPLE%  O %ORANGE%지옥의 횃불%PURPLE% O  %PURPLE%
+ItemDisplay[UNI !ID cm3]: %PURPLE%  O %RED%기드의 행운%PURPLE% O  %PURPLE%
 
 ////SET ITEMS (no rings or amys edited)
 //
@@ -1868,34 +1872,34 @@ ItemDisplay[SET !ID tbt]: %GREEN%%NAME% %DGREEN%비달라
 //Aldur's Watchtower
 //
 //Aldur's Stony Gaze
-ItemDisplay[SET !ID dr8]: %RED%¤ %GREEN%%NAME% %DGREEN%알더 %RED%¤
+ItemDisplay[SET !ID dr8]: %RED%Â¤ %GREEN%%NAME% %DGREEN%알더 %RED%Â¤
 //Aldur's Advance
-ItemDisplay[SET !ID xtb]: %RED%㉧ %GREEN%%NAME% %DGREEN%알더 %RED%㉧
+ItemDisplay[SET !ID xtb]: %RED%O %GREEN%%NAME% %DGREEN%알더 %RED%O
 //Aldur's Deception
-ItemDisplay[SET !ID uul]: %RED%¤ %GREEN%%NAME% %DGREEN%알더 %RED%¤
+ItemDisplay[SET !ID uul]: %RED%Â¤ %GREEN%%NAME% %DGREEN%알더 %RED%Â¤
 //Aldur's Rhythm
 ItemDisplay[SET !ID 9mt]: %GREEN%%NAME% %DGREEN%알더
 
 //Bul-Kathos' Children
 //
 //Bul-Kathos' Sacred Charge
-ItemDisplay[SET !ID 7gd]: %RED%¤ %GREEN%%NAME% %DGREEN%불-카토스 %RED%¤
+ItemDisplay[SET !ID 7gd]: %RED%Â¤ %GREEN%%NAME% %DGREEN%불 카토스 %RED%Â¤
 //Bul-Kathos' Tribal Guardian
-ItemDisplay[SET !ID 7wd]: %RED%¤ %GREEN%%NAME% %DGREEN%불-카토스 %RED%¤
+ItemDisplay[SET !ID 7wd]: %RED%Â¤ %GREEN%%NAME% %DGREEN%불 카토스 %RED%Â¤
 
 //Cow King's Leathers
 //
 //Cow King's Horns
-ItemDisplay[SET !ID xap]: %RED%¤ %GREEN%%NAME% %DGREEN%카우 왕 %RED%¤
+ItemDisplay[SET !ID xap]: %RED%Â¤ %GREEN%%NAME% %DGREEN%카우 왕 %RED%Â¤
 //Cow King's Hide
-ItemDisplay[SET !ID stu]: %RED%¤ %GREEN%%NAME% %DGREEN%카우 왕 %RED%¤
+ItemDisplay[SET !ID stu]: %RED%Â¤ %GREEN%%NAME% %DGREEN%카우 왕 %RED%Â¤
 //Cow King's Hooves
 ItemDisplay[SET !ID vbt]: %GREEN%%NAME% %DGREEN%샌더 or 카우 왕
 
 //The Disciple
 //
 //Laying of Hands
-ItemDisplay[SET !ID ulg]: %PURPLE%㉧ %GREEN%%NAME% %DGREEN%사도%PURPLE%㉧
+ItemDisplay[SET !ID ulg]: %PURPLE%O %GREEN%%NAME% %DGREEN%사도%PURPLE%O
 //Dark Adherent
 ItemDisplay[SET !ID uui]: %GREEN%%NAME% %DGREEN%사도
 //Rite of Passage
@@ -1919,11 +1923,11 @@ ItemDisplay[SET !ID paf]: %GREEN%%NAME% %DGREEN%그리스월드
 //Haemosu's Adamant
 ItemDisplay[SET !ID xrs]: %GREEN%%NAME% %DGREEN%천인의 형제
 //Dangoon's Teaching
-ItemDisplay[SET !ID 7ma]: %RED%¤ %GREEN%%NAME% %DGREEN%단군의 가르침%RED%¤
+ItemDisplay[SET !ID 7ma]: %RED%Â¤ %GREEN%%NAME% %DGREEN%단군의 가르침%RED%Â¤
 //Taebaek's Glory
 ItemDisplay[SET !ID uts]: %GREEN%%NAME% %DGREEN%천인의 형제
 //Ondal's Almighty (50% reduced skill cooldown for 4 seconds on striking)
-ItemDisplay[SET !ID uhm]: %RED%¤ %GREEN%%NAME% %DGREEN%온달의 전능함 %RED%¤
+ItemDisplay[SET !ID uhm]: %RED%Â¤ %GREEN%%NAME% %DGREEN%온달의 전능함 %RED%Â¤
 
 //Hwanin's Majesty
 //
@@ -1932,7 +1936,7 @@ ItemDisplay[SET !ID xrn]: %GREEN%%NAME% %DGREEN%환인
 //Hwanin's Justice
 ItemDisplay[SET !ID 9vo !ETH]: %GREEN%%NAME% %DGREEN%환인
 //Hwanin's Justice Eth
-ItemDisplay[SET !ID 9vo ETH]: %RED%¤ %GREEN%ETH %NAME% %DGREEN%환인 %RED%¤
+ItemDisplay[SET !ID 9vo ETH]: %RED%Â¤ %GREEN%ETH %NAME% %DGREEN%환인 %RED%Â¤
 //Hwanin's Refuge
 ItemDisplay[SET !ID xcl]: %GREEN%%NAME% %DGREEN%환인
 //Hwanin's Blessing
@@ -1941,17 +1945,17 @@ ItemDisplay[SET !ID mbl]: %GREEN%%NAME% %DGREEN%사루스 or 환인
 //Immortal King
 //
 //Immortal King's Will
-ItemDisplay[SET !ID ba5]: %RED%¤ %GREEN%%NAME% %DGREEN%불멸왕 %RED%¤
+ItemDisplay[SET !ID ba5]: %RED%Â¤ %GREEN%%NAME% %DGREEN%불멸왕 %RED%Â¤
 //Immortal King's Stone Crusher
 ItemDisplay[SET !ID 7m7]: %GREEN%%NAME% %DGREEN%불멸왕
 //Immortal King's Soul Cage
-ItemDisplay[SET !ID uar]: %PURPLE%㉧ %GREEN%%NAME% %DGREEN%불멸왕%PURPLE%㉧
+ItemDisplay[SET !ID uar]: %PURPLE%O %GREEN%%NAME% %DGREEN%불멸왕%PURPLE%O
 //Immortal King's Detail
 ItemDisplay[SET !ID zhb]: %GREEN%%NAME% %DGREEN%불멸왕
 //Immortal King's Forge
 ItemDisplay[SET !ID xhg]: %GREEN%%NAME% %DGREEN%불멸왕
 //Immortal King's Pillar
-ItemDisplay[SET !ID xhb]: %RED%¤ %GREEN%%NAME% %DGREEN%불멸왕 %RED%¤
+ItemDisplay[SET !ID xhb]: %RED%Â¤ %GREEN%%NAME% %DGREEN%불멸왕 %RED%Â¤
 
 //M'avina's Battle Hymn
 //
@@ -1960,7 +1964,7 @@ ItemDisplay[SET !ID ci3]: %GREEN%%NAME% %DGREEN%마비나
 //M'avina's Caster
 ItemDisplay[SET !ID amc]: %GREEN%%NAME% %DGREEN%마비나
 //M'avina's Embrace (+40% to freeze arrow AoE)
-ItemDisplay[SET !ID uld]: %RED%¤ %GREEN%%NAME% %DGREEN%마비나 %RED%¤
+ItemDisplay[SET !ID uld]: %RED%Â¤ %GREEN%%NAME% %DGREEN%마비나 %RED%Â¤
 //M'avina's Icy Clutch
 ItemDisplay[SET !ID xtg]: %GREEN%%NAME% %DGREEN%마비나
 //M'avina's Tenet
@@ -1971,27 +1975,27 @@ ItemDisplay[SET !ID zvb]: %GREEN%%NAME% %DGREEN%마비나
 //Natalya's Totem
 ItemDisplay[SET !ID xh9]: %GREEN%%NAME% %DGREEN%나탈랴
 //Natalya's Mark
-ItemDisplay[SET !ID 7qr]: %RED%㉧ %GREEN%%NAME% %DGREEN%나탈랴 %RED%㉧
+ItemDisplay[SET !ID 7qr]: %RED%O %GREEN%%NAME% %DGREEN%나탈랴 %RED%O
 //Natalya's Shadow
-ItemDisplay[SET !ID ucl]: %RED%¤ %GREEN%%NAME% %DGREEN%나탈랴 %RED%¤
+ItemDisplay[SET !ID ucl]: %RED%Â¤ %GREEN%%NAME% %DGREEN%나탈랴 %RED%Â¤
 //Natalya's Soul
-ItemDisplay[SET !ID xmb]: %RED%¤ %GREEN%%NAME% %DGREEN%나탈랴 %RED%¤
+ItemDisplay[SET !ID xmb]: %RED%Â¤ %GREEN%%NAME% %DGREEN%나탈랴 %RED%Â¤
 
 //Naj's Ancient Vestige
 //
 //Naj's Circlet
 ItemDisplay[SET !ID ci0]: %GREEN%%NAME% %DGREEN%나즈
 //Naj's Light Plate
-ItemDisplay[SET !ID ult]: %RED%㉧ %GREEN%%NAME% %DGREEN%나즈 %RED%㉧
+ItemDisplay[SET !ID ult]: %RED%O %GREEN%%NAME% %DGREEN%나즈 %RED%O
 //Naj's Puzzler
-ItemDisplay[SET !ID 6cs]: %RED%¤ %GREEN%%NAME% %DGREEN%나즈 %RED%¤
+ItemDisplay[SET !ID 6cs]: %RED%Â¤ %GREEN%%NAME% %DGREEN%나즈 %RED%Â¤
 
 //Orphan's Call
 //
 //Guillaume's Face
-ItemDisplay[SET !ID xhm]: %RED%㉧ %GREEN%%NAME% %DGREEN%오펀 (길리엄의 얼굴) %RED%㉧
+ItemDisplay[SET !ID xhm]: %RED%O %GREEN%%NAME% %DGREEN%오펀 (길리엄의 얼굴) %RED%O
 //Whitstan's Guard
-ItemDisplay[SET !ID xml]: %RED%¤ %GREEN%%NAME% %DGREEN%오펀 %RED%¤
+ItemDisplay[SET !ID xml]: %RED%Â¤ %GREEN%%NAME% %DGREEN%오펀 %RED%Â¤
 //Magnus' Skin
 ItemDisplay[SET !ID xvg]: %GREEN%%NAME% %DGREEN%오펀
 //Wilhelm's Pride
@@ -2013,37 +2017,37 @@ ItemDisplay[SET !ID vbt]: %GREEN%%NAME% %DGREEN%샌더 or 카우 왕
 //Sazabi's Mental Sheath
 ItemDisplay[SET !ID xhl]: %GREEN%%NAME% %DGREEN%사자비
 //Sazabi's Cobalt Redeemer
-ItemDisplay[SET !ID 7ls !ETH]: %RED%¤ %GREEN%%NAME% %DGREEN%사자비 %RED%¤
+ItemDisplay[SET !ID 7ls !ETH]: %RED%Â¤ %GREEN%%NAME% %DGREEN%사자비 %RED%Â¤
 //Sazabi's Cobalt Redeemer ETH
-ItemDisplay[SET !ID 7ls ETH]: %RED%㉧ %GREEN%ETH %NAME% %DGREEN%사자비 %RED%㉧
+ItemDisplay[SET !ID 7ls ETH]: %RED%O %GREEN%ETH %NAME% %DGREEN%사자비 %RED%O
 //Sazabi's Ghost Liberator
-ItemDisplay[SET !ID upl]: %RED%¤ %GREEN%%NAME% %DGREEN%사자비 %RED%¤
+ItemDisplay[SET !ID upl]: %RED%Â¤ %GREEN%%NAME% %DGREEN%사자비 %RED%Â¤
 
 //Tal Rasha's Wrappings
 //
 //Tal Rasha's Lidless Eye
-ItemDisplay[SET !ID oba]: %RED%㉧ %GREEN%%NAME% %DGREEN%탈 라샤 %RED%㉧
+ItemDisplay[SET !ID oba]: %RED%O %GREEN%%NAME% %DGREEN%탈 라샤 %RED%O
 //Tal Rasha's Horadric Crest
-ItemDisplay[SET !ID xsk]: %RED%㉧ %GREEN%%NAME% %DGREEN%탈 라샤 %RED%㉧
+ItemDisplay[SET !ID xsk]: %RED%O %GREEN%%NAME% %DGREEN%탈 라샤 %RED%O
 //Tal Rasha's Guardianship
-ItemDisplay[SET !ID uth]: %PURPLE%㉧ %GREEN%%NAME% %DGREEN%탈 라샤 %PURPLE%㉧
+ItemDisplay[SET !ID uth]: %PURPLE%O %GREEN%%NAME% %DGREEN%탈 라샤 %PURPLE%O
 //Tal Rasha's Fine-Spun Cloth
-ItemDisplay[SET !ID zmb]: %RED%㉧ %GREEN%%NAME% %DGREEN%탈 라샤 %RED%㉧
+ItemDisplay[SET !ID zmb]: %RED%O %GREEN%%NAME% %DGREEN%탈 라샤 %RED%O
 
 //Trang-Oul's Avatar
 //
 //Trang-Oul's Guise
-ItemDisplay[SET !ID uh9]: %RED%¤ %GREEN%%NAME% %DGREEN%트랑-울 %RED%¤
+ItemDisplay[SET !ID uh9]: %RED%Â¤ %GREEN%%NAME% %DGREEN%트랑 울 %RED%Â¤
 //Trang-Oul's Scales
-ItemDisplay[SET !ID xul]: %RED%¤ %GREEN%%NAME% %DGREEN%트랑-울 %RED%¤
+ItemDisplay[SET !ID xul]: %RED%Â¤ %GREEN%%NAME% %DGREEN%트랑 울 %RED%Â¤
 //Trang-Oul's Wing
-ItemDisplay[SET !ID ne9]: %RED%㉧ %GREEN%%NAME% %DGREEN%트랑-울 %RED%㉧
+ItemDisplay[SET !ID ne9]: %RED%O %GREEN%%NAME% %DGREEN%트랑 울 %RED%O
 //Trang-Oul's Girth
-ItemDisplay[SET !ID utc]: %RED%㉧ %GREEN%%NAME% %DGREEN%트랑-울 %RED%㉧
+ItemDisplay[SET !ID utc]: %RED%O %GREEN%%NAME% %DGREEN%트랑 울 %RED%O
 //Trang-Oul's Claws
-ItemDisplay[SET !ID xmg]: %RED%㉧ %GREEN%%NAME% %DGREEN%트랑-울 %RED%㉧
+ItemDisplay[SET !ID xmg]: %RED%O %GREEN%%NAME% %DGREEN%트랑 울 %RED%O
 
-ItemDisplay[SET !ID amu]: %RED%㉧ %GREEN%%NAME% %RED%㉧
+ItemDisplay[SET !ID amu]: %RED%O %GREEN%%NAME% %RED%O
 
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%]
@@ -2575,7 +2579,7 @@ ItemDisplay[EQ4 MAG !ETH TABSK50>2]: %NAME% %WHITE%+3 마샬
 
 ////Shields////
 //
-//4os Monarch, +ed Monarch 4os
+//4os Monarch, +ed +dura Monarch 4os
 ItemDisplay[uit !ETH !RW NMAG ED>0 ED<10 SOCK=4]: %DGREEN%%NAME%%BLUE% +방상 %RED%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED=10 SOCK=4]: %DGREEN%%NAME%%BLUE% +10%방상 %RED%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED=11 SOCK=4]: %DGREEN%%NAME%%BLUE% +11%방상 %RED%[%SOCKETS%]
@@ -2583,6 +2587,12 @@ ItemDisplay[uit !ETH !RW NMAG ED=12 SOCK=4]: %DGREEN%%NAME%%BLUE% +12%방상 %RE
 ItemDisplay[uit !ETH !RW NMAG ED=13 SOCK=4]: %DGREEN%%NAME%%BLUE% +13%방상 %RED%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED=14 SOCK=4]: %DGREEN%%NAME%%BLUE% +14%방상 %RED%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED=15 SOCK=4]: %DGREEN%%NAME%%BLUE% +15%방상 %PURPLE%[%SOCKETS%]
+//FOR DURA TESTING
+ItemDisplay[uit !RW NMAG ITEMSTAT75>0 SOCK=4]: %DGREEN%%NAME%%BLUE% +%내구 %RED%[%SOCKETS%]
+ItemDisplay[uit !RW NMAG ITEMSTAT75>0 SOCK=0]: %DGREEN%%NAME%%BLUE% +%내구 %RED%[%SOCKETS%]
+ItemDisplay[uit !RW NMAG ITEMSTAT91>0 SOCK=4]: %DGREEN%%NAME%%BLUE% +%내구 %RED%[%SOCKETS%]
+ItemDisplay[uit !RW NMAG ITEMSTAT91>0 SOCK=0]: %DGREEN%%NAME%%BLUE% +%내구 %RED%[%SOCKETS%]
+//DURA TESTING END
 ItemDisplay[uit !ETH !RW SOCK=4 NMAG]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED>0 ED<14 SOCK=0]: %DGREEN%%NAME%%BLUE% +방상 %WHITE%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED=14 SOCK=0]: %DGREEN%%NAME%%BLUE% +14%방상 %RED%[%SOCKETS%]
@@ -3554,21 +3564,45 @@ ItemDisplay[(amd OR ame) ELT NMAG ETH TABSK2>2 (SOCK=0 OR SOCK=5 OR SOCK=6)]: %D
 //ItemDisplay[spr ETH !RW NMAG ED=15 ILVL<55]: %GRAY%ETH %NAME%%BLUE% +15%증뎀
 
 //Trident +15ED
+//4os
+ItemDisplay[tri !ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[tri !ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
+//4os ETH
+ItemDisplay[tri ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[tri ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 //ItemDisplay[tri !ETH !RW NMAG ED=15 ILVL<55]: %WHITE%%NAME%%BLUE% +15%증뎀
 //Trident ETH +15ED
 //ItemDisplay[tri ETH !RW NMAG ED=15 ILVL<55]: %GRAY%ETH %NAME%%BLUE% +15%증뎀
 
 //Brandistock +15ED
+//4os
+ItemDisplay[brn !ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[brn !ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
+//4os ETH
+ItemDisplay[brn ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[brn ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[brn !ETH !RW NMAG ED=15 ILVL<55]: %WHITE%%NAME%%BLUE% +15%증뎀
 //Brandistock ETH +15ED
 ItemDisplay[brn ETH !RW NMAG ED=15 ILVL<55]: %GRAY%ETH %NAME%%BLUE% +15%증뎀
 
 //Spetum +15ED
+//4os
+ItemDisplay[spt !ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[spt !ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
+//4os ETH
+ItemDisplay[spt ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[spt ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[spt !ETH !RW NMAG ED=15 ILVL<55]: %WHITE%%NAME%%BLUE% +15%증뎀
 //Spetum ETH +15ED
 ItemDisplay[spt ETH !RW NMAG ED=15 ILVL<55]: %GRAY%ETH %NAME%%BLUE% +15%증뎀
 
 //Pike +15ED
+//4os
+ItemDisplay[pik !ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[pik !ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
+//4os ETH
+ItemDisplay[pik ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[pik ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[pik !ETH !RW NMAG ED=15 ILVL<55]: %WHITE%%NAME%%BLUE% +15%증뎀
 //Pike ETH +15ED
 ItemDisplay[pik ETH !RW NMAG ED=15 ILVL<55]: %GRAY%ETH %NAME%%BLUE% +15%증뎀
@@ -3579,21 +3613,45 @@ ItemDisplay[9sr !ETH !RW NMAG ED=15 ILVL<55]: %WHITE%%NAME%%BLUE% +15%증뎀
 ItemDisplay[9sr ETH !RW NMAG ED=15 ILVL<55]: %GRAY%ETH %NAME%%BLUE% +15%증뎀
 
 //Fuscina +15ED
+//4os
+ItemDisplay[9tr !ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[9tr !ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
+//4os ETH
+ItemDisplay[9tr ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[9tr ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[9tr !ETH !RW NMAG ED=15 ILVL<55]: %WHITE%%NAME%%BLUE% +15%증뎀
 //Fuscina ETH +15ED
 ItemDisplay[9tr ETH !RW NMAG ED=15 ILVL<55]: %GRAY%ETH %NAME%%BLUE% +15%증뎀
 
 //War Fork +15ED
+//4os
+ItemDisplay[9br !ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[9br !ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
+//4os ETH
+ItemDisplay[9br ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[9br ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[9br !ETH !RW NMAG ED=15 ILVL<55]: %WHITE%%NAME%%BLUE% +15%증뎀
 //War Fork ETH +15ED
 ItemDisplay[9br ETH !RW NMAG ED=15 ILVL<55]: %GRAY%ETH %NAME%%BLUE% +15%증뎀
 
 //Yari +15ED
+//4os
+ItemDisplay[9st !ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[9st !ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
+//4os ETH
+ItemDisplay[9st ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[9st ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[9st !ETH !RW NMAG ED=15 ILVL<55]: %WHITE%%NAME%%BLUE% +15%증뎀
 //Yari ETH +15ED
 ItemDisplay[9st ETH !RW NMAG ED=15 ILVL<55]: %GRAY%ETH %NAME%%BLUE% +15%증뎀
 
 //Lance +15ED
+//4os
+ItemDisplay[9p9 !ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[9p9 !ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
+//4os ETH
+ItemDisplay[9p9 ETH !RW NMAG SOCK=4 CLVL<55]: %DGREEN%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[9p9 ETH !RW NMAG SOCK=4 CLVL>54]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[9p9 !ETH !RW NMAG !SOCK=1 ED=15 ILVL<55]: %WHITE%%NAME%%BLUE% +15%증뎀
 //Lance ETH +15ED
 ItemDisplay[9p9 ETH !RW NMAG !SOCK=1 ED=15 ILVL<55]: %GRAY%ETH %NAME%%BLUE% +15%증뎀
@@ -3605,23 +3663,30 @@ ItemDisplay[7sr ETH !RW NMAG !SOCK=1 ED=15]: %GRAY%ETH %NAME%%BLUE% +15%증뎀
 
 //Stygian Pike +15ED
 ItemDisplay[7tr !ETH !RW NMAG !SOCK=1 ED=15]: %WHITE%%NAME%%BLUE% +15%증뎀
+ItemDisplay[7tr !ETH !RW NMAG SOCK=4]: %GRAY%%NAME% %WHITE%[%SOCKETS%]
 //Stygian Pike ETH +15ED
+ItemDisplay[7tr ETH !RW NMAG (SOCK=0 OR SOCK>3) ED>0 ED<15]: %GREEN%ETH %NAME%%BLUE% +%증뎀 %RED%[%SOCKETS%]
 ItemDisplay[7tr ETH !RW NMAG !SOCK=1 ED=15]: %GRAY%ETH %NAME%%BLUE% +15%증뎀
+ItemDisplay[7tr ETH !RW NMAG (SOCK=0 OR SOCK=4)]: %GRAY%ETH %NAME% %YELLOW%[%SOCKETS%]
 
 //Mancatcher +15ED
-ItemDisplay[7br !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: %DGREEN%%NAME%%BLUE% +15%증뎀 %RED%[%SOCKETS%]
+ItemDisplay[7br !ETH !RW NMAG (SOCK=0 OR SOCK=4) ED>0 ED<15]: %DGREEN%%NAME%%BLUE% +%증뎀 %RED%[%SOCKETS%]
+ItemDisplay[7br !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: %DGREEN%%NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
+ItemDisplay[7br !ETH !RW NMAG SOCK=4]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
 //Mancatcer ETH +ED
+ItemDisplay[7br ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: %DGREEN%ETH %NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 ItemDisplay[7br ETH !RW NMAG (SOCK=0 OR SOCK>3) ED>0 ED<10]: %DGREEN%ETH %NAME%%BLUE% +증뎀 %YELLOW%[%SOCKETS%]
 ItemDisplay[7br ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=10]: %DGREEN%ETH %NAME%%BLUE% +10%증뎀 %RED%[%SOCKETS%]
 ItemDisplay[7br ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=11]: %DGREEN%ETH %NAME%%BLUE% +11%증뎀 %RED%[%SOCKETS%]
 ItemDisplay[7br ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=12]: %DGREEN%ETH %NAME%%BLUE% +12%증뎀 %RED%[%SOCKETS%]
 ItemDisplay[7br ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=13]: %DGREEN%ETH %NAME%%BLUE% +13%증뎀 %RED%[%SOCKETS%]
 ItemDisplay[7br ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=14]: %DGREEN%ETH %NAME%%BLUE% +14%증뎀 %RED%[%SOCKETS%]
-ItemDisplay[7br ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: %DGREEN%ETH %NAME%%BLUE% +15%증뎀 %RED%[%SOCKETS%]
+ItemDisplay[7br ETH !RW NMAG SOCK=4]: %GRAY%ETH %NAME% %YELLOW%[%SOCKETS%]
 
 //Ghost Spear +15ED
 //ItemDisplay[7st !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=14]: %DGREEN%%NAME%%BLUE% +14%증뎀 %YELLOW%[%SOCKETS%]
 ItemDisplay[7st !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: %DGREEN%%NAME%%BLUE% +15%증뎀 %RED%[%SOCKETS%]
+ItemDisplay[7st !ETH !RW NMAG SOCK=4]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
 //Ghost Spear ETH +ED
 ItemDisplay[7st ETH !RW NMAG (SOCK=0 OR SOCK>3) ED>0 ED<10]: %DGREEN%ETH %NAME%%BLUE% +증뎀 %YELLOW%[%SOCKETS%]
 ItemDisplay[7st ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=10]: %DGREEN%ETH %NAME%%BLUE% +10%증뎀 %RED%[%SOCKETS%]
@@ -3630,8 +3695,11 @@ ItemDisplay[7st ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=12]: %DGREEN%ETH %NAME%%BLUE%
 ItemDisplay[7st ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=13]: %DGREEN%ETH %NAME%%BLUE% +13%증뎀 %RED%[%SOCKETS%]
 ItemDisplay[7st ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=14]: %DGREEN%ETH %NAME%%BLUE% +14%증뎀 %RED%[%SOCKETS%]
 ItemDisplay[7st ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: %DGREEN%ETH %NAME%%BLUE% +15%증뎀 %RED%[%SOCKETS%]
+ItemDisplay[7st ETH !RW NMAG SOCK=4]: %GRAY%ETH %NAME% %YELLOW%[%SOCKETS%]
 
 //War Pike +ED zero sox or 4 or more sox
+ItemDisplay[7p7 !ETH !RW NMAG SOCK=5]: %GRAY%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7p7 !ETH !RW NMAG SOCK=5 ED>0]: %DGREEN%%NAME%%BLUE% +%증뎀 순종 베이스 %PURPLE%[%SOCKETS%]
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED>0 ED<10]: %GRAY%%NAME%%BLUE% +증뎀 %YELLOW%[%SOCKETS%]
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=10]: %GRAY%%NAME%%BLUE% +10%증뎀 %RED%[%SOCKETS%]
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=11]: %GRAY%%NAME%%BLUE% +11%증뎀 %RED%[%SOCKETS%]
@@ -3650,6 +3718,9 @@ ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=14]: %DGREEN%ETH %NAME%%BLUE%
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=15]: %DGREEN%ETH %NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 //War Pike ETH 6os or zero sox
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%ETH %NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[7p7 !ETH !RW NMAG SOCK=0]: %GRAY%%NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[7p7 ETH !RW NMAG SOCK=4]: %GRAY%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7p7 !ETH !RW NMAG SOCK=4]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
 
 ////Staves////
 //
@@ -4036,7 +4107,7 @@ ItemDisplay[WP12 MAG (TABSK18>2 AND SK85>2)]: %NAME% %ORANGE%+3 소환 +3 블러
 ItemDisplay[WP12 MAG (TABSK18>2 AND SK79>2)]: %NAME% %ORANGE%+3 소환 +3 컨보케이션 %RED%[%SOCKETS%]
 ItemDisplay[WP12 MAG (TABSK17>2 AND SK73>2)]: %NAME% %ORANGE%+3 포본 +3 데들리포이즌 %RED%[%SOCKETS%]
 //VENDOR//
-ItemDisplay[WP12 NMAG !RW !ETH (SK73>0 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: 완드%ORANGE% ($%PRICE%)
+ItemDisplay[WP12 NMAG !RW !ETH (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: 완드%ORANGE% ($%PRICE%)
 
 ////Shrunken Heads////
 //
@@ -4257,7 +4328,7 @@ ItemDisplay[MAG EQ6 !ID ILVL>54]:
 
 //MAGIC
 //Magic Circlets
-ItemDisplay[MAG EQ7 !ETH !ID]: %BLUE%¤ %NAME% ¤
+ItemDisplay[MAG EQ7 !ETH !ID]: %BLUE%Â¤ %NAME% Â¤
 ItemDisplay[MAG EQ7 ETH !ID]: %BLUE%ETH %NAME%
 //Elite Helm - hidden
 ItemDisplay[MAG EQ1 !ID ILVL>54]:
