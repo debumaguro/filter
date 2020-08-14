@@ -39,7 +39,7 @@ ItemDisplay[toa]: %GOLD%면죄의 징표
 ItemDisplay[std]: %NAME%
 ItemDisplay[cx5]: %PURPLE%타락의 오브
 ItemDisplay[cx6]: %PURPLE%디아블로의 소울스톤
-ItemDisplay[cx7]: %PURPLE%Â¤Â¤Â¤ 혼돈의 열쇠 Â¤Â¤Â¤
+ItemDisplay[cx7]: %PURPLE% ¤ ¤ ¤ 혼돈의 열쇠  ¤ ¤ ¤
 ItemDisplay[cx8]: %PURPLE%마법부여의 오브
 ItemDisplay[cx9]: %PURPLE%%NAME%
 ItemDisplay[ma1]: %PURPLE%%NAME%%RED% 티어 1
@@ -52,7 +52,7 @@ ItemDisplay[ma7]: %PURPLE%%NAME%%RED% 티어 3
 ItemDisplay[ma8]: %PURPLE%%NAME%%RED% 티어 2
 ItemDisplay[ma9]: %PURPLE%%NAME%%RED% 티어 2
 ItemDisplay[maz]: %PURPLE%%NAME%
-ItemDisplay[UNI !ID cm4]: %RED%  Â¤ 호라드림 시질 Â¤  %RED%
+ItemDisplay[UNI !ID cm4]: %RED%   ¤ 호라드림 시질  ¤  %RED%
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
@@ -232,14 +232,14 @@ ItemDisplay[skz]: %ORANGE%P %TAN%해골
 
 //RARES
 //Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
-ItemDisplay[RARE EQ7 !ETH !ID]: %PURPLE% Â¤ %YELLOW%%NAME% %PURPLE%Â¤ %PURPLE%
-ItemDisplay[RARE EQ7 ETH !ID]: %PURPLE% Â¤ %YELLOW%ETH %NAME% %PURPLE%Â¤ %PURPLE%
+ItemDisplay[RARE EQ7 !ETH !ID]: %PURPLE%  ¤ %YELLOW%%NAME% %PURPLE% ¤ %PURPLE%
+ItemDisplay[RARE EQ7 ETH !ID]: %PURPLE%  ¤ %YELLOW%ETH %NAME% %PURPLE% ¤ %PURPLE%
 
 ItemDisplay[INF !RW !WP12 !CL4 !CL6 !leg]:
 
-ItemDisplay[RARE amu !ID]: %PURPLE% Â¤ %YELLOW%%NAME% %PURPLE%Â¤ %PURPLE%
-ItemDisplay[RARE rin !ID]: %PURPLE% Â¤ %YELLOW%%NAME% %PURPLE%Â¤ %PURPLE%
-ItemDisplay[RARE jew !ID]: %PURPLE% Â¤ %YELLOW%%NAME% %PURPLE%Â¤ %PURPLE%
+ItemDisplay[RARE amu !ID]: %PURPLE%  ¤ %YELLOW%%NAME% %PURPLE% ¤ %PURPLE%
+ItemDisplay[RARE rin !ID]: %PURPLE%  ¤ %YELLOW%%NAME% %PURPLE% ¤ %PURPLE%
+ItemDisplay[RARE jew !ID]: %PURPLE%  ¤ %YELLOW%%NAME% %PURPLE% ¤ %PURPLE%
 //RARES (All elite rares exept dagger and xbow)
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) ETH !ID]: ETH %YELLOW%%NAME%
@@ -280,14 +280,14 @@ ItemDisplay[RARE !ID]:
 //CHARMS
 //Rerolling
 //Grand Charms
-ItemDisplay[MAG cm3 !ID ILVL>77]: %BLUE%Â¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% Â¤
+ItemDisplay[MAG cm3 !ID ILVL>77]: %BLUE% ¤ %NAME% %ORANGE%[L%ILVL%]%BLUE%  ¤
 ItemDisplay[MAG cm3 ILVL>77]: %NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG cm3 !ID ILVL<78 ILVL>49]: %BLUE%Â¤ %NAME% %WHITE%[L%ILVL%]%BLUE% Â¤
+ItemDisplay[MAG cm3 !ID ILVL<78 ILVL>49]: %BLUE% ¤ %NAME% %WHITE%[L%ILVL%]%BLUE%  ¤
 
 //Small Charms
-ItemDisplay[MAG cm1 !ID ILVL>89]: %BLUE%Â¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% Â¤
-ItemDisplay[MAG cm1 !ID ILVL<90 ILVL>47]: %BLUE%Â¤ %NAME% %WHITE%[L%ILVL%]%BLUE% Â¤
-ItemDisplay[MAG cm1 !ID ILVL=47]: %BLUE%Â¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% Â¤
+ItemDisplay[MAG cm1 !ID ILVL>89]: %BLUE% ¤ %NAME% %ORANGE%[L%ILVL%]%BLUE%  ¤
+ItemDisplay[MAG cm1 !ID ILVL<90 ILVL>47]: %BLUE% ¤ %NAME% %WHITE%[L%ILVL%]%BLUE%  ¤
+ItemDisplay[MAG cm1 !ID ILVL=47]: %BLUE% ¤ %NAME% %ORANGE%[L%ILVL%]%BLUE%  ¤
 ItemDisplay[MAG cm1 ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[MAG cm1 ILVL>89]: %NAME% %ORANGE%[L%ILVL%]
 //
@@ -322,7 +322,7 @@ ItemDisplay[MAG rin ILVL>94]: %BLUE%%NAME%%ORANGE% [CLVL 74+]
 ItemDisplay[MAG rin ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Magic Jewels
-ItemDisplay[MAG !ID jew]: %BLUE% Â¤ %NAME% Â¤ %BLUE%
+ItemDisplay[MAG !ID jew]: %BLUE%  ¤ %NAME%  ¤ %BLUE%
 ItemDisplay[MAG jew]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 ////UNIQUE ITEMS////
@@ -1870,27 +1870,27 @@ ItemDisplay[SET !ID tbt]: %GREEN%%NAME% %DGREEN%비달라
 //Aldur's Watchtower
 //
 //Aldur's Stony Gaze
-ItemDisplay[SET !ID dr8]: %RED%Â¤ %GREEN%%NAME% %DGREEN%알더 %RED%Â¤
+ItemDisplay[SET !ID dr8]: %RED% ¤ %GREEN%%NAME% %DGREEN%알더 %RED% ¤
 //Aldur's Advance
 ItemDisplay[SET !ID xtb]: %RED%O %GREEN%%NAME% %DGREEN%알더 %RED%O
 //Aldur's Deception
-ItemDisplay[SET !ID uul]: %RED%Â¤ %GREEN%%NAME% %DGREEN%알더 %RED%Â¤
+ItemDisplay[SET !ID uul]: %RED% ¤ %GREEN%%NAME% %DGREEN%알더 %RED% ¤
 //Aldur's Rhythm
 ItemDisplay[SET !ID 9mt]: %GREEN%%NAME% %DGREEN%알더
 
 //Bul-Kathos' Children
 //
 //Bul-Kathos' Sacred Charge
-ItemDisplay[SET !ID 7gd]: %RED%Â¤ %GREEN%%NAME% %DGREEN%불 카토스 %RED%Â¤
+ItemDisplay[SET !ID 7gd]: %RED% ¤ %GREEN%%NAME% %DGREEN%불 카토스 %RED% ¤
 //Bul-Kathos' Tribal Guardian
-ItemDisplay[SET !ID 7wd]: %RED%Â¤ %GREEN%%NAME% %DGREEN%불 카토스 %RED%Â¤
+ItemDisplay[SET !ID 7wd]: %RED% ¤ %GREEN%%NAME% %DGREEN%불 카토스 %RED% ¤
 
 //Cow King's Leathers
 //
 //Cow King's Horns
-ItemDisplay[SET !ID xap]: %RED%Â¤ %GREEN%%NAME% %DGREEN%카우 왕 %RED%Â¤
+ItemDisplay[SET !ID xap]: %RED% ¤ %GREEN%%NAME% %DGREEN%카우 왕 %RED% ¤
 //Cow King's Hide
-ItemDisplay[SET !ID stu]: %RED%Â¤ %GREEN%%NAME% %DGREEN%카우 왕 %RED%Â¤
+ItemDisplay[SET !ID stu]: %RED% ¤ %GREEN%%NAME% %DGREEN%카우 왕 %RED% ¤
 //Cow King's Hooves
 ItemDisplay[SET !ID vbt]: %GREEN%%NAME% %DGREEN%샌더 or 카우 왕
 
@@ -1921,11 +1921,11 @@ ItemDisplay[SET !ID paf]: %GREEN%%NAME% %DGREEN%그리스월드
 //Haemosu's Adamant
 ItemDisplay[SET !ID xrs]: %GREEN%%NAME% %DGREEN%천인의 형제
 //Dangoon's Teaching
-ItemDisplay[SET !ID 7ma]: %RED%Â¤ %GREEN%%NAME% %DGREEN%단군의 가르침%RED%Â¤
+ItemDisplay[SET !ID 7ma]: %RED% ¤ %GREEN%%NAME% %DGREEN%단군의 가르침%RED% ¤
 //Taebaek's Glory
 ItemDisplay[SET !ID uts]: %GREEN%%NAME% %DGREEN%천인의 형제
 //Ondal's Almighty (50% reduced skill cooldown for 4 seconds on striking)
-ItemDisplay[SET !ID uhm]: %RED%Â¤ %GREEN%%NAME% %DGREEN%온달의 전능함 %RED%Â¤
+ItemDisplay[SET !ID uhm]: %RED% ¤ %GREEN%%NAME% %DGREEN%온달의 전능함 %RED% ¤
 
 //Hwanin's Majesty
 //
@@ -1934,7 +1934,7 @@ ItemDisplay[SET !ID xrn]: %GREEN%%NAME% %DGREEN%환인
 //Hwanin's Justice
 ItemDisplay[SET !ID 9vo !ETH]: %GREEN%%NAME% %DGREEN%환인
 //Hwanin's Justice Eth
-ItemDisplay[SET !ID 9vo ETH]: %RED%Â¤ %GREEN%ETH %NAME% %DGREEN%환인 %RED%Â¤
+ItemDisplay[SET !ID 9vo ETH]: %RED% ¤ %GREEN%ETH %NAME% %DGREEN%환인 %RED% ¤
 //Hwanin's Refuge
 ItemDisplay[SET !ID xcl]: %GREEN%%NAME% %DGREEN%환인
 //Hwanin's Blessing
@@ -1943,7 +1943,7 @@ ItemDisplay[SET !ID mbl]: %GREEN%%NAME% %DGREEN%사루스 or 환인
 //Immortal King
 //
 //Immortal King's Will
-ItemDisplay[SET !ID ba5]: %RED%Â¤ %GREEN%%NAME% %DGREEN%불멸왕 %RED%Â¤
+ItemDisplay[SET !ID ba5]: %RED% ¤ %GREEN%%NAME% %DGREEN%불멸왕 %RED% ¤
 //Immortal King's Stone Crusher
 ItemDisplay[SET !ID 7m7]: %GREEN%%NAME% %DGREEN%불멸왕
 //Immortal King's Soul Cage
@@ -1953,7 +1953,7 @@ ItemDisplay[SET !ID zhb]: %GREEN%%NAME% %DGREEN%불멸왕
 //Immortal King's Forge
 ItemDisplay[SET !ID xhg]: %GREEN%%NAME% %DGREEN%불멸왕
 //Immortal King's Pillar
-ItemDisplay[SET !ID xhb]: %RED%Â¤ %GREEN%%NAME% %DGREEN%불멸왕 %RED%Â¤
+ItemDisplay[SET !ID xhb]: %RED% ¤ %GREEN%%NAME% %DGREEN%불멸왕 %RED% ¤
 
 //M'avina's Battle Hymn
 //
@@ -1962,7 +1962,7 @@ ItemDisplay[SET !ID ci3]: %GREEN%%NAME% %DGREEN%마비나
 //M'avina's Caster
 ItemDisplay[SET !ID amc]: %GREEN%%NAME% %DGREEN%마비나
 //M'avina's Embrace (+40% to freeze arrow AoE)
-ItemDisplay[SET !ID uld]: %RED%Â¤ %GREEN%%NAME% %DGREEN%마비나 %RED%Â¤
+ItemDisplay[SET !ID uld]: %RED% ¤ %GREEN%%NAME% %DGREEN%마비나 %RED% ¤
 //M'avina's Icy Clutch
 ItemDisplay[SET !ID xtg]: %GREEN%%NAME% %DGREEN%마비나
 //M'avina's Tenet
@@ -1975,9 +1975,9 @@ ItemDisplay[SET !ID xh9]: %GREEN%%NAME% %DGREEN%나탈랴
 //Natalya's Mark
 ItemDisplay[SET !ID 7qr]: %RED%O %GREEN%%NAME% %DGREEN%나탈랴 %RED%O
 //Natalya's Shadow
-ItemDisplay[SET !ID ucl]: %RED%Â¤ %GREEN%%NAME% %DGREEN%나탈랴 %RED%Â¤
+ItemDisplay[SET !ID ucl]: %RED% ¤ %GREEN%%NAME% %DGREEN%나탈랴 %RED% ¤
 //Natalya's Soul
-ItemDisplay[SET !ID xmb]: %RED%Â¤ %GREEN%%NAME% %DGREEN%나탈랴 %RED%Â¤
+ItemDisplay[SET !ID xmb]: %RED% ¤ %GREEN%%NAME% %DGREEN%나탈랴 %RED% ¤
 
 //Naj's Ancient Vestige
 //
@@ -1986,14 +1986,14 @@ ItemDisplay[SET !ID ci0]: %GREEN%%NAME% %DGREEN%나즈
 //Naj's Light Plate
 ItemDisplay[SET !ID ult]: %RED%O %GREEN%%NAME% %DGREEN%나즈 %RED%O
 //Naj's Puzzler
-ItemDisplay[SET !ID 6cs]: %RED%Â¤ %GREEN%%NAME% %DGREEN%나즈 %RED%Â¤
+ItemDisplay[SET !ID 6cs]: %RED% ¤ %GREEN%%NAME% %DGREEN%나즈 %RED% ¤
 
 //Orphan's Call
 //
 //Guillaume's Face
 ItemDisplay[SET !ID xhm]: %RED%O %GREEN%%NAME% %DGREEN%오펀 (길리엄의 얼굴) %RED%O
 //Whitstan's Guard
-ItemDisplay[SET !ID xml]: %RED%Â¤ %GREEN%%NAME% %DGREEN%오펀 %RED%Â¤
+ItemDisplay[SET !ID xml]: %RED% ¤ %GREEN%%NAME% %DGREEN%오펀 %RED% ¤
 //Magnus' Skin
 ItemDisplay[SET !ID xvg]: %GREEN%%NAME% %DGREEN%오펀
 //Wilhelm's Pride
@@ -2015,11 +2015,11 @@ ItemDisplay[SET !ID vbt]: %GREEN%%NAME% %DGREEN%샌더 or 카우 왕
 //Sazabi's Mental Sheath
 ItemDisplay[SET !ID xhl]: %GREEN%%NAME% %DGREEN%사자비
 //Sazabi's Cobalt Redeemer
-ItemDisplay[SET !ID 7ls !ETH]: %RED%Â¤ %GREEN%%NAME% %DGREEN%사자비 %RED%Â¤
+ItemDisplay[SET !ID 7ls !ETH]: %RED% ¤ %GREEN%%NAME% %DGREEN%사자비 %RED% ¤
 //Sazabi's Cobalt Redeemer ETH
 ItemDisplay[SET !ID 7ls ETH]: %RED%O %GREEN%ETH %NAME% %DGREEN%사자비 %RED%O
 //Sazabi's Ghost Liberator
-ItemDisplay[SET !ID upl]: %RED%Â¤ %GREEN%%NAME% %DGREEN%사자비 %RED%Â¤
+ItemDisplay[SET !ID upl]: %RED% ¤ %GREEN%%NAME% %DGREEN%사자비 %RED% ¤
 
 //Tal Rasha's Wrappings
 //
@@ -2035,9 +2035,9 @@ ItemDisplay[SET !ID zmb]: %RED%O %GREEN%%NAME% %DGREEN%탈 라샤 %RED%O
 //Trang-Oul's Avatar
 //
 //Trang-Oul's Guise
-ItemDisplay[SET !ID uh9]: %RED%Â¤ %GREEN%%NAME% %DGREEN%트랑 울 %RED%Â¤
+ItemDisplay[SET !ID uh9]: %RED% ¤ %GREEN%%NAME% %DGREEN%트랑 울 %RED% ¤
 //Trang-Oul's Scales
-ItemDisplay[SET !ID xul]: %RED%Â¤ %GREEN%%NAME% %DGREEN%트랑 울 %RED%Â¤
+ItemDisplay[SET !ID xul]: %RED% ¤ %GREEN%%NAME% %DGREEN%트랑 울 %RED% ¤
 //Trang-Oul's Wing
 ItemDisplay[SET !ID ne9]: %RED%O %GREEN%%NAME% %DGREEN%트랑 울 %RED%O
 //Trang-Oul's Girth
@@ -4326,7 +4326,7 @@ ItemDisplay[MAG EQ6 !ID ILVL>54]:
 
 //MAGIC
 //Magic Circlets
-ItemDisplay[MAG EQ7 !ETH !ID]: %BLUE%Â¤ %NAME% Â¤
+ItemDisplay[MAG EQ7 !ETH !ID]: %BLUE% ¤ %NAME%  ¤
 ItemDisplay[MAG EQ7 ETH !ID]: %BLUE%ETH %NAME%
 //Elite Helm - hidden
 ItemDisplay[MAG EQ1 !ID ILVL>54]:
