@@ -2,9 +2,7 @@
 //https://raw.githubusercontent.com/debumaguro/filter/master/item.filter
 //Last Updated: 15-08-2020
 
-//╔═════════════════════════════════════════════════╗
-//║				한글 아이템 필터 by Debu				║
-//╚═════════════════════════════════════════════════╝
+//한글 아이템 필터 by Debu
 
 //Basics
 //Hide Gold Piles Smaller Than (<) X
