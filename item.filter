@@ -73,7 +73,7 @@ ItemDisplay[isc CLVL>40]:
 //
 ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%해빙
 ItemDisplay[wms CLVL>59]:
-ItemDisplay[yps CLVL<20 OR CLVL>79]: %GREEN%!%WHITE%해독
+ItemDisplay[yps (CLVL<20 OR CLVL>79)]: %GREEN%!%WHITE%해독
 ItemDisplay[yps (CLVL>19 AND CLVL<80)]:
 //Keys for Locked Chests
 ItemDisplay[key]: %WHITE%열쇠
@@ -2586,10 +2586,10 @@ ItemDisplay[uit !ETH !RW NMAG ED=13 SOCK=4]: %DGREEN%%NAME%%BLUE% +13%방상 %RE
 ItemDisplay[uit !ETH !RW NMAG ED=14 SOCK=4]: %DGREEN%%NAME%%BLUE% +14%방상 %RED%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED=15 SOCK=4]: %DGREEN%%NAME%%BLUE% +15%방상 %PURPLE%[%SOCKETS%]
 //FOR DURA TESTING
-ItemDisplay[uit !RW NMAG ITEMSTAT75>0 SOCK=4]: %DGREEN%%NAME%%BLUE% +%내구 %RED%[%SOCKETS%]
-ItemDisplay[uit !RW NMAG ITEMSTAT75>0 SOCK=0]: %DGREEN%%NAME%%BLUE% +%내구 %RED%[%SOCKETS%]
-ItemDisplay[uit !RW NMAG ITEMSTAT91>0 SOCK=4]: %DGREEN%%NAME%%BLUE% +%내구 %RED%[%SOCKETS%]
-ItemDisplay[uit !RW NMAG ITEMSTAT91>0 SOCK=0]: %DGREEN%%NAME%%BLUE% +%내구 %RED%[%SOCKETS%]
+//ItemDisplay[uit !RW NMAG ITEMSTAT75>0 SOCK=4]: %DGREEN%%NAME%%BLUE% +%내구 //%RED%[%SOCKETS%]
+//ItemDisplay[uit !RW NMAG ITEMSTAT75>0 SOCK=0]: %DGREEN%%NAME%%BLUE% +%내구 //%RED%[%SOCKETS%]
+//ItemDisplay[uit !RW NMAG ITEMSTAT91>0 SOCK=4]: %DGREEN%%NAME%%BLUE% +%내구 //%RED%[%SOCKETS%]
+//ItemDisplay[uit !RW NMAG ITEMSTAT91>0 SOCK=0]: %DGREEN%%NAME%%BLUE% +%내구 //%RED%[%SOCKETS%]
 //DURA TESTING END
 ItemDisplay[uit !ETH !RW SOCK=4 NMAG]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED>0 ED<14 SOCK=0]: %DGREEN%%NAME%%BLUE% +방상 %WHITE%[%SOCKETS%]
@@ -2688,6 +2688,7 @@ ItemDisplay[sbr !ETH !RW NMAG ED=15 SOCK=2 ILVL<55]: %GRAY%%NAME%%BLUE% +15%증�
 //Falchion
 
 //Crystal Sword - spirit, cta, 6os etc
+ItemDisplay[crs CLVL<55 !ETH NMAG SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[crs !ETH NMAG SOCK=5]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[crs !ETH NMAG SOCK>2]: %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[crs ETH NMAG (SOCK=4 OR SOCK=5)]: %DGREEN%ETH %NAME% %GRAY%[%SOCKETS%]
