@@ -3,6 +3,10 @@
 //Find item codes at: https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
 
 //Modified by Debu for Korean language compatibility. Last updated 24-06-2020
+//!!OBSOLETE!!
+//Download latest version of item.filter from pathofdebu.tistory.com OR
+//https://raw.githubusercontent.com/debumaguro/filter/master/item.filter
+
 
 //Basics
 //Hide Gold Piles Smaller Than (<) X
@@ -12,9 +16,9 @@ ItemDisplay[GOLD<5000 CLVL>69]:
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%활력(대) %WHITE%70%
 ItemDisplay[rvs]: %PURPLE%활력 %WHITE%35%
-ItemDisplay[hp5]: %RED%!%WHITE%힐링+
+ItemDisplay[hp5]: %RED%!%WHITE%!!OBSOLETE!!필터지원 중단!!
 ItemDisplay[mp4]: %BLUE%!%WHITE%마나
-ItemDisplay[mp5]: %BLUE%!%WHITE%마나+
+ItemDisplay[mp5]: %BLUE%!%WHITE%!!OBSOLETE!!필터지원 중단!!
 ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%미량 힐링
 ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%라이트 힐링
 ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%노말 힐링
