@@ -1,6 +1,6 @@
 //Anirml's Loot Filter fork for Korean compatibility.
 //https://raw.githubusercontent.com/debumaguro/filter/master/item.filter
-//Last Updated: 18-08-2020
+//Last Updated: 23-08-2020
 
 //한글 아이템 필터 by Debu
 
@@ -77,7 +77,7 @@ ItemDisplay[wms CLVL>59]:
 ItemDisplay[yps (CLVL<20 OR CLVL>79)]: %GREEN%!%WHITE%해독
 ItemDisplay[yps (CLVL>19 AND CLVL<80)]:
 //Keys for Locked Chests
-ItemDisplay[key]: %WHITE%열쇠
+ItemDisplay[key]: %GRAY%열쇠
 //Tomes
 ItemDisplay[tbk]: %WHITE%마을 차원문 책
 ItemDisplay[ibk]: %WHITE%아이템 식별 책
@@ -3824,7 +3824,6 @@ ItemDisplay[7ws !ETH !RW NMAG ED=15 !SOCK=1 !SOCK=2]: %DGREEN%%NAME%%BLUE% +15%�
 ItemDisplay[7ws !ETH NMAG]: %NAME% %WHITE%[%SOCKETS%]
 //Holy Thunder Runeword Bases (60 teleport charges)
 ItemDisplay[wsp NMAG !ETH !RW SOCK=4]: %NAME% %ORANGE%홀리썬더 룬워드베이스 %WHITE%[%SOCKETS%]
-ItemDisplay[wsp NMAG !ETH !SUP !INF !RW SOCK=0]: %NAME% %ORANGE%4솟큐빙 (홀리썬더) %WHITE%[%SOCKETS%]
 
 ////Crossbows////
 //
