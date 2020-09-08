@@ -1,6 +1,6 @@
 //Anirml's Loot Filter fork for Korean compatibility.
 //https://raw.githubusercontent.com/debumaguro/filter/master/item.filter
-//Last Updated: 02-09-2020
+//Last Updated: 08-09-2020
 
 //한글 아이템 필터 by Debu
 
@@ -41,18 +41,18 @@ ItemDisplay[cx5]: %PURPLE%타락의 오브
 ItemDisplay[cx6]: %PURPLE%디아블로의 소울스톤
 ItemDisplay[cx7]: %PURPLE% ¤ ¤ ¤ 혼돈의 열쇠  ¤ ¤ ¤
 ItemDisplay[cx8]: %PURPLE%마법부여의 오브
-ItemDisplay[cx9]: %NAME%
-ItemDisplay[ma1]: %NAME%
-ItemDisplay[ma2]: %NAME%
-ItemDisplay[ma3]: %NAME%
-ItemDisplay[ma4]: %NAME%
-ItemDisplay[ma5]: %NAME%
-ItemDisplay[ma6]: %NAME%
-ItemDisplay[ma7]: %NAME%
-ItemDisplay[ma8]: %NAME%
-ItemDisplay[ma9]: %NAME%
-ItemDisplay[ma10]: %NAME%
-ItemDisplay[maz]: %NAME%
+ItemDisplay[cx9]: %RED%%NAME%
+ItemDisplay[ma1]: %RED%%NAME%
+ItemDisplay[ma2]: %RED%%NAME%
+ItemDisplay[ma3]: %RED%%NAME%
+ItemDisplay[ma4]: %RED%%NAME%
+ItemDisplay[ma5]: %RED%%NAME%
+ItemDisplay[ma6]: %RED%%NAME%
+ItemDisplay[ma7]: %RED%%NAME%
+ItemDisplay[ma8]: %RED%%NAME%
+ItemDisplay[ma9]: %RED%%NAME%
+ItemDisplay[ma10]: %RED%%NAME%
+ItemDisplay[maz]: %RED%%NAME%
 ItemDisplay[UNI !ID cm4]: %RED%   ¤ 호라드림 시질  ¤  %RED%
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
@@ -569,14 +569,9 @@ ItemDisplay[UNI !ID uld ETH]: %RED%O ETH 레비아탄 %RED%O
 ItemDisplay[UNI !ID uul !ETH]: %TAN%강철 외피
 //Steel Carapace
 ItemDisplay[UNI !ID uul ETH]: %RED%ETH 강철 외피
-//Templar's Might
-ItemDisplay[UNI !ID uar !ETH]: %RED%O 기사단의 권능 %RED%O
-//Templar's Might
-ItemDisplay[UNI !ID uar ETH]: %RED%ETH 기사단의 권능
-//Tyrael's Might
-ItemDisplay[UNI !ID uar !ETH]: %RED%O %PURPLE%티리얼의 권능 %RED%O
-//Tyrael's Might
-ItemDisplay[UNI !ID uar ETH]: %RED%O %PURPLE%ETH 티리얼의 권능 %RED%O
+//Tyrael's Might or Templar's Might
+ItemDisplay[UNI !ID uar !ETH]: %RED%O %PURPLE%티리얼 or 기사단의 권능 %RED%O
+ItemDisplay[UNI !ID uar ETH]: %RED%O %PURPLE%ETH 티리얼 or 기사단의 권능 %RED%O
 
 ////Unique Shields
 //
