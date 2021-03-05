@@ -3,7 +3,6 @@
 //Last Updated: 08-09-2020
 
 //한글 아이템 필터 by Debu
-//지원 중단
 
 //Basics
 //Hide Gold Piles Smaller Than (<) X
@@ -11,25 +10,25 @@ ItemDisplay[GOLD<1000 CLVL<40]:
 ItemDisplay[GOLD<3000 (CLVL>39 AND CLVL<=69)]:
 ItemDisplay[GOLD<5000 CLVL>69]:
 //Health & Mana Potions
-ItemDisplay[rvl]: 지원 중단!OBSOLETE
-ItemDisplay[rvs]: 지원 중단!OBSOLETE
-ItemDisplay[hp5]: 지원 중단!OBSOLETE
-ItemDisplay[mp4]: 지원 중단!OBSOLETE
-ItemDisplay[mp5]: 지원 중단!OBSOLETE
-ItemDisplay[hp1 CLVL<15]: 지원 중단!OBSOLETE
-ItemDisplay[hp2 CLVL<18]: 지원 중단!OBSOLETE
-ItemDisplay[hp3 CLVL<24]: 지원 중단!OBSOLETE
-ItemDisplay[hp4 CLVL<60]: 지원 중단!OBSOLETE
-ItemDisplay[hp1 CLVL>14]: 지원 중단!OBSOLETE
-ItemDisplay[hp2 CLVL>17]: 지원 중단!OBSOLETE
-ItemDisplay[hp3 CLVL>23]: 지원 중단!OBSOLETE
-ItemDisplay[hp4 CLVL>59]: 지원 중단!OBSOLETE
-ItemDisplay[mp1 CLVL<15]: 지원 중단!OBSOLETE
-ItemDisplay[mp2 CLVL<20]: 지원 중단!OBSOLETE
-ItemDisplay[mp3 CLVL<26]: 지원 중단!OBSOLETE
-ItemDisplay[mp1 CLVL>14]: 지원 중단!OBSOLETE
-ItemDisplay[mp2 CLVL>19]: 지원 중단!OBSOLETE
-ItemDisplay[mp3 CLVL>25]: 지원 중단!OBSOLETE
+ItemDisplay[rvl]: %PURPLE%활력(대) %WHITE%70%
+ItemDisplay[rvs]: %PURPLE%활력 %WHITE%35%
+ItemDisplay[hp5]: %RED%!%WHITE%힐링+
+ItemDisplay[mp4]: %BLUE%!%WHITE%마나
+ItemDisplay[mp5]: %BLUE%!%WHITE%마나+
+ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%미량 힐링
+ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%라이트 힐링
+ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%노말 힐링
+ItemDisplay[hp4 CLVL<60]: %RED%!%WHITE%힐링
+ItemDisplay[hp1 CLVL>14]:
+ItemDisplay[hp2 CLVL>17]:
+ItemDisplay[hp3 CLVL>23]:
+ItemDisplay[hp4 CLVL>59]:
+ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%미량 마나
+ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%라이트 마나
+ItemDisplay[mp3 CLVL<26]: %BLUE%!%WHITE%노말 마나
+ItemDisplay[mp1 CLVL>14]:
+ItemDisplay[mp2 CLVL>19]:
+ItemDisplay[mp3 CLVL>25]:
 //Essences (Respec Token)
 ItemDisplay[tes]: %GOLD%고통의 정수 [안다리엘]
 ItemDisplay[ceh]: %GOLD%증오의 정수 [메피스토]
@@ -1089,9 +1088,9 @@ ItemDisplay[UNI !ID gma !ETH]: %TAN%강철망치
 //Steeldriver
 ItemDisplay[UNI !ID gma ETH]: %TAN%ETH 강철망치
 //Dark Clan Crusher
-ItemDisplay[UNI !ID 9cl !ETH]: %TAN%어둠혈족 분쇄기
+ItemDisplay[UNI !ID 9cl !ETH]: %TAN%다크 클랜 분쇄기
 //Dark Clan Crusher
-ItemDisplay[UNI !ID 9cl ETH]: %TAN%ETH 어둠혈족 분쇄기
+ItemDisplay[UNI !ID 9cl ETH]: %TAN%ETH 다크 클랜 분쇄기
 //Fleshrender
 ItemDisplay[UNI !ID 9sp !ETH]: %RED%살점도리개
 //Fleshrender
