@@ -1,6 +1,6 @@
 //Anirml's Loot Filter fork for Korean compatibility.
 //https://raw.githubusercontent.com/debumaguro/filter/master/item.filter
-//Last Updated: 09-08-2020
+//Last Updated: 03-09-2021
 
 //한글 아이템 필터 by Debu
 
@@ -59,7 +59,7 @@ ItemDisplay[leg]: %NAME%
 //Uber Keys
 ItemDisplay[pk1]: %ORANGE%공포 [카운테스]
 ItemDisplay[pk2]: %ORANGE%증오 [소환사]
-ItemDisplay[pk3]: %ORANGE%파괴 [닐라트하크]
+ItemDisplay[pk3]: %ORANGE%파괴 [닐라타크]
 ItemDisplay[dhn]: %ORANGE%디아블로의 뿔
 ItemDisplay[bey]: %ORANGE%바알의 눈
 ItemDisplay[mbr]: %ORANGE%메피스토의 뇌
@@ -554,9 +554,9 @@ ItemDisplay[UNI !ID uui !ETH]: %RED%O %PURPLE%올머스의 장포 %RED%O
 //Ormus' Robes
 ItemDisplay[UNI !ID uui ETH]: %RED%ETH 올머스의 장포
 //The Gladiator's Bane
-ItemDisplay[UNI !ID utu !ETH]: %RED%검투사의 골칫거리
+ItemDisplay[UNI !ID utu !ETH]: %RED%검투사의 시련
 //The Gladiator's Bane
-ItemDisplay[UNI !ID utu ETH]: %RED%ETH 검투사의 골칫거리
+ItemDisplay[UNI !ID utu ETH]: %RED%ETH 검투사의 시련
 //Arkaine's Valor
 ItemDisplay[UNI !ID upl !ETH]: %RED%O %PURPLE%아케인의 용기 %RED%O
 //Arkaine's Valor
@@ -1230,17 +1230,17 @@ ItemDisplay[UNI !ID wsp !ETH]: %TAN%폭풍의 눈
 //Stormeye
 ItemDisplay[UNI !ID wsp ETH]: %TAN%ETH 폭풍의 눈
 //Zakarum's Hand
-ItemDisplay[UNI !ID 9sc !ETH]: %TAN%자카룸의 손길
+ItemDisplay[UNI !ID 9sc !ETH]: %TAN%자카룸의 손
 //Zakarum's Hand
-ItemDisplay[UNI !ID 9sc ETH]: %TAN%ETH 자카룸의 손길
+ItemDisplay[UNI !ID 9sc ETH]: %TAN%ETH 자카룸의 손
 //The Fetid Sprinkler
 ItemDisplay[UNI !ID 9qs !ETH]: %TAN%악취나는 성수뿌리개
 //The Fetid Sprinkler
 ItemDisplay[UNI !ID 9qs ETH]: %TAN%ETH 악취나는 성수뿌리개
 //Hand of Blessed Light (Holy bolt/FoH scepter)
-ItemDisplay[UNI !ID 9ws !ETH]: %RED%축복받은 빛의 손길
+ItemDisplay[UNI !ID 9ws !ETH]: %RED%축복받은 빛의 손
 //Hand of Blessed Light (Holy bolt/FoH scepter)
-ItemDisplay[UNI !ID 9ws ETH]: %TAN%ETH 축복받은 빛의 손길
+ItemDisplay[UNI !ID 9ws ETH]: %TAN%ETH 축복받은 빛의 손
 //Heaven's Light or the Redeemer
 ItemDisplay[UNI !ID 7sc !ETH]: %RED%O 천상의 빛 or 구원자 %RED%O
 //Heaven's Light or the Redeemer
@@ -1411,9 +1411,9 @@ ItemDisplay[UNI !ID gsd !ETH]: %TAN%부족 원로
 //The Patriarch
 ItemDisplay[UNI !ID gsd ETH]: %TAN%ETH 부족 원로
 //Bloodletter
-ItemDisplay[UNI !ID 9ss !ETH]: %TAN%피의 편지
+ItemDisplay[UNI !ID 9ss !ETH]: %TAN%사혈칼
 //Bloodletter
-ItemDisplay[UNI !ID 9ss ETH]: %TAN%ETH 피의 편지
+ItemDisplay[UNI !ID 9ss ETH]: %TAN%ETH 사혈칼
 //Coldsteel Eye
 ItemDisplay[UNI !ID 9sm !ETH]: %TAN%냉기강철 눈
 //Coldsteel Eye
@@ -3969,7 +3969,6 @@ ItemDisplay[CL5 (CLSK6>1 AND SK257>2)]: %NAME% %ORANGE%+2 어쌔 +3 블쓰 %RED%
 ItemDisplay[CL5 (TABSK48>2 AND SK257>2)]: %NAME% %ORANGE%+3 트랩 +3 블쓰 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL5 (CLSK6>1 AND SK277>2)]: %NAME% %ORANGE%+2 어쌔 +3 블쉴 %RED%[%SOCKETS%]
 ItemDisplay[CL5 (TABSK48>2 AND SK277>2)]: %NAME% %ORANGE%+3 트랩 +3 블쉴 %PURPLE%[%SOCKETS%]
-ItemDisplay[CL5 !ETH (TABSK50>2 AND SK269>2)]: %NAME% %ORANGE%+3 마샬아츠 +3 엠버스톰 %PURPLE%[%SOCKETS%]
 ItemDisplay[(9lw OR 9tw OR 7tw OR 7lw) !ETH MAG !ID]: %BLUE%%NAME%
 //Non magic claws
 ItemDisplay[CL5 NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 ED=15 SK274>0]: %NAME%%RED% +15%증뎀 %BLUE%BoI 엘리트 클로 %PURPLE%[%SOCKETS%]
