@@ -3986,12 +3986,12 @@ ItemDisplay[(9lw OR 9tw OR 7tw OR 7lw) !ETH MAG !ID]: %BLUE%%NAME%
 
 //Non magic claws
 
-ItemDisplay[CL5 NMAG SOCK=3 (SK277=3 AND SK278<0)]: %MAP%%RED%블쉴 & 베놈 %GREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK277=3 AND SK278<0)]: %MAP%%RED%블쉴 & 베놈 %GREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[CL5 NMAG SOCK=3 (SK277=3)]: %MAP%%RED%+3블쉴 %GREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK277=3)]: %RED%+3블쉴 %GREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[CL5 NMAG SOCK=3 (SK278=3)]: %MAP%%RED%베놈 %GREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK278=3)]: %RED%베놈 %GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[CL5 NMAG SOCK=3 (SK277=3 AND SK278<0)]: %MAP%%NAME% %ORANGE%블쉴 & 베놈 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK277=3 AND SK278<0)]: %MAP%%NAME% %ORANGE%블쉴 & 베놈 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL5 NMAG SOCK=3 (SK277=3)]: %MAP%%NAME% %ORANGE%+3블쉴 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK277=3)]: %MAP%%NAME% %ORANGE%+3블쉴 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL5 NMAG SOCK=3 (SK278=3)]: %MAP%%NAME% %ORANGE%+3베놈 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK278=3)]: %NAME% %ORANGE%+3베놈 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL5 (SK262=3) CLVL<90]: %WHITE%웨이크 클러[%SOCKETS%]
 ItemDisplay[CL5 (SK261=3) CLVL<90]: %WHITE%차지드 클러[%SOCKETS%]
 ItemDisplay[CL5 (SK271=3) CLVL<90]: %WHITE%라이트닝 클러[%SOCKETS%]
