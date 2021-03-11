@@ -281,18 +281,18 @@ ItemDisplay[RARE !ID]:
 //CHARMS
 //Rerolling
 //Grand Charms
-ItemDisplay[MAG cm3 !ID ILVL>77]: %BLUE% ¤ %NAME% %ORANGE%[L%ILVL%]%BLUE%  ¤
+ItemDisplay[MAG cm3 !ID ILVL>77]: %MAP%%BLUE% ¤ %NAME% %ORANGE%[L%ILVL%]%BLUE%  ¤
 ItemDisplay[MAG cm3 ILVL>77]: %NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG cm3 !ID ILVL<78 ILVL>49]: %BLUE% ¤ %NAME% %WHITE%[L%ILVL%]%BLUE%  ¤
+ItemDisplay[MAG cm3 !ID ILVL<78 ILVL>49]: %MAP%%BLUE% ¤ %NAME% %WHITE%[L%ILVL%]%BLUE%  ¤
 
 //Small Charms
-ItemDisplay[MAG cm1 !ID ILVL>89]: %BLUE% ¤ %NAME% %ORANGE%[L%ILVL%]%BLUE%  ¤
-ItemDisplay[MAG cm1 !ID ILVL<90 ILVL>47]: %BLUE% ¤ %NAME% %WHITE%[L%ILVL%]%BLUE%  ¤
-ItemDisplay[MAG cm1 !ID ILVL=47]: %BLUE% ¤ %NAME% %ORANGE%[L%ILVL%]%BLUE%  ¤
+ItemDisplay[MAG cm1 !ID ILVL>89]: %MAP%%BLUE% ¤ %NAME% %ORANGE%[L%ILVL%]%BLUE%  ¤
+ItemDisplay[MAG cm1 !ID ILVL<90 ILVL>47]: %MAP%%BLUE% ¤ %NAME% %WHITE%[L%ILVL%]%BLUE%  ¤
+ItemDisplay[MAG cm1 !ID ILVL=47]: %MAP%%BLUE% ¤ %NAME% %ORANGE%[L%ILVL%]%BLUE%  ¤
 ItemDisplay[MAG cm1 ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[MAG cm1 ILVL>89]: %NAME% %ORANGE%[L%ILVL%]
 //
-ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE% [L%ILVL%]
+ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %MAP%%NAME%%WHITE% [L%ILVL%]
 
 //Amulets
 ItemDisplay[MAG amu ILVL=88]: %BLUE%%NAME%%ORANGE% [CLVL 92+]
@@ -323,7 +323,7 @@ ItemDisplay[MAG rin ILVL>94]: %BLUE%%NAME%%ORANGE% [CLVL 74+]
 ItemDisplay[MAG rin ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Magic Jewels
-ItemDisplay[MAG !ID jew]: %BLUE%  ¤ %NAME%  ¤ %BLUE%
+ItemDisplay[MAG !ID jew]: %MAP%%BLUE%  ¤ %NAME%  ¤ %BLUE%
 ItemDisplay[MAG jew]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 ////UNIQUE ITEMS////
