@@ -1651,7 +1651,7 @@ ItemDisplay[UNI !ID bae ETH]: %TAN%ETH 할라버드의 군림
 ////Unique Sorceress only items
 //
 //The Oculus
-ItemDisplay[UNI !ID oba !ETH]: %SOUND-35%%MAP%%NL%%RED%망울NL%
+ItemDisplay[UNI !ID oba !ETH]: %SOUND-35%%MAP%%NL%%RED%망울%NL%
 //The Oculus
 ItemDisplay[UNI !ID oba ETH]: %TAN%ETH 망울
 //Eschuta's Temper
