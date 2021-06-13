@@ -38,7 +38,7 @@ ItemDisplay[toa]: %PURPLE%¤ %GOLD%면죄의 징표%PURPLE% ¤
 //PoD Items
 ItemDisplay[std]: %NAME%
 ItemDisplay[cx5]: %MAP%%NL%%PURPLE%타락의 오브%NL%
-ItemDisplay[cx6]: %SOUND-40%%MAP%%NL%%PURPLE디아블로의 영혼석%NL%
+ItemDisplay[cx6]: %SOUND-40%%MAP%%NL%%PURPLE%디아블로의 영혼석%NL%
 ItemDisplay[cx7]: %SOUND-40%%MAP%%NL%%PURPLE%¤¤¤ 혼돈의 열쇠 ¤¤¤%NL%
 ItemDisplay[cx8]: %SOUND-40%%MAP%%NL%%PURPLE%마법부여의 오브%NL%
 ItemDisplay[cx9]: %SOUND-40%%MAP%%PURPLE%¤ %RED%%NAME% %PURPLE%¤
